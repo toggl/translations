@@ -484,6 +484,10 @@
     "defaultMessage": "Calendar"
   },
   {
+    "id": "Calendar.withoutDescription",
+    "defaultMessage": "Add description"
+  },
+  {
     "id": "CalendarPicker.outsideApiRange",
     "defaultMessage": "This date is outside the selectable range"
   },
