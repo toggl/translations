@@ -6316,6 +6316,18 @@
     "defaultMessage": "No more switching between apps"
   },
   {
+    "id": "TogglWebappApi.genericApiError",
+    "defaultMessage": "There was an error. If this error persists, please contact support."
+  },
+  {
+    "id": "TogglWebappApi.notTranslatedApiError",
+    "defaultMessage": "{error}"
+  },
+  {
+    "id": "TogglWebappApi.notifiedError",
+    "defaultMessage": "There was an error, we have been notified."
+  },
+  {
     "id": "TooltipBillableBarContent.billable",
     "defaultMessage": "Billable"
   },
