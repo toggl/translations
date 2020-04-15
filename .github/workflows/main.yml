@@ -1,0 +1,25 @@
+name: Translations PR Wrangler Workflow
+on:
+  push:
+    branches:
+      - 'track-fe-app-*'
+
+jobs:
+  manage-prs-for-pushed-locales:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout # checkout to use local actions
+        uses: actions/checkout@v2
+      - name: Manage pushed locales
+        uses: ./actions/manage-pushed-locales
+        with:
+          base-branch: master
+          branch-pattern: track-fe-app-*
+          pr-template-title: "[track-fe-app] Update locales pushed from client"
+          pr-template-body: |
+            These are the latest changes pushed from the client.
+
+            This PR superseded the following PRs:
+            {CLOSED_PRS}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

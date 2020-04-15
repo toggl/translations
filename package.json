@@ -1,0 +1,14 @@
+{
+  "name": "translations",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:toggl/translations.git",
+  "scripts": {
+    "build-actions": "ncc build actions/manage-pushed-locales/index.ts -o actions/manage-pushed-locales/dist"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "@zeit/ncc": "^0.22.1"
+  }
+}

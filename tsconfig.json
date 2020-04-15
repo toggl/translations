@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": false, /* some issues with imported github stuff, ignoring for now */
+    "esModuleInterop": true
+  },
+  "include": [
+    "actions/**/*.ts"
+  ]
+}

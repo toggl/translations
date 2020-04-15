@@ -1,0 +1,17 @@
+name: 'Manage pushed locales from client'
+description: 'Close stale PRs and open new PR for pushed branch'
+inputs:
+  branch-pattern:
+    description: 'Branches to match when searching for related PRs'
+  pr-template-title:
+    description: 'Title of new pull requests'
+  pr-template-body:
+    description: 'Body of new pull requests'
+outputs:
+  closed-prs:
+    description: 'PR numbers of all closed PRs'
+  opened-pr:
+    description: 'PR number of the opened PR'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
