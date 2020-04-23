@@ -1,0 +1,15 @@
+{
+  "name": "@toggl/manage-pushed-locales",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "module": "src/index.ts",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "@zeit/ncc": "^0.22.1"
+  }
+}

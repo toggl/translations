@@ -1,19 +1,14 @@
 {
   "name": "translations",
   "private": true,
-  "version": "0.1.0",
-  "main": "index.js",
-  "repository": "git@github.com:toggl/translations.git",
   "engines": {
     "node": ">=12.16.2",
     "yarn": ">=1.22.4"
   },
   "scripts": {
-    "build-actions": "ncc build actions/manage-pushed-locales/index.ts -o actions/manage-pushed-locales/dist"
+    "build": "yarn workspaces run build"
   },
-  "dependencies": {
-    "@actions/core": "^1.2.3",
-    "@actions/github": "^2.1.1",
-    "@zeit/ncc": "^0.22.1"
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }
