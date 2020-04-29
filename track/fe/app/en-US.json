@@ -329,7 +329,7 @@
   },
   {
     "id": "BillingInfo.emailDescription",
-    "defaultMessage": "Subscription updates will be sent to this<br>email and to yours"
+    "defaultMessage": "Subscription updates will be sent to this email and to your email"
   },
   {
     "id": "BillingInfo.emailPlaceholder",
@@ -389,7 +389,7 @@
   },
   {
     "id": "BillingInfo.vatDescription",
-    "defaultMessage": "<span style=\"font-style: italic; color: #7b7b7b\">e.g.</span> EU123456789"
+    "defaultMessage": "<eg>e.g.</eg> EU123456789"
   },
   {
     "id": "BillingInfo.vatPlaceholder",
@@ -397,7 +397,7 @@
   },
   {
     "id": "BillingInfo.vatValidationError",
-    "defaultMessage": "Please check that:<br>\n      1) You’ve added the country code with your VAT number<br>\n      2) The VAT number is correct<br>\n      3) There are no spaces between the characters"
+    "defaultMessage": "Please check that:<br></br>\n      1) You’ve added the country code with your VAT number<br></br>\n      2) The VAT number is correct<br></br>\n      3) There are no spaces between the characters"
   },
   {
     "id": "BillingInfo.zipPlaceholder",
@@ -409,7 +409,7 @@
   },
   {
     "id": "BulkEditHeader.itemsSelected",
-    "defaultMessage": "{itemsCount} {itemsCount, plural, one {item} other {items}} selected"
+    "defaultMessage": "{itemsCount} {itemsCount, plural,\n      one {item}\n      other {items}\n    } selected"
   },
   {
     "id": "BulkEditProjectsDialog.Billable",
@@ -484,6 +484,10 @@
     "defaultMessage": "Calendar"
   },
   {
+    "id": "Calendar.lockedError",
+    "defaultMessage": "Your workspace admin has locked time entries up to {lockDate} (UTC time)"
+  },
+  {
     "id": "Calendar.withoutDescription",
     "defaultMessage": "Add description"
   },
@@ -501,7 +505,7 @@
   },
   {
     "id": "Campaign.Generic.default",
-    "defaultMessage": "Upgrade to an annual plan {beforeEnd, select, yes {before {endDate, date, month} {endDay, selectordinal, one {#st} two {#nd} few {#rd} other {#th}} -} other {-}} get an extra {discountPercent, number, percent} off!"
+    "defaultMessage": "Upgrade to an annual plan {beforeEnd, select,\n        yes {before {endDate, date, month} {endDay, selectordinal,\n          one {#st}\n          two {#nd}\n          few {#rd}\n          other {#th}} -}\n        other {-}} get an extra {discountPercent, number, percent} off!"
   },
   {
     "id": "Campaign.Generic.popup",
@@ -509,7 +513,7 @@
   },
   {
     "id": "Campaign.Generic.renewAnnual",
-    "defaultMessage": "Renew your subscription {beforeEnd, select, yes {before {endDate, date, month} {endDay, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}} other {-}} and enjoy {discountPercent, number, percent} off!"
+    "defaultMessage": "Renew your subscription {beforeEnd, select,\n        yes {before {endDate, date, month} {endDay, selectordinal,\n          one {#st}\n          two {#nd}\n          few {#rd}\n          other {#th}}}\n        other {-}} and enjoy {discountPercent, number, percent} off!"
   },
   {
     "id": "Campaign.Master.bannerMessage",
@@ -657,7 +661,7 @@
   },
   {
     "id": "ClientsPopdownItem.numberOfProjects",
-    "defaultMessage": "{numberOfProjects, plural, one {# project} other {# projects}}"
+    "defaultMessage": "{numberOfProjects, plural,\n                    one {# project}\n                    other {# projects}\n                  }"
   },
   {
     "id": "CloseAccountPopup.commentsPlaceholder",
@@ -665,7 +669,11 @@
   },
   {
     "id": "CloseAccountPopup.errorGeneric",
-    "defaultMessage": "An unknown error occurred."
+    "defaultMessage": "Something went wrong. Please contact us at {email}."
+  },
+  {
+    "id": "CloseAccountPopup.errorRights",
+    "defaultMessage": "Please ensure all Workspaces have at least one other admin and owner."
   },
   {
     "id": "CloseAccountPopup.offline",
@@ -944,6 +952,14 @@
     "defaultMessage": "New Tag"
   },
   {
+    "id": "CreateTimeEntryDialog.ContextMenu.delete",
+    "defaultMessage": "Delete"
+  },
+  {
+    "id": "CreateTimeEntryDialog.ContextMenu.duplicate",
+    "defaultMessage": "Duplicate"
+  },
+  {
     "id": "CreateTimeEntryDialog.DatesField.error",
     "defaultMessage": "Please add times"
   },
@@ -976,14 +992,6 @@
     "defaultMessage": "Add Time Entry"
   },
   {
-    "id": "CreateTimeEntryDialog.edit.cancel",
-    "defaultMessage": "Cancel"
-  },
-  {
-    "id": "CreateTimeEntryDialog.edit.delete",
-    "defaultMessage": "Delete"
-  },
-  {
     "id": "CreateTimeEntryDialog.edit.submit",
     "defaultMessage": "Update Time Entry"
   },
@@ -994,6 +1002,14 @@
   {
     "id": "CreateTimeEntryDialog.form.description",
     "defaultMessage": "Add Description"
+  },
+  {
+    "id": "CreateTimeEntryDialog.form.lockedPeriod",
+    "defaultMessage": "Your workspace admin has locked time entries up to {lockDate} (UTC time)"
+  },
+  {
+    "id": "CreateTimeEntryDialog.form.requiredField",
+    "defaultMessage": "A {field} is required by your workspace admin"
   },
   {
     "id": "CreateTimeEntryDialog.label.description",
@@ -1173,7 +1189,7 @@
   },
   {
     "id": "DeleteClientConfirmation.questionPre",
-    "defaultMessage": "You're about to delete"
+    "defaultMessage": "You're about to delete "
   },
   {
     "id": "DeleteClientConfirmation.reminder",
@@ -1237,7 +1253,7 @@
   },
   {
     "id": "DeleteSavedReportsDialog.content",
-    "defaultMessage": "The report will no longer be accessible. <br /> Are you sure you want to delete <strong>{reports}</strong>?"
+    "defaultMessage": "The report will no longer be accessible.<br></br>Are you sure you want to delete <b>{reports}</b>?"
   },
   {
     "id": "DeleteSavedReportsDialog.title",
@@ -1265,7 +1281,7 @@
   },
   {
     "id": "DeleteTagConfirmation.questionPre",
-    "defaultMessage": "You're about to delete"
+    "defaultMessage": "You're about to delete "
   },
   {
     "id": "DeleteTagConfirmation.reminder",
@@ -1489,15 +1505,15 @@
   },
   {
     "id": "DowngradeConfirmation.enterprise",
-    "defaultMessage": "You will lose access to all Enterprise features, including priority support and bigger team size."
+    "defaultMessage": "Once your balance runs out, you'll lose access to all Enterprise features - including priority support and expanded team size."
   },
   {
     "id": "DowngradeConfirmation.premium",
-    "defaultMessage": "You will lose access to all Premium features, including time audits, emailed reports, Insights and bigger team size."
+    "defaultMessage": "Once your balance runs out, you'll lose access to all Premium features - including time audits, emailed reports, Insights and expanded team size."
   },
   {
     "id": "DowngradeConfirmation.starter",
-    "defaultMessage": "You will lose access to all Starter features, including billable rates, rounding in reports and bigger team size"
+    "defaultMessage": "Once your balance runs out, you'll lose access to all Starter features - including billable rates, rounding in reports and expanded team size."
   },
   {
     "id": "DowngradeConfirmation.stay",
@@ -1733,7 +1749,7 @@
   },
   {
     "id": "EditProjectDialog.privateProjectTooltip",
-    "defaultMessage": "Only Project Members can access Private Projects.<br>\n      Public Projects can be accessed by everyone."
+    "defaultMessage": "\n      Only Project Members can access Private Projects.<br></br>\n      Public Projects can be accessed by everyone.\n    "
   },
   {
     "id": "EditProjectDialog.rateLabel",
@@ -1753,7 +1769,7 @@
   },
   {
     "id": "EditProjectDialog.taskBasedEstimateTooltip",
-    "defaultMessage": "Project Estimate will be calculated based on Tasks Estimates<br>\n      and it cannot be changed manually. You can set Task<br>\n      estimates in the Progress column on Tasks tab."
+    "defaultMessage": "\n      Project Estimate will be calculated based on Tasks Estimates<br></br>\n      and it cannot be changed manually. You can set Task<br></br>\n      estimates in the Progress column on Tasks tab.\n    "
   },
   {
     "id": "EditProjectDialog.template",
@@ -1761,7 +1777,7 @@
   },
   {
     "id": "EditProjectDialog.templateTooltip",
-    "defaultMessage": "This allows you to create similar Projects with the same<br>\n      settings, Tasks and team easily in the future."
+    "defaultMessage": "\n      This allows you to create similar Projects with the same<br></br>\n      settings, Tasks and team easily in the future.\n    "
   },
   {
     "id": "EditProjectDialog.title",
@@ -1945,7 +1961,7 @@
   },
   {
     "id": "Insights.reminders.LabourCostIntro.beforeLink",
-    "defaultMessage": "Welcome to Toggl Insights! To view {view, select, projects {project profitability} employees {employee profitability} compare {comparative graphs} trends {data trends}}, you need to set the labor costs of users in your workspace {link}"
+    "defaultMessage": "Welcome to Toggl Insights! To view {view, select, projects {project profitability} employees {employee profitability} compare {comparative graphs} trends {data trends} }, you need to set the labor costs of users in your workspace {link}"
   },
   {
     "id": "Insights.reminders.LabourCostIntro.linkText",
@@ -1961,7 +1977,7 @@
   },
   {
     "id": "Insights.reminders.TrialEndingUpsell.beforeLink",
-    "defaultMessage": "Insights is a Premium feature. You'll have access for {days} more {days, plural, one {day} other {days}}. To keep using Insights, please"
+    "defaultMessage": "Insights is a Premium feature. You'll have access for {days} more {days, plural, one {day} other {days}}. To keep using Insights, please "
   },
   {
     "id": "Insights.reminders.TrialEndingUpsell.linkText",
@@ -1985,7 +2001,7 @@
   },
   {
     "id": "InsightsDataTrendsProjectsSubView.columns.averageHours",
-    "defaultMessage": "{period, select, day {Daily Average} week {Weekly Average} month {Monthly Average}}"
+    "defaultMessage": "{period, select, day {Daily Average}week {Weekly Average}month {Monthly Average}}"
   },
   {
     "id": "InsightsDataTrendsProjectsSubView.columns.contributors",
@@ -1997,7 +2013,7 @@
   },
   {
     "id": "InsightsDataTrendsProjectsSubView.columns.hints.averageHours",
-    "defaultMessage": "{period, select, day {Includes only days when time was tracked to the project} week {Includes only weeks when time was tracked to the project} month {Includes only months when time was tracked to the project}}"
+    "defaultMessage": "{period, select, day {Includes only days when time was tracked to the project}week {Includes only weeks when time was tracked to the project}month {Includes only months when time was tracked to the project}}"
   },
   {
     "id": "InsightsDataTrendsProjectsSubView.columns.hints.totalHours",
@@ -2292,12 +2308,20 @@
     "defaultMessage": "Leave workspace"
   },
   {
-    "id": "LoadMore.disabledText",
+    "id": "LoadMore.default",
+    "defaultMessage": "Load more"
+  },
+  {
+    "id": "LoadMore.disabled",
     "defaultMessage": "View full history in Reports"
   },
   {
-    "id": "LoadMore.label",
-    "defaultMessage": "Load more"
+    "id": "LoadMore.disabledExplanation",
+    "defaultMessage": "No time entries found in the last 90 days"
+  },
+  {
+    "id": "LoadMore.old",
+    "defaultMessage": "Load old entries"
   },
   {
     "id": "ManualTimer.addTimeEntryButtonTitle",
@@ -2601,7 +2625,7 @@
   },
   {
     "id": "PaymentError.popup.content",
-    "defaultMessage": "Our payment gateway seems to have rejected your payment. Please try again. If the issue persists, please contact <a href=\"mailto:support@toggl.com\">support@toggl.com</a>"
+    "defaultMessage": "Our payment gateway seems to have rejected your payment. Please try again. If the issue persists, please contact <supportEmailLink>support@toggl.com</supportEmailLink>"
   },
   {
     "id": "PaymentError.popup.title",
@@ -2621,15 +2645,15 @@
   },
   {
     "id": "PlanWelcome.premium.content",
-    "defaultMessage": "You can now use all <a href=\"https://support.toggl.com/premium/#features\" target=\"_blank\" rel=\"noopener\">Premium features</a>"
+    "defaultMessage": "You can now use all <featuresLink>Premium features</featuresLink>"
   },
   {
     "id": "PlanWelcome.premium.feature1",
-    "defaultMessage": "See trends and analyze your organization's profitability with <strong>Insights</strong>"
+    "defaultMessage": "See trends and analyze your organization's profitability with <b>Insights</b>"
   },
   {
     "id": "PlanWelcome.premium.feature2",
-    "defaultMessage": "Take control of team managment with <strong>Saved reports to email, Tracking reminders, Add time for team</strong> and other powerful features"
+    "defaultMessage": "Take control of team managment with <b>Saved reports to email, Tracking reminders, Add time for team</b> and other powerful features"
   },
   {
     "id": "PlanWelcome.premium.title",
@@ -2645,19 +2669,19 @@
   },
   {
     "id": "PlanWelcome.starter.feature1",
-    "defaultMessage": "<strong>Billable rates</strong> to keep track of your earnings"
+    "defaultMessage": "<b>Billable rates</b> to keep track of your earnings"
   },
   {
     "id": "PlanWelcome.starter.feature2",
-    "defaultMessage": "<strong>Project Dashboard</strong> for detailed Project overviews"
+    "defaultMessage": "<b>Project Dashboard</b> for detailed Project overviews"
   },
   {
     "id": "PlanWelcome.starter.feature3",
-    "defaultMessage": "<strong>Tasks</strong> to break up your projects"
+    "defaultMessage": "<b>Tasks</b> to break up your projects"
   },
   {
     "id": "PlanWelcome.starter.feature4",
-    "defaultMessage": "And <a href=\"https://support.toggl.com/category/pricing-plans/\" target=\"_blank\" rel=\"noopener\">much more</a> for advanced time tracking"
+    "defaultMessage": "And <moreLink>much more</moreLink> for advanced time tracking"
   },
   {
     "id": "PlanWelcome.starter.title",
@@ -3037,7 +3061,7 @@
   },
   {
     "id": "ProfileDataExport.tooltipText",
-    "defaultMessage": "Once we have compiled the export, you will receive a<br>\n      download link in your email. This will expire in 72<br>\n      hours. The files will be in .json format."
+    "defaultMessage": "\n      Once we have compiled the export, you will receive a<br></br>\n      download link in your email. This will expire in 72<br></br>\n      hours. The files will be in .json format.\n    "
   },
   {
     "id": "ProfileDataExportHeader.title",
@@ -3101,7 +3125,7 @@
   },
   {
     "id": "ProjectFilter.AutoSelectItem.hint",
-    "defaultMessage": "Select Projects that have the most<br>time tracked in the last 7 days"
+    "defaultMessage": "Select Projects that have the most<br></br>time tracked in the last 7 days"
   },
   {
     "id": "ProjectFilter.clientProjects",
@@ -3157,7 +3181,7 @@
   },
   {
     "id": "ProjectTasks.BulkEditMarkDone",
-    "defaultMessage": "Mark as <span style=\"font-style: italic;\">done</span>"
+    "defaultMessage": "Mark as <i>done</i>"
   },
   {
     "id": "ProjectTasks.StatusFilterActive",
@@ -3198,10 +3222,6 @@
   {
     "id": "ProjectTasksListItem.EstimationField.hoverEdit",
     "defaultMessage": "Edit estimate"
-  },
-  {
-    "id": "ProjectTasksListItem.everyone",
-    "defaultMessage": "Everyone"
   },
   {
     "id": "ProjectTasksListItem.groups",
@@ -3253,7 +3273,7 @@
   },
   {
     "id": "ProjectTeamListItem.costTooltip",
-    "defaultMessage": "Team member's hourly wage. Used to calculate<br>profitability in Toggl Insights."
+    "defaultMessage": "Team member's hourly wage. Used to calculate<br></br>profitability in Toggl Insights."
   },
   {
     "id": "ProjectTeamListItem.name",
@@ -3273,7 +3293,7 @@
   },
   {
     "id": "ProjectTeamListItem.roleTooltip",
-    "defaultMessage": "Managers have full edit access to the Project.<br>They can view all time tracked for this Project."
+    "defaultMessage": "Managers have full edit access to the Project.<br></br>They can view all time tracked for this Project."
   },
   {
     "id": "ProjectTeamListUserItem.AccessField.addRole",
@@ -3326,6 +3346,10 @@
   {
     "id": "ProjectTeamListUserItem.RateField.negativeRate",
     "defaultMessage": "Team member billable rate cannot be negative"
+  },
+  {
+    "id": "ProjectTeamPopdown.anyone",
+    "defaultMessage": "Anyone"
   },
   {
     "id": "ProjectTeamPopdown.search",
@@ -3577,7 +3601,7 @@
   },
   {
     "id": "ProjectsList.deleteBody",
-    "defaultMessage": "{projects, plural, one {This Project} other {These Projects}} will be removed from all Time Entries {projects, plural, one {it is} other {they are}} assigned to.{lineBreak}This action cannot be reversed."
+    "defaultMessage": "{projects, plural,\n      one {This Project}\n      other {These Projects}\n    } will be removed from all Time Entries {projects,plural,\n      one {it is}\n      other {they are}\n    } assigned to.{lineBreak}This action cannot be reversed."
   },
   {
     "id": "ProjectsList.deleteButton",
@@ -3589,7 +3613,7 @@
   },
   {
     "id": "ProjectsList.taskCount",
-    "defaultMessage": "{count} {count, plural, one {task} other {tasks}}"
+    "defaultMessage": "{count} {count, plural,\n                one {task}\n                other {tasks}\n              }"
   },
   {
     "id": "ProjectsListView.EstimationBar.header",
@@ -3637,11 +3661,11 @@
   },
   {
     "id": "RelativeDate.today",
-    "defaultMessage": "Today, {time}"
+    "defaultMessage": "Today, { time }"
   },
   {
     "id": "RelativeDate.yesterday",
-    "defaultMessage": "Yesterday, {time}"
+    "defaultMessage": "Yesterday, { time }"
   },
   {
     "id": "ReportsDownloadMenu.csv",
@@ -3741,7 +3765,7 @@
   },
   {
     "id": "RestrictedArea.content",
-    "defaultMessage": "Only administrators can access {name}."
+    "defaultMessage": "Only administrators can access {name}. "
   },
   {
     "id": "RestrictedArea.learnMore",
@@ -4161,7 +4185,7 @@
   },
   {
     "id": "Settings.General.DefaultBillingSetup.subtitle",
-    "defaultMessage": "Workspace and all new Projects will have these settings by default"
+    "defaultMessage": "These settings will be used if not defined otherwise on a team member or Project level"
   },
   {
     "id": "Settings.General.DefaultBillingSetup.title",
@@ -4969,15 +4993,11 @@
   },
   {
     "id": "Subscription.ConfirmationDialog.masterBenefit2",
-    "defaultMessage": "Integrate favourite tools with Toggl"
+    "defaultMessage": "Integrate your favourite tools with Toggl"
   },
   {
     "id": "Subscription.ConfirmationDialog.masterBenefit3",
     "defaultMessage": "Get my team tracking"
-  },
-  {
-    "id": "Subscription.ConfirmationDialog.masterCheckboxDescription",
-    "defaultMessage": "For smooth team integration and<br>set up, sign me up for a<br>professional consultation for<br>200 USD"
   },
   {
     "id": "Subscription.ConfirmationDialog.monthlyPlanName",
@@ -5017,15 +5037,15 @@
   },
   {
     "id": "Subscription.Faqs.answer3",
-    "defaultMessage": "We offer discounts for workspaces of 40 users or more. We also have discounts available for non-profit and educational users. <a href=\"https://support.toggl.com/en/?utm_source=webapp&utm_medium=referral&utm_campaign=kb_redirect\" rel=\"noopener\">Contact our support team</a> for more information."
+    "defaultMessage": "We offer discounts for workspaces of 40 users or more. We also have discounts available for non-profit and educational users. <kbLink>Contact our support team</kbLink> for more information."
   },
   {
     "id": "Subscription.Faqs.answer4",
-    "defaultMessage": "Our preferred payment option is credit card. For annual subscriptions, however, you may also <a href=\"https://support.toggl.com/pricing-and-payments/#purchaseorder\" rel=\"noopener\">pay by wire transfer</a>"
+    "defaultMessage": "Our preferred payment option is credit card. For annual subscriptions, however, you may also <kbPurchaseOrderLink>pay by wire transfer</kbPurchaseOrderLink>"
   },
   {
     "id": "Subscription.Faqs.answer5",
-    "defaultMessage": "When the new users join, we’ll create an invoice to cover them until the end of the subscription period, <a href=\"https://support.toggl.com/pricing-and-payments/#monthly-annual\" rel=\"noopener\">and bill you automatically</a>"
+    "defaultMessage": "When the new users join, we’ll create an invoice to cover them until the end of the subscription period, <kbAnnualLink>and bill you automatically</kbAnnualLink>"
   },
   {
     "id": "Subscription.Faqs.question1",
@@ -5045,7 +5065,7 @@
   },
   {
     "id": "Subscription.Faqs.question5",
-    "defaultMessage": "What if I’m on an annual plan and need to add<br>users during the year?"
+    "defaultMessage": "What if I’m on an annual plan and need to add<br></br>users during the year?"
   },
   {
     "id": "Subscription.Faqs.title",
@@ -5185,11 +5205,11 @@
   },
   {
     "id": "Subscription.Overview.PaymentFailed.line2",
-    "defaultMessage": "If no payment is received, this Workspace will be suspended shortly. <a target=\"_blank\" href=\"https://support.toggl.com/pricing-and-payments/#failedpayment\">Find out more</a>"
+    "defaultMessage": "If no payment is received, this Workspace will be suspended shortly. <supportLink>Find out more</supportLink>"
   },
   {
     "id": "Subscription.Overview.PaymentFailed.tooltip",
-    "defaultMessage": "Please contact your bank to resolve the<br>issue or change your payment method"
+    "defaultMessage": "Please contact your bank to resolve the<br></br>issue or change your payment method"
   },
   {
     "id": "Subscription.PaymentInfo.addedBy.content",
@@ -5245,15 +5265,15 @@
   },
   {
     "id": "Subscription.PlanPrice.currentlyFree",
-    "defaultMessage": "Currently on <strong>Free plan</strong>"
+    "defaultMessage": "Currently on <b>Free plan</b>"
   },
   {
     "id": "Subscription.PlanPrice.currentlyOnAnnual",
-    "defaultMessage": "Currently on <strong>annual plan</strong> with<br>{userCount} {userCount, plural, one {user} other {users}}"
+    "defaultMessage": "Currently on <b>annual plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}"
   },
   {
     "id": "Subscription.PlanPrice.currentlyOnMonthly",
-    "defaultMessage": "Currently on <strong>monthly plan</strong> with<br>{userCount} {userCount, plural, one {user} other {users}}"
+    "defaultMessage": "Currently on <b>monthly plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}"
   },
   {
     "id": "Subscription.PlanPrice.enterprisePrice",
@@ -5281,7 +5301,7 @@
   },
   {
     "id": "Subscription.PlanPrice.suspended",
-    "defaultMessage": "Only available for teams of<br>5 or less"
+    "defaultMessage": "Only available for teams of<br></br>5 or less"
   },
   {
     "id": "Subscription.Preselected.Enterprise.benefit1",
@@ -5373,11 +5393,11 @@
   },
   {
     "id": "Subscription.SuspendedWorkspace.description",
-    "defaultMessage": "To continue using Toggl, <a href=\"/subscription/{wid}/all-plans\">choose a new plan</a><br>or reactivate your {plan} subscription"
+    "defaultMessage": "To continue using Toggl, <plansPageLink>choose a new plan</plansPageLink><br></br>or reactivate your {plan} subscription"
   },
   {
     "id": "Subscription.SuspendedWorkspace.longDescription",
-    "defaultMessage": "Your Workspace was suspended because we could not charge you for the last invoice. Your data is safe, but your team won’t be able to log time before this is resolved.<br><a target=\"_blank\" href=\"https://support.toggl.com/pricing-and-payments/#suspended\">Learn more</a>"
+    "defaultMessage": "Your Workspace was suspended because we could not charge you for the last invoice. Your data is safe, but your team won’t be able to log time until this is resolved.<br></br><supportLink>Learn more</supportLink>"
   },
   {
     "id": "Subscription.SuspendedWorkspace.reactivate",
@@ -5401,7 +5421,7 @@
   },
   {
     "id": "SubscriptionContainer.noAccess",
-    "defaultMessage": "You do not have access to this<br>workspace's subscription"
+    "defaultMessage": "You do not have access to this workspace's subscription"
   },
   {
     "id": "SubscriptionHeader.createPurchaseOrder",
@@ -5473,7 +5493,7 @@
   },
   {
     "id": "SubscriptionsV2.NoAccess.title",
-    "defaultMessage": "Whoops! <br/>Restricted area"
+    "defaultMessage": "Whoops! <br></br>Restricted area"
   },
   {
     "id": "SummaryLegend.billable",
@@ -5526,6 +5546,10 @@
   {
     "id": "SummaryReportList.groupedReportTooltipTitle",
     "defaultMessage": "report"
+  },
+  {
+    "id": "SummaryReportList.name",
+    "defaultMessage": "Name"
   },
   {
     "id": "SummaryReportList.noClient",
@@ -5637,7 +5661,7 @@
   },
   {
     "id": "TaskContextMenu.done",
-    "defaultMessage": "Mark as <em style=\"font-style: italic;\">done</em>"
+    "defaultMessage": "Mark as <i>done</i>"
   },
   {
     "id": "TaskContextMenu.reactivate",
@@ -5645,7 +5669,7 @@
   },
   {
     "id": "TaskDeleteConfirmationDialog.additional",
-    "defaultMessage": "Alternatively, you can mark \n      {taskCount, plural, one {it} other {them}} as Done.\n      {taskCount, plural, one {It} other {They}}\n      will be removed from active Tasks list and you won't lose\n      {taskCount, plural, one {it} other {them}} on your entries."
+    "defaultMessage": "Alternatively, you can mark \n      {taskCount, plural, one {it} other {them} } as Done.\n      {taskCount, plural, one {It} other {They} }\n      will be removed from active Tasks list and you won't lose\n      {taskCount, plural, one {it} other {them} } on your entries."
   },
   {
     "id": "TaskDeleteConfirmationDialog.confirmationText",
@@ -5653,11 +5677,11 @@
   },
   {
     "id": "TaskDeleteConfirmationDialog.mainText",
-    "defaultMessage": "{taskCount, plural, one {This Task} other {These Tasks}}\n      will be removed from all Time Entries\n      {taskCount, plural, one {it has} other {they have}}\n      been added to."
+    "defaultMessage": "{taskCount, plural, one {This Task} other {These Tasks} }\n      will be removed from all Time Entries\n      {taskCount, plural, one {it has} other {they have} }\n      been added to."
   },
   {
     "id": "TaskDeleteConfirmationDialog.title",
-    "defaultMessage": "Delete {taskCount, plural, one {Task} other {Tasks}}"
+    "defaultMessage": "Delete {taskCount, plural, \n      one {Task}\n      other {Tasks}\n    }"
   },
   {
     "id": "TaskFilter.title",
@@ -6069,7 +6093,7 @@
   },
   {
     "id": "TimeEntriesBulkEditDialog.title",
-    "defaultMessage": "Bulk edit {amount} time {amount, plural, one {entry} other {entries}}"
+    "defaultMessage": "Bulk edit {amount} time {amount, plural,\n      one {entry}\n      other {entries}\n    }"
   },
   {
     "id": "TimeEntriesList.Continue.tooltipTitle",
@@ -6328,34 +6352,6 @@
     "defaultMessage": "There was an error, we have been notified."
   },
   {
-    "id": "TooltipBillableBarContent.billable",
-    "defaultMessage": "Billable"
-  },
-  {
-    "id": "TooltipBillableBarContent.currencies",
-    "defaultMessage": "{currencyAndValue}"
-  },
-  {
-    "id": "TooltipBillableBarContent.nonBillable",
-    "defaultMessage": "Non-billable"
-  },
-  {
-    "id": "TooltipBillableBarContent.total",
-    "defaultMessage": "Total"
-  },
-  {
-    "id": "TooltipBillableBarContent.totalBillableTime",
-    "defaultMessage": "{totalBillableTime}"
-  },
-  {
-    "id": "TooltipBillableBarContent.totalNonBillableTime",
-    "defaultMessage": "{totalNonBillableTime}"
-  },
-  {
-    "id": "TooltipBillableBarContent.totalTime",
-    "defaultMessage": "{totalTime}"
-  },
-  {
     "id": "UnmetConstraintsTooltip.fields.description",
     "defaultMessage": "Description"
   },
@@ -6520,6 +6516,10 @@
     "defaultMessage": "report"
   },
   {
+    "id": "WeeklyReports.DataTable.header.name",
+    "defaultMessage": "Name"
+  },
+  {
     "id": "WeeklyReports.DataTable.header.title",
     "defaultMessage": "Title"
   },
@@ -6573,7 +6573,7 @@
   },
   {
     "id": "Workspace.Wizard.Steps.WorkspaceInvite.subtitle",
-    "defaultMessage": "You can invite up to 4 people using their email address.{lineBreak}Later, you can invite and manage all your members in the Teams page."
+    "defaultMessage": "You can invite up to 4 people using their email address.{lineBreak}Later, you can invite and manage all your members in the Teams page.  "
   },
   {
     "id": "Workspace.Wizard.Steps.WorkspaceInvite.title",
@@ -6681,7 +6681,7 @@
   },
   {
     "id": "Workspaces.logoUploadError",
-    "defaultMessage": "There was an error while uploading workspace logo, please try again or contact support."
+    "defaultMessage": "There was an error while uploading, please try again or contact support."
   },
   {
     "id": "Workspaces.logoUploadTooLargeError",
@@ -6813,11 +6813,11 @@
   },
   {
     "id": "announcement.genericCampaign.cta",
-    "defaultMessage": "Get {discountPercent, number, percent} off {daysLeft, plural, =-1 {} =0 { - last day!} =1 { - 1 day left!} other { - {daysLeft} days left!}}"
+    "defaultMessage": "Get {discountPercent, number, percent} off {daysLeft, plural,\n        =-1 {}\n        =0 { - last day!}\n        =1 { - 1 day left!}\n        other { - {daysLeft} days left!}}"
   },
   {
     "id": "announcement.genericCampaign.subtitle",
-    "defaultMessage": "Upgrade to an annual plan {beforeEnd, select, yes {before {endDate, date, month} {endDay, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}} other {}}{lineBreak}and get an extra {discountPercent, number, percent} off for the entire year!"
+    "defaultMessage": "Upgrade to an annual plan {beforeEnd, select,\n        yes {before {endDate, date, month} {endDay, selectordinal,\n          one {#st}\n          two {#nd}\n          few {#rd}\n          other {#th}}}\n        other {}}{lineBreak}and get an extra {discountPercent, number, percent} off for the entire year!"
   },
   {
     "id": "announcement.genericCampaign.title",
@@ -6925,7 +6925,7 @@
   },
   {
     "id": "announcement.upsell",
-    "defaultMessage": "Be more effective. <strong>Upgrade now</strong>"
+    "defaultMessage": "Be more effective. <b>Upgrade now</b>"
   },
   {
     "id": "announcement.upsellFreeTrialAdditional",
@@ -6946,6 +6946,10 @@
   {
     "id": "announcements.betaTest.cta",
     "defaultMessage": "Become a Beta Tester!"
+  },
+  {
+    "id": "calendar.timeEntryLocked",
+    "defaultMessage": "This time entry is locked and cannot be edited"
   },
   {
     "id": "clients.NoAccess.text1",
@@ -7145,7 +7149,7 @@
   },
   {
     "id": "projectsList.numItemsSelected",
-    "defaultMessage": "{itemCount} {itemCount, plural, one {item} other {items}} selected"
+    "defaultMessage": "{itemCount} {itemCount, plural,\n      one {item}\n      other {items}\n  } selected"
   },
   {
     "id": "reportHeader.exportDisabled",
@@ -7320,6 +7324,10 @@
   {
     "id": "sagas.enterpriseContact.flashMessage.title",
     "defaultMessage": "Request sent to Toggl"
+  },
+  {
+    "id": "sagas.me.notTranslatedApiError",
+    "defaultMessage": "{error}"
   },
   {
     "id": "sagas.notification.timezone.error",
