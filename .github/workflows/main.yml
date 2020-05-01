@@ -11,7 +11,7 @@ jobs:
       - name: Checkout # checkout to use local actions
         uses: actions/checkout@v2
       - name: Manage pushed locales
-        uses: ./actions/manage-pushed-locales
+        uses: .github/actions/manage-pushed-locales
         with:
           base-branch: master
           branch-pattern: track-fe-app-*
