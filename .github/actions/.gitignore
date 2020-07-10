@@ -1,1 +1,6 @@
+.*
+!.gitignore
+!.nvmrc
+
+dist/
 node_modules
