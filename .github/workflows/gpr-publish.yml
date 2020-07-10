@@ -1,0 +1,26 @@
+name: Publish manage-pushed-locales
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/actions/packages/manage-pushed-locales/**'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .github/actions
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '>=12.16.2'
+          registry-url: https://npm.pkg.github.com/
+      - run: |
+          yarn
+          yarn workspace @toggl/manage-pushed-locales build
+          yarn publish packages/manage-pushed-locales
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
