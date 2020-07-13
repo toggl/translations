@@ -7,6 +7,10 @@ This action manages creating and closing PRs for each pushed branch for a transl
 
 ## Inputs
 
+### `base-branch`
+
+**Optional** Base branch of the repository. Defaults is 'master'.
+
 ### `branch-pattern`
 
 **Required** Pattern to match branches against when searching for related PRs e.g. 'track-fe-app-*'
