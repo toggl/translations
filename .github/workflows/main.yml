@@ -1,5 +1,6 @@
 name: Translations PR Wrangler Workflow
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'track-fe-app-*'
@@ -7,13 +8,19 @@ on:
 jobs:
   manage-prs-for-pushed-locales:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .github/actions
     steps:
-      - name: Checkout # checkout to use local actions
+      - name: Checkout repository and build actions
         uses: actions/checkout@v2
-      - name: Manage pushed locales
-        uses: ./.github/actions/manage-pushed-locales
+      - uses: actions/setup-node@v1
         with:
-          base-branch: master
+          node-version: '>=12.16.2'
+      - run: yarn && yarn build
+      - name: Manage pushed locales
+        uses: ./.github/actions/packages/manage-pushed-locales
+        with:
           branch-pattern: track-fe-app-*
           pr-template-title: "[track-fe-app] Update locales pushed from client"
           pr-template-body: |

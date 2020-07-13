@@ -1,6 +1,8 @@
 name: 'Manage pushed locales from client'
 description: 'Close stale PRs and open new PR for pushed branch'
 inputs:
+  base-branch:
+    description: 'Base branch of the repository. Defaults is "master".'
   branch-pattern:
     description: 'Branches to match when searching for related PRs'
   pr-template-title:

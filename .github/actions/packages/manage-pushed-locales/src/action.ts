@@ -14,7 +14,7 @@ export default async function run(context: Context = github.context) {
   try {
     // https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token
     const octokit = new github.GitHub(process.env.GITHUB_TOKEN)
-    const base = core.getInput('base-branch')
+    const base = core.getInput('base-branch') || 'master'
     const branchPattern = core.getInput('branch-pattern')
     const prTemplateTitle = core.getInput('pr-template-title')
     const prTemplateBody = core.getInput('pr-template-body')
