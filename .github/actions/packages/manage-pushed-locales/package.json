@@ -1,6 +1,7 @@
 {
   "name": "@toggl/manage-pushed-locales",
   "version": "0.1.2",
+  "private": true,
   "main": "dist/index.js",
   "module": "src/index.ts",
   "scripts": {
@@ -10,9 +11,5 @@
     "@actions/core": "^1.2.4",
     "@actions/github": "^2.1.1",
     "@zeit/ncc": "^0.22.1"
-  },
-  "repository": {
-    "type" : "git",
-    "url": "ssh://git@github.com/toggl/translations.git"
   }
 }
