@@ -21,9 +21,9 @@ jobs:
       - name: Manage pushed locales
         uses: ./.github/actions/packages/manage-pushed-locales
         with:
-          branch-pattern: track-fe-app-*
-          pr-template-title: "[track-fe-app] Update locales pushed from client"
-          pr-template-body: |
+          branchPattern: track-fe-app-*
+          prTemplateTitle: "[track-fe-app] Update locales pushed from client"
+          prTemplateBody: |
             These are the latest changes pushed from the client.
 
             This PR superseded the following PRs:
