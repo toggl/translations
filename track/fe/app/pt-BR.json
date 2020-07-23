@@ -3665,6 +3665,11 @@
     "message": ""
   },
   {
+    "id": "Organisation.Header.settings",
+    "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
     "id": "Organisation.Header.team",
     "defaultMessage": "Team",
     "message": ""
@@ -3797,6 +3802,26 @@
   {
     "id": "Organisation.WorkspaceMember.BulkEditBar.selectedCounter",
     "defaultMessage": "{count, plural, one {# person} other {# people}} selected",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationLongNameError",
+    "defaultMessage": "Please enter a name that is less than 140 characters",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationNameLabel",
+    "defaultMessage": "Organization Name",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationNameTooltip",
+    "defaultMessage": "Organization name is visible in Toggl app and on billing invoices.",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationNoNameError",
+    "defaultMessage": "Please make sure Organization has a name",
     "message": ""
   },
   {
@@ -6002,6 +6027,26 @@
   {
     "id": "Settings.General.pricingPlanLabel",
     "defaultMessage": "Pricing Plan",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceLongNameError",
+    "defaultMessage": "Please enter a name that is less than 140 characters",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceName",
+    "defaultMessage": "Workspace Name",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceNameTooltip",
+    "defaultMessage": "Workspace name is visible in Toggl app and on billing invoices.",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceNoNameError",
+    "defaultMessage": "Please make sure Workspace has a name",
     "message": ""
   },
   {
@@ -9492,26 +9537,6 @@
   {
     "id": "WorkspaceSelector.title",
     "defaultMessage": "Workspace",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceLongNameError",
-    "defaultMessage": "Please enter a name that is less than 140 characters",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceName",
-    "defaultMessage": "Workspace Name",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceNameTooltip",
-    "defaultMessage": "Workspace name is visible in Toggl app and on billing invoices.",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceNoNameError",
-    "defaultMessage": "Please make sure Workspace has a name",
     "message": ""
   },
   {
