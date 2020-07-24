@@ -400,11 +400,6 @@
     "message": ""
   },
   {
-    "id": "BetaTestOptIn.betaLabel",
-    "defaultMessage": "Beta",
-    "message": ""
-  },
-  {
     "id": "BetaTestOptIn.disabled.buttonText",
     "defaultMessage": "Enable beta features",
     "message": ""
@@ -720,13 +715,18 @@
     "message": ""
   },
   {
-    "id": "Calendar.Header.settings",
-    "defaultMessage": "Settings",
+    "id": "Calendar.DateRangePicker.rangeError",
+    "defaultMessage": "Dates beyond the last 90 days are not allowed. Please try a different range.",
     "message": ""
   },
   {
-    "id": "Calendar.Header.title",
-    "defaultMessage": "Calendar",
+    "id": "Calendar.GutterHeader.decrease",
+    "defaultMessage": "Decrease zoom",
+    "message": ""
+  },
+  {
+    "id": "Calendar.GutterHeader.increase",
+    "defaultMessage": "Increase zoom",
     "message": ""
   },
   {
@@ -747,36 +747,6 @@
   {
     "id": "CalendarRangePickerExample.maxMessage",
     "defaultMessage": "You can only select a period of up to {maxRange} days",
-    "message": ""
-  },
-  {
-    "id": "CalendarSettingsDialog.apply",
-    "defaultMessage": "Apply",
-    "message": ""
-  },
-  {
-    "id": "CalendarSettingsDialog.title",
-    "defaultMessage": "Calendar settings",
-    "message": ""
-  },
-  {
-    "id": "CalendarSettingsDialog.zoom",
-    "defaultMessage": "Time shown per block",
-    "message": ""
-  },
-  {
-    "id": "CalendarZoomOptions.fifteenMinutes",
-    "defaultMessage": "15 minutes",
-    "message": ""
-  },
-  {
-    "id": "CalendarZoomOptions.oneHour",
-    "defaultMessage": "1 hour",
-    "message": ""
-  },
-  {
-    "id": "CalendarZoomOptions.thirtyMinutes",
-    "defaultMessage": "30 minutes",
     "message": ""
   },
   {
@@ -857,6 +827,11 @@
   {
     "id": "ChartSelector.daily",
     "defaultMessage": "Today",
+    "message": ""
+  },
+  {
+    "id": "ChartSelector.disabled",
+    "defaultMessage": "Disabled",
     "message": ""
   },
   {
@@ -1525,6 +1500,11 @@
     "message": ""
   },
   {
+    "id": "DateRangePicker.apiRangeError",
+    "defaultMessage": "Dates before 2006 or after {max} are not allowed. Please try a different range.",
+    "message": ""
+  },
+  {
     "id": "DateRangePicker.followingPeriodTooltipTitle",
     "defaultMessage": "Select following period",
     "message": ""
@@ -1686,12 +1666,12 @@
   },
   {
     "id": "DeleteMemberDialog.confirmationText",
-    "defaultMessage": "Are you sure you want to delete {userName} from the Organisation?",
+    "defaultMessage": "Are you sure you want to delete {userName} from the Organization?",
     "message": ""
   },
   {
     "id": "DeleteMemberDialog.confirmationTextMultiple",
-    "defaultMessage": "Are you sure you want to delete them from this Organisation?",
+    "defaultMessage": "Are you sure you want to delete them from this Organization?",
     "message": ""
   },
   {
@@ -1701,22 +1681,22 @@
   },
   {
     "id": "DeleteMemberDialog.mainText",
-    "defaultMessage": "This Team Member will no longer have access to this Organisation and will be removed from all workspaces.",
+    "defaultMessage": "This Team Member will no longer have access to this Organization and will be removed from all workspaces.",
     "message": ""
   },
   {
     "id": "DeleteMemberDialog.mainTextMultiple",
-    "defaultMessage": "These Team Members will no longer have access to this Organisation and will be removed from all workspaces.",
+    "defaultMessage": "These Team Members will no longer have access to this Organization and will be removed from all workspaces.",
     "message": ""
   },
   {
     "id": "DeleteMemberDialog.title",
-    "defaultMessage": "Delete Team Member from the Organisation",
+    "defaultMessage": "Delete Team Member from the Organization",
     "message": ""
   },
   {
     "id": "DeleteMemberDialog.titleMultiple",
-    "defaultMessage": "Delete Team Members from the Organisation",
+    "defaultMessage": "Delete Team Members from the Organization",
     "message": ""
   },
   {
@@ -1737,6 +1717,31 @@
   {
     "id": "DeleteMembersConfirmationDialog.mainText",
     "defaultMessage": "The deleted member will no longer have access to the Workspace. Their tracked time will remain in the Workspace anonymously.",
+    "message": ""
+  },
+  {
+    "id": "DeleteOrganizationGroupDialog.cancel",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "DeleteOrganizationGroupDialog.confirmationText",
+    "defaultMessage": "Are you sure you want to delete the group {groupName}?",
+    "message": ""
+  },
+  {
+    "id": "DeleteOrganizationGroupDialog.delete",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "DeleteOrganizationGroupDialog.mainText",
+    "defaultMessage": "Group members will lose access to the Group’s assigned Workspaces, unless they are members of another group that is assigned to those workspaces or were assigned individually.",
+    "message": ""
+  },
+  {
+    "id": "DeleteOrganizationGroupDialog.title",
+    "defaultMessage": "Delete Group",
     "message": ""
   },
   {
@@ -2255,97 +2260,97 @@
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.access",
-    "defaultMessage": "Organisation Access",
+    "id": "EditOrganizationMemberDialog.access",
+    "defaultMessage": "Organization Access",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.accessOption.admin",
+    "id": "EditOrganizationMemberDialog.accessOption.admin",
     "defaultMessage": "Admin",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.accessOption.member",
+    "id": "EditOrganizationMemberDialog.accessOption.member",
     "defaultMessage": "Member",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.accessOption.owner",
+    "id": "EditOrganizationMemberDialog.accessOption.owner",
     "defaultMessage": "Admin (Owner)",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.accessTooltip",
+    "id": "EditOrganizationMemberDialog.accessTooltip",
     "defaultMessage": "Organization Admins will have Admin permissions in all of the Workspaces in the Organization.",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.cancelButton",
+    "id": "EditOrganizationMemberDialog.cancelButton",
     "defaultMessage": "Cancel",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.email",
+    "id": "EditOrganizationMemberDialog.email",
     "defaultMessage": "Email",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.form.invalidEmail",
+    "id": "EditOrganizationMemberDialog.form.invalidEmail",
     "defaultMessage": "Please enter a valid email format",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.form.noEmail",
+    "id": "EditOrganizationMemberDialog.form.noEmail",
     "defaultMessage": "Please enter an email address",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.form.noName",
+    "id": "EditOrganizationMemberDialog.form.noName",
     "defaultMessage": "Please enter a name",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.groups",
+    "id": "EditOrganizationMemberDialog.groups",
     "defaultMessage": "Groups",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.groupsTooltip",
+    "id": "EditOrganizationMemberDialog.groupsTooltip",
     "defaultMessage": "By assigning Groups, user gains access to all the Projects that are assigned to that Group.",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.name",
+    "id": "EditOrganizationMemberDialog.name",
     "defaultMessage": "Name",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.submitButton",
+    "id": "EditOrganizationMemberDialog.submitButton",
     "defaultMessage": "Save",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.title",
+    "id": "EditOrganizationMemberDialog.title",
     "defaultMessage": "Edit member details",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.todo",
+    "id": "EditOrganizationMemberDialog.todo",
     "defaultMessage": "TODO",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.workspaceTooltip",
+    "id": "EditOrganizationMemberDialog.workspaceTooltip",
     "defaultMessage": "By assigning Workspaces, user becomes a member and can track time in that Workspace.",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.workspaces",
+    "id": "EditOrganizationMemberDialog.workspaces",
     "defaultMessage": "Workspaces / Access",
     "message": ""
   },
   {
-    "id": "EditOrganisationMemberDialog.workspacesTrigger",
+    "id": "EditOrganizationMemberDialog.workspacesTrigger",
     "defaultMessage": "Workspaces",
     "message": ""
   },
@@ -3335,11 +3340,6 @@
     "message": ""
   },
   {
-    "id": "Navigation.calendar",
-    "defaultMessage": "Calendar",
-    "message": ""
-  },
-  {
     "id": "Navigation.clients",
     "defaultMessage": "Clients",
     "message": ""
@@ -3415,8 +3415,8 @@
     "message": ""
   },
   {
-    "id": "Navigation.organisation",
-    "defaultMessage": "Organisation",
+    "id": "Navigation.organization",
+    "defaultMessage": "Organization",
     "message": ""
   },
   {
@@ -3645,158 +3645,198 @@
     "message": ""
   },
   {
-    "id": "Organisation.GroupContextMenu.assign",
+    "id": "Organization.GroupContextMenu.assign",
     "defaultMessage": "Assign to Workspaces",
     "message": ""
   },
   {
-    "id": "Organisation.GroupContextMenu.delete",
+    "id": "Organization.GroupContextMenu.delete",
     "defaultMessage": "Delete",
     "message": ""
   },
   {
-    "id": "Organisation.GroupContextMenu.edit",
+    "id": "Organization.GroupContextMenu.edit",
     "defaultMessage": "Edit",
     "message": ""
   },
   {
-    "id": "Organisation.Header.groups",
+    "id": "Organization.Header.groups",
     "defaultMessage": "Groups",
     "message": ""
   },
   {
-    "id": "Organisation.Header.team",
+    "id": "Organization.Header.settings",
+    "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
+    "id": "Organization.Header.team",
     "defaultMessage": "Team",
     "message": ""
   },
   {
-    "id": "Organisation.Header.title",
-    "defaultMessage": "Organisation",
+    "id": "Organization.Header.title",
+    "defaultMessage": "Organization",
     "message": ""
   },
   {
-    "id": "Organisation.Header.workspaces",
+    "id": "Organization.Header.workspaces",
     "defaultMessage": "Workspaces",
     "message": ""
   },
   {
-    "id": "Organisation.TeamContextMenu.delete",
+    "id": "Organization.TeamContextMenu.delete",
     "defaultMessage": "Delete",
     "message": ""
   },
   {
-    "id": "Organisation.TeamContextMenu.edit",
+    "id": "Organization.TeamContextMenu.edit",
     "defaultMessage": "Edit",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.Header.title",
-    "defaultMessage": "Workspaces",
+    "id": "Organization.WorkspaceDetails.Header.activity",
+    "defaultMessage": "Activity",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.Summary.admins",
-    "defaultMessage": "Admins",
-    "message": ""
-  },
-  {
-    "id": "Organisation.WorkspaceDetails.Summary.groups",
-    "defaultMessage": "Groups",
-    "message": ""
-  },
-  {
-    "id": "Organisation.WorkspaceDetails.Summary.header",
-    "defaultMessage": "Workspace Details",
-    "message": ""
-  },
-  {
-    "id": "Organisation.WorkspaceDetails.Summary.members",
+    "id": "Organization.WorkspaceDetails.Header.members",
     "defaultMessage": "Members",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.accessHeader",
+    "id": "Organization.WorkspaceDetails.Header.title",
+    "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceDetails.Summary.admins",
+    "defaultMessage": "Admins",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceDetails.Summary.groups",
+    "defaultMessage": "Groups",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceDetails.Summary.header",
+    "defaultMessage": "Workspace Details",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceDetails.Summary.members",
+    "defaultMessage": "Members",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceDetails.accessHeader",
     "defaultMessage": "Access",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.addMembers",
+    "id": "Organization.WorkspaceDetails.addMembers",
     "defaultMessage": "Add Members",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.addMembersTooltip",
+    "id": "Organization.WorkspaceDetails.addMembersTooltip",
     "defaultMessage": "Great! Now, add more members!",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.bulkEdit",
+    "id": "Organization.WorkspaceDetails.bulkEdit",
     "defaultMessage": "Bulk Edit",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.bulkLabourCost",
+    "id": "Organization.WorkspaceDetails.bulkLabourCost",
     "defaultMessage": "Set labour cost",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.bulkRate",
+    "id": "Organization.WorkspaceDetails.bulkRate",
     "defaultMessage": "Set billable rate",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.bulkRemove",
+    "id": "Organization.WorkspaceDetails.bulkRemove",
     "defaultMessage": "Remove",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.costHeader",
+    "id": "Organization.WorkspaceDetails.costHeader",
     "defaultMessage": "Cost",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.editButton",
+    "id": "Organization.WorkspaceDetails.editButton",
     "defaultMessage": "Edit Workspace",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.nameHeader",
+    "id": "Organization.WorkspaceDetails.nameHeader",
     "defaultMessage": "All groups/members",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.rateHeader",
+    "id": "Organization.WorkspaceDetails.rateHeader",
     "defaultMessage": "Rate",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceDetails.selectedCounter",
+    "id": "Organization.WorkspaceDetails.selectedCounter",
     "defaultMessage": "{count, plural, one {# person} other {# people}} selected",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceMember.BulkEditBar.bulkEdit",
+    "id": "Organization.WorkspaceMember.BulkEditBar.bulkEdit",
     "defaultMessage": "Bulk Edit",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceMember.BulkEditBar.bulkLabourCost",
+    "id": "Organization.WorkspaceMember.BulkEditBar.bulkLabourCost",
     "defaultMessage": "Set labour cost",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceMember.BulkEditBar.bulkRate",
+    "id": "Organization.WorkspaceMember.BulkEditBar.bulkRate",
     "defaultMessage": "Set billable rate",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceMember.BulkEditBar.bulkRemove",
+    "id": "Organization.WorkspaceMember.BulkEditBar.bulkRemove",
     "defaultMessage": "Remove",
     "message": ""
   },
   {
-    "id": "Organisation.WorkspaceMember.BulkEditBar.selectedCounter",
+    "id": "Organization.WorkspaceMember.BulkEditBar.selectedCounter",
     "defaultMessage": "{count, plural, one {# person} other {# people}} selected",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationLongNameError",
+    "defaultMessage": "Please enter a name that is less than 140 characters",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationNameLabel",
+    "defaultMessage": "Organization Name",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationNameTooltip",
+    "defaultMessage": "Organization name is visible in Toggl app and on billing invoices.",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationNoNameError",
+    "defaultMessage": "Please make sure Organization has a name",
+    "message": ""
+  },
+  {
+    "id": "OrganizationSettings.general.organizationPricingPlan",
+    "defaultMessage": "Pricing Plan",
     "message": ""
   },
   {
@@ -6002,6 +6042,26 @@
   {
     "id": "Settings.General.pricingPlanLabel",
     "defaultMessage": "Pricing Plan",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceLongNameError",
+    "defaultMessage": "Please enter a name that is less than 140 characters",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceName",
+    "defaultMessage": "Workspace Name",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceNameTooltip",
+    "defaultMessage": "Workspace name is visible in Toggl app and on billing invoices.",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.workspaceNoNameError",
+    "defaultMessage": "Please make sure Workspace has a name",
     "message": ""
   },
   {
@@ -8310,13 +8370,13 @@
     "message": ""
   },
   {
-    "id": "TeamTab.organisation",
-    "defaultMessage": "Organisation",
+    "id": "TeamTab.organization",
+    "defaultMessage": "Organization",
     "message": ""
   },
   {
-    "id": "TeamTab.organisationAdmin",
-    "defaultMessage": "Organisation Admin",
+    "id": "TeamTab.organizationAdmin",
+    "defaultMessage": "Organization Admin",
     "message": ""
   },
   {
@@ -8842,6 +8902,16 @@
   {
     "id": "TimelineIntroDialog.title",
     "defaultMessage": "Timeline",
+    "message": ""
+  },
+  {
+    "id": "Timer.TimerViewSelector.calendarView",
+    "defaultMessage": "Calendar view",
+    "message": ""
+  },
+  {
+    "id": "Timer.TimerViewSelector.listView",
+    "defaultMessage": "List view",
     "message": ""
   },
   {
@@ -9492,26 +9562,6 @@
   {
     "id": "WorkspaceSelector.title",
     "defaultMessage": "Workspace",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceLongNameError",
-    "defaultMessage": "Please enter a name that is less than 140 characters",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceName",
-    "defaultMessage": "Workspace Name",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceNameTooltip",
-    "defaultMessage": "Workspace name is visible in Toggl app and on billing invoices.",
-    "message": ""
-  },
-  {
-    "id": "WorkspaceSettings.general.workspaceNoNameError",
-    "defaultMessage": "Please make sure Workspace has a name",
     "message": ""
   },
   {
