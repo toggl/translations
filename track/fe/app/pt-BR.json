@@ -715,6 +715,11 @@
     "message": ""
   },
   {
+    "id": "BulkEditProjectsDialog.teamFilterPlaceholder",
+    "defaultMessage": "Set up a New Team",
+    "message": ""
+  },
+  {
     "id": "BulkEditProjectsDialog.teamRequired",
     "defaultMessage": "Team is required when changing to private",
     "message": ""
@@ -3307,6 +3312,16 @@
   {
     "id": "MembersFiltersall",
     "defaultMessage": "All",
+    "message": ""
+  },
+  {
+    "id": "MembersInput.loadMore",
+    "defaultMessage": "Load More",
+    "message": ""
+  },
+  {
+    "id": "MembersInput.remainingUsersLabel",
+    "defaultMessage": "+ {remainingUsers} {remainingUsers, plural,\n      one { member}\n      other { members}}",
     "message": ""
   },
   {
