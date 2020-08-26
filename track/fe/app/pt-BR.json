@@ -715,6 +715,11 @@
     "message": ""
   },
   {
+    "id": "BulkEditProjectsDialog.teamFilterPlaceholder",
+    "defaultMessage": "Set up a New Team",
+    "message": ""
+  },
+  {
     "id": "BulkEditProjectsDialog.teamRequired",
     "defaultMessage": "Team is required when changing to private",
     "message": ""
@@ -3310,6 +3315,16 @@
     "message": ""
   },
   {
+    "id": "MembersInput.loadMore",
+    "defaultMessage": "Load More",
+    "message": ""
+  },
+  {
+    "id": "MembersInput.remainingUsersLabel",
+    "defaultMessage": "+ {remainingUsers} {remainingUsers, plural,\n      one { member}\n      other { members}}",
+    "message": ""
+  },
+  {
     "id": "Navigation.ReconnectButton",
     "defaultMessage": "Reconnect",
     "message": ""
@@ -3817,6 +3832,16 @@
   {
     "id": "Organization.WorkspaceMember.BulkEditBar.selectedCounter",
     "defaultMessage": "{count, plural, one {# person} other {# people}} selected",
+    "message": ""
+  },
+  {
+    "id": "OrganizationGroupPopdownField.search",
+    "defaultMessage": "Search groups",
+    "message": ""
+  },
+  {
+    "id": "OrganizationGroupPopdownField.selected",
+    "defaultMessage": "{value} selected",
     "message": ""
   },
   {
