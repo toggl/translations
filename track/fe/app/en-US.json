@@ -715,6 +715,11 @@
     "message": ""
   },
   {
+    "id": "BulkEditProjectsDialog.teamFilterPlaceholder",
+    "defaultMessage": "Set up a New Team",
+    "message": ""
+  },
+  {
     "id": "BulkEditProjectsDialog.teamRequired",
     "defaultMessage": "Team is required when changing to private",
     "message": ""
@@ -3310,6 +3315,16 @@
     "message": ""
   },
   {
+    "id": "MembersInput.loadMore",
+    "defaultMessage": "Load More",
+    "message": ""
+  },
+  {
+    "id": "MembersInput.remainingUsersLabel",
+    "defaultMessage": "+ {remainingUsers} {remainingUsers, plural,\n      one { member}\n      other { members}}",
+    "message": ""
+  },
+  {
     "id": "Navigation.ReconnectButton",
     "defaultMessage": "Reconnect",
     "message": ""
@@ -3820,6 +3835,41 @@
     "message": ""
   },
   {
+    "id": "Organization.WorkspaceUserContextItem.remove",
+    "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceUserContextItem.removeExplanation",
+    "defaultMessage": "To remove this member from this Workspace, please assign them to another Workspace first.",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceUserContextItem.removeTitle",
+    "defaultMessage": "Member should belong to at least 1 Workspace.",
+    "message": ""
+  },
+  {
+    "id": "Organization.flashMessage.removeMember.error",
+    "defaultMessage": "Member could not be removed",
+    "message": ""
+  },
+  {
+    "id": "Organization.flashMessage.removeMember.success",
+    "defaultMessage": "Member removed",
+    "message": ""
+  },
+  {
+    "id": "OrganizationGroupPopdownField.search",
+    "defaultMessage": "Search groups",
+    "message": ""
+  },
+  {
+    "id": "OrganizationGroupPopdownField.selected",
+    "defaultMessage": "{value} selected",
+    "message": ""
+  },
+  {
     "id": "OrganizationSettings.general.organizationLongNameError",
     "defaultMessage": "Please enter a name that is less than 140 characters",
     "message": ""
@@ -3842,6 +3892,46 @@
   {
     "id": "OrganizationSettings.general.organizationPricingPlan",
     "defaultMessage": "Pricing Plan",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceListItem.default",
+    "defaultMessage": "Default",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceListItem.setAsDefault",
+    "defaultMessage": "Set as default",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.filterPlaceholder",
+    "defaultMessage": "Find Workspaces...",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.labelNewWorkspace",
+    "defaultMessage": "New Workspace",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.labelOrganization",
+    "defaultMessage": "Organization",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.labelWorkspaces",
+    "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceTooltip.Label",
+    "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceTooltip.Tooltip",
+    "defaultMessage": "To switch workspaces, click on the workspace name",
     "message": ""
   },
   {
@@ -5120,6 +5210,21 @@
     "message": ""
   },
   {
+    "id": "RebrandingReloginDialog.linkContent",
+    "defaultMessage": "login page",
+    "message": ""
+  },
+  {
+    "id": "RebrandingReloginDialog.paragraph",
+    "defaultMessage": "The time has come. Go to our new {link} to access Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "RebrandingReloginDialog.title",
+    "defaultMessage": "Toggl is now Toggl Track!",
+    "message": ""
+  },
+  {
     "id": "RelativeDate.today",
     "defaultMessage": "Today, { time }",
     "message": ""
@@ -5127,6 +5232,41 @@
   {
     "id": "RelativeDate.yesterday",
     "defaultMessage": "Yesterday, { time }",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.confirmationText",
+    "defaultMessage": "Are you sure you want to remove {userName} from the Workspace?",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.confirmationTextMultiple",
+    "defaultMessage": "Are you sure you want to remove them from this Workspace?",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.mainText",
+    "defaultMessage": "This Team Member will no longer have access to this Workspace.",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.mainTextMultiple",
+    "defaultMessage": "These Team Members will no longer have access to this Workspace.",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.remove",
+    "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.title",
+    "defaultMessage": "Remove Team Member from the Workspace",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.titleMultiple",
+    "defaultMessage": "Remove Team Members from the Workspace",
     "message": ""
   },
   {
@@ -5582,6 +5722,16 @@
   {
     "id": "SavedReportsTableItem.showMoreScheduling",
     "defaultMessage": "Show more",
+    "message": ""
+  },
+  {
+    "id": "SelectorListItem.default",
+    "defaultMessage": "Default",
+    "message": ""
+  },
+  {
+    "id": "SelectorListItem.setAsDefault",
+    "defaultMessage": "Set as default",
     "message": ""
   },
   {
