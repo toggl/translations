@@ -111,7 +111,7 @@
   },
   {
     "id": "AddEditOrganizationGroupDialog.workspaceFieldTooltip",
-    "defaultMessage": "Tooltip content will be here",
+    "defaultMessage": "Members of the group will automatically become members of the Workspaces that the group is assigned to",
     "message": ""
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "id": "AddProjectMemberDialog.cost.tooltip",
-    "defaultMessage": "Team member's hourly wage. Used to calculate profitability in Toggl Insights.",
+    "defaultMessage": "Team member's hourly wage. Used to calculate profitability in Toggl Track Insights.",
     "message": ""
   },
   {
@@ -371,7 +371,7 @@
   },
   {
     "id": "BackendUnavailable.pleaseWait",
-    "defaultMessage": "Please wait while we try to reconnect you to Toggl.",
+    "defaultMessage": "Please wait while we try to reconnect you to Toggl Track.",
     "message": ""
   },
   {
@@ -715,6 +715,11 @@
     "message": ""
   },
   {
+    "id": "BulkEditProjectsDialog.teamFilterPlaceholder",
+    "defaultMessage": "Set up a New Team",
+    "message": ""
+  },
+  {
     "id": "BulkEditProjectsDialog.teamRequired",
     "defaultMessage": "Team is required when changing to private",
     "message": ""
@@ -725,8 +730,28 @@
     "message": ""
   },
   {
-    "id": "Calendar.Event.noData",
-    "defaultMessage": "Add description",
+    "id": "Calendar.Event.inaccessibleLabel",
+    "defaultMessage": "(Inaccessible project)",
+    "message": ""
+  },
+  {
+    "id": "Calendar.Event.inaccessibleTitle",
+    "defaultMessage": "Project is not available",
+    "message": ""
+  },
+  {
+    "id": "Calendar.Event.locked",
+    "defaultMessage": "Time entry is locked",
+    "message": ""
+  },
+  {
+    "id": "Calendar.Event.lockedLabel",
+    "defaultMessage": "Locked",
+    "message": ""
+  },
+  {
+    "id": "Calendar.Event.unsynced",
+    "defaultMessage": "Time entry is not synced",
     "message": ""
   },
   {
@@ -991,7 +1016,7 @@
   },
   {
     "id": "CloseAccountPopup.survey.answerDifferentExplanation",
-    "defaultMessage": "Better explanation of what Toggl offers",
+    "defaultMessage": "Better explanation of what Toggl Track offers",
     "message": ""
   },
   {
@@ -1011,7 +1036,7 @@
   },
   {
     "id": "CloseAccountPopup.survey.answerDifficultImportData",
-    "defaultMessage": "Getting my data into Toggl",
+    "defaultMessage": "Getting my data into Toggl Track",
     "message": ""
   },
   {
@@ -1021,7 +1046,7 @@
   },
   {
     "id": "CloseAccountPopup.survey.answerDifficultUnderstanding",
-    "defaultMessage": "Understanding what Toggl offers",
+    "defaultMessage": "Understanding what Toggl Track offers",
     "message": ""
   },
   {
@@ -1061,12 +1086,12 @@
   },
   {
     "id": "CloseAccountPopup.survey.answerWhyCloseDontUnderstand",
-    "defaultMessage": "I don't understand what Toggl offers",
+    "defaultMessage": "I don't understand what Toggl Track offers",
     "message": ""
   },
   {
     "id": "CloseAccountPopup.survey.answerWhyCloseNoNeed",
-    "defaultMessage": "I don't need Toggl anymore",
+    "defaultMessage": "I don't need Toggl Track anymore",
     "message": ""
   },
   {
@@ -1106,7 +1131,7 @@
   },
   {
     "id": "CloseAccountPopup.title",
-    "defaultMessage": "Thank you for using Toggl!",
+    "defaultMessage": "Thank you for using Toggl Track!",
     "message": ""
   },
   {
@@ -1401,7 +1426,7 @@
   },
   {
     "id": "CreateWorkspaceDialog.createNewWorkspace",
-    "defaultMessage": "Create a new workspace now to continue using Toggl.",
+    "defaultMessage": "Create a new workspace now to continue using Toggl Track.",
     "message": ""
   },
   {
@@ -1581,7 +1606,7 @@
   },
   {
     "id": "DebugNavigation.downloadPrompt",
-    "defaultMessage": "A file will now be downloaded through your browser. This may take a moment.\n\nThe file will not contain any of your personal or identifiable data and is confined to the Toggl Web application only.\n\nPlease reply to the support e-mail, attaching the file that is downloaded.\n\nAnd thanks!",
+    "defaultMessage": "A file will now be downloaded through your browser. This may take a moment.\n\nThe file will not contain any of your personal or identifiable data and is confined to the Toggl Track Web application only.\n\nPlease reply to the support e-mail, attaching the file that is downloaded.\n\nAnd thanks!",
     "message": ""
   },
   {
@@ -2006,7 +2031,7 @@
   },
   {
     "id": "DisableOAuthConfirmation.ResetPassword.description",
-    "defaultMessage": "No password is set for your Toggl account. To set one, click Reset Password and follow the instructions.",
+    "defaultMessage": "No password is set for your Toggl Track account. To set one, click Reset Password and follow the instructions.",
     "message": ""
   },
   {
@@ -2031,7 +2056,7 @@
   },
   {
     "id": "DisableOAuthConfirmation.text",
-    "defaultMessage": "Disabling this login means you'll only be able to log in with {otherService, select, google {Google or } apple {Apple or } none {}}your email and Toggl password.",
+    "defaultMessage": "Disabling this login means you'll only be able to log in with {otherService, select, google {Google or } apple {Apple or } none {}}your email and Toggl Track password.",
     "message": ""
   },
   {
@@ -2731,7 +2756,7 @@
   },
   {
     "id": "IE11DeprecationBanner.text",
-    "defaultMessage": "Internet Explorer 11 is no longer supported by Toggl. {link}",
+    "defaultMessage": "Internet Explorer 11 is no longer supported by Toggl Track. {link}",
     "message": ""
   },
   {
@@ -2741,7 +2766,7 @@
   },
   {
     "id": "Insights.reminders.LabourCostIntro.beforeLink",
-    "defaultMessage": "Welcome to Toggl Insights! To view {view, select, projects {project profitability} employees {employee profitability} compare {comparative graphs} trends {data trends} }, you need to set the labor costs of users in your workspace {link}",
+    "defaultMessage": "Welcome to Toggl Track Insights! To view {view, select, projects {project profitability} employees {employee profitability} compare {comparative graphs} trends {data trends} }, you need to set the labor costs of users in your workspace {link}",
     "message": ""
   },
   {
@@ -3061,7 +3086,7 @@
   },
   {
     "id": "InsightsUpsell.title",
-    "defaultMessage": "Toggl Insights",
+    "defaultMessage": "Toggl Track Insights",
     "message": ""
   },
   {
@@ -3117,6 +3142,11 @@
   {
     "id": "InviteMembersDialog.form.noEmails",
     "defaultMessage": "Please enter at least one email address",
+    "message": ""
+  },
+  {
+    "id": "InviteMembersDialog.form.noWorkspaces",
+    "defaultMessage": "Please select at least one workspace",
     "message": ""
   },
   {
@@ -3231,7 +3261,7 @@
   },
   {
     "id": "MeetTogglDialog.content",
-    "defaultMessage": "We will be in the area on {date} to meet some wonderful Toggl users. Do you want to meet for coffee and chat about Toggl?",
+    "defaultMessage": "We will be in the area on {date} to meet some wonderful Toggl Track users. Do you want to meet for coffee and chat about Toggl Track?",
     "message": ""
   },
   {
@@ -3307,6 +3337,16 @@
   {
     "id": "MembersFiltersall",
     "defaultMessage": "All",
+    "message": ""
+  },
+  {
+    "id": "MembersInput.loadMore",
+    "defaultMessage": "Load More",
+    "message": ""
+  },
+  {
+    "id": "MembersInput.remainingUsersLabel",
+    "defaultMessage": "+ {remainingUsers} {remainingUsers, plural,\n      one { member}\n      other { members}}",
     "message": ""
   },
   {
@@ -3465,11 +3505,6 @@
     "message": ""
   },
   {
-    "id": "Navigation.training",
-    "defaultMessage": "Training",
-    "message": ""
-  },
-  {
     "id": "Navigation.workspaceDivider",
     "defaultMessage": "Workspace",
     "message": ""
@@ -3526,7 +3561,7 @@
   },
   {
     "id": "NewUserOverlay.obm.heading",
-    "defaultMessage": "Welcome to Toggl",
+    "defaultMessage": "Welcome to Toggl Track",
     "message": ""
   },
   {
@@ -3542,6 +3577,11 @@
   {
     "id": "NewUserOverlay.text",
     "defaultMessage": "Get ready to track time and boost your productivity!",
+    "message": ""
+  },
+  {
+    "id": "NewWorkspaceDialog.adminsDescription",
+    "defaultMessage": "Organization admins have admin rights by default.",
     "message": ""
   },
   {
@@ -3700,6 +3740,26 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamFilters.Status.active",
+    "defaultMessage": "Active",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamFilters.Status.inactive",
+    "defaultMessage": "Inactive",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamFilters.Status.invited",
+    "defaultMessage": "Invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.inviteMembers.success",
+    "defaultMessage": "Member(s) invited",
+    "message": ""
+  },
+  {
     "id": "Organization.WorkspaceDetails.Header.activity",
     "defaultMessage": "Activity",
     "message": ""
@@ -3820,6 +3880,41 @@
     "message": ""
   },
   {
+    "id": "Organization.WorkspaceUserContextItem.remove",
+    "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceUserContextItem.removeExplanation",
+    "defaultMessage": "To remove this member from this Workspace, please assign them to another Workspace first.",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceUserContextItem.removeTitle",
+    "defaultMessage": "Member should belong to at least 1 Workspace.",
+    "message": ""
+  },
+  {
+    "id": "Organization.flashMessage.removeMember.error",
+    "defaultMessage": "Member could not be removed",
+    "message": ""
+  },
+  {
+    "id": "Organization.flashMessage.removeMember.success",
+    "defaultMessage": "Member removed",
+    "message": ""
+  },
+  {
+    "id": "OrganizationGroupPopdownField.search",
+    "defaultMessage": "Search groups",
+    "message": ""
+  },
+  {
+    "id": "OrganizationGroupPopdownField.selected",
+    "defaultMessage": "{value} selected",
+    "message": ""
+  },
+  {
     "id": "OrganizationSettings.general.organizationLongNameError",
     "defaultMessage": "Please enter a name that is less than 140 characters",
     "message": ""
@@ -3831,7 +3926,7 @@
   },
   {
     "id": "OrganizationSettings.general.organizationNameTooltip",
-    "defaultMessage": "Organization name is visible in Toggl app and on billing invoices.",
+    "defaultMessage": "Organization name is visible in Toggl Track app and on billing invoices.",
     "message": ""
   },
   {
@@ -3842,6 +3937,46 @@
   {
     "id": "OrganizationSettings.general.organizationPricingPlan",
     "defaultMessage": "Pricing Plan",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceListItem.default",
+    "defaultMessage": "Default",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceListItem.setAsDefault",
+    "defaultMessage": "Set as default",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.filterPlaceholder",
+    "defaultMessage": "Find Workspaces...",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.labelNewWorkspace",
+    "defaultMessage": "New Workspace",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.labelOrganization",
+    "defaultMessage": "Organization",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.labelWorkspaces",
+    "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceTooltip.Label",
+    "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceTooltip.Tooltip",
+    "defaultMessage": "To switch workspaces, click on the workspace name",
     "message": ""
   },
   {
@@ -4106,7 +4241,7 @@
   },
   {
     "id": "Profile.APIToken.subtitle",
-    "defaultMessage": "This is a unique identifier used to authenticate you to Toggl. Keep your Token private to avoid sharing sensitive information.",
+    "defaultMessage": "This is a unique identifier used to authenticate you to Toggl Track. Keep your Token private to avoid sharing sensitive information.",
     "message": ""
   },
   {
@@ -4146,7 +4281,7 @@
   },
   {
     "id": "Profile.Avatar.gravatarError",
-    "defaultMessage": "Couldn't fetch your Gravatar. Are you using the same e-mail both in Toggl and Gravatar?",
+    "defaultMessage": "Couldn't fetch your Gravatar. Are you using the same e-mail both in Toggl Track and Gravatar?",
     "message": ""
   },
   {
@@ -4351,7 +4486,7 @@
   },
   {
     "id": "ProfileCheckbox.email.sendNewsletters",
-    "defaultMessage": "Toggl can send newsletters by email",
+    "defaultMessage": "Toggl Track can send newsletters by email",
     "message": ""
   },
   {
@@ -4401,7 +4536,7 @@
   },
   {
     "id": "ProfileContaner.timeAndDate.subtitle",
-    "defaultMessage": "Choose how your times are shown across Toggl",
+    "defaultMessage": "Choose how your times are shown across Toggl Track",
     "message": ""
   },
   {
@@ -4701,7 +4836,7 @@
   },
   {
     "id": "ProjectTeamListItem.costTooltip",
-    "defaultMessage": "Team member's hourly wage. Used to calculate<br></br>profitability in Toggl Insights.",
+    "defaultMessage": "Team member's hourly wage. Used to calculate<br></br>profitability in Toggl Track Insights.",
     "message": ""
   },
   {
@@ -5120,6 +5255,21 @@
     "message": ""
   },
   {
+    "id": "RebrandingReloginDialog.linkContent",
+    "defaultMessage": "login page",
+    "message": ""
+  },
+  {
+    "id": "RebrandingReloginDialog.paragraph",
+    "defaultMessage": "The time has come. Go to our new {link} to access Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "RebrandingReloginDialog.title",
+    "defaultMessage": "Toggl is now Toggl Track!",
+    "message": ""
+  },
+  {
     "id": "RelativeDate.today",
     "defaultMessage": "Today, { time }",
     "message": ""
@@ -5127,6 +5277,41 @@
   {
     "id": "RelativeDate.yesterday",
     "defaultMessage": "Yesterday, { time }",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.confirmationText",
+    "defaultMessage": "Are you sure you want to remove {userName} from the Workspace?",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.confirmationTextMultiple",
+    "defaultMessage": "Are you sure you want to remove them from this Workspace?",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.mainText",
+    "defaultMessage": "This Team Member will no longer have access to this Workspace.",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.mainTextMultiple",
+    "defaultMessage": "These Team Members will no longer have access to this Workspace.",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.remove",
+    "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.title",
+    "defaultMessage": "Remove Team Member from the Workspace",
+    "message": ""
+  },
+  {
+    "id": "RemoveWorkspaceMemberDialog.titleMultiple",
+    "defaultMessage": "Remove Team Members from the Workspace",
     "message": ""
   },
   {
@@ -5585,6 +5770,16 @@
     "message": ""
   },
   {
+    "id": "SelectorListItem.default",
+    "defaultMessage": "Default",
+    "message": ""
+  },
+  {
+    "id": "SelectorListItem.setAsDefault",
+    "defaultMessage": "Set as default",
+    "message": ""
+  },
+  {
     "id": "Settings.Alerts.AddAlertButton.link",
     "defaultMessage": "Find out more",
     "message": ""
@@ -5806,7 +6001,7 @@
   },
   {
     "id": "Settings.General.Footer.content",
-    "defaultMessage": "Need help making Toggl fit your team's needs? {link}",
+    "defaultMessage": "Need help making Toggl Track fit your team's needs? {link}",
     "message": ""
   },
   {
@@ -6006,7 +6201,7 @@
   },
   {
     "id": "Settings.General.WorkspaceLogo.tooltipInfo",
-    "defaultMessage": "Workspace logo will be visible in Toggl app, Saved Reports and on invoices",
+    "defaultMessage": "Workspace logo will be visible in Toggl Track app, Saved Reports and on invoices",
     "message": ""
   },
   {
@@ -6061,7 +6256,7 @@
   },
   {
     "id": "Settings.General.workspaceNameTooltip",
-    "defaultMessage": "Workspace name is visible in Toggl app and on billing invoices.",
+    "defaultMessage": "Workspace name is visible in Toggl Track app and on billing invoices.",
     "message": ""
   },
   {
@@ -6167,16 +6362,6 @@
   {
     "id": "Settings.Import.Data.users",
     "defaultMessage": "Users",
-    "message": ""
-  },
-  {
-    "id": "Settings.Import.Footer.content",
-    "defaultMessage": "Need help making Toggl fit your team's needs? {link}",
-    "message": ""
-  },
-  {
-    "id": "Settings.Import.Footer.link",
-    "defaultMessage": "Hire Toggl consultant",
     "message": ""
   },
   {
@@ -6641,7 +6826,7 @@
   },
   {
     "id": "Settings.SSO.NoAccessView.explanation",
-    "defaultMessage": "SSO is a feature for Premium Workspaces that allows users to use a single set of credentials to log in to Toggl.{lineBreak}Find out more in our {link}",
+    "defaultMessage": "SSO is a feature for Premium Workspaces that allows users to use a single set of credentials to log in to Toggl Track.{lineBreak}Find out more in our {link}",
     "message": ""
   },
   {
@@ -6736,7 +6921,7 @@
   },
   {
     "id": "Settings.SSO.SSODeleteConfirmationDialog.confirmation",
-    "defaultMessage": "Users may have to use the Reset Password feature to set passwords for their Toggl accounts.",
+    "defaultMessage": "Users may have to use the Reset Password feature to set passwords for their Toggl Track accounts.",
     "message": ""
   },
   {
@@ -6791,7 +6976,7 @@
   },
   {
     "id": "Settings.SSO.SurveyForm.answer1",
-    "defaultMessage": "Give your users an option to log in to Toggl with SSO",
+    "defaultMessage": "Give your users an option to log in to Toggl Track with SSO",
     "message": ""
   },
   {
@@ -6801,12 +6986,12 @@
   },
   {
     "id": "Settings.SSO.SurveyForm.answer3",
-    "defaultMessage": "Manage (add, edit and remove) your users in Toggl via your IdP",
+    "defaultMessage": "Manage (add, edit and remove) your users in Toggl Track via your IdP",
     "message": ""
   },
   {
     "id": "Settings.SSO.SurveyForm.answer4",
-    "defaultMessage": "Manage user account permissions in Toggl (e.g. change name, email or other account related details) via your IdP",
+    "defaultMessage": "Manage user account permissions in Toggl Track (e.g. change name, email or other account related details) via your IdP",
     "message": ""
   },
   {
@@ -6971,7 +7156,7 @@
   },
   {
     "id": "SharedReport.Footer.title",
-    "defaultMessage": "This report was made using Toggl",
+    "defaultMessage": "This report was made using Toggl Track",
     "message": ""
   },
   {
@@ -8666,7 +8851,7 @@
   },
   {
     "id": "TermsOfServiceDialog.text",
-    "defaultMessage": "Please read and accept our updated {termsLink} and {privacyPolicy} to continue using Toggl.",
+    "defaultMessage": "Please read and accept our updated {termsLink} and {privacyPolicy} to continue using Toggl Track.",
     "message": ""
   },
   {
@@ -9046,7 +9231,7 @@
   },
   {
     "id": "TogglButtonDialog.content",
-    "defaultMessage": "Start Toggl timer from anywhere on the web",
+    "defaultMessage": "Start Toggl Track timer from anywhere on the web",
     "message": ""
   },
   {
@@ -9721,7 +9906,7 @@
   },
   {
     "id": "announcement.androidApp.button",
-    "defaultMessage": "Get the new Toggl Android app",
+    "defaultMessage": "Get the new Toggl Track Android app",
     "message": ""
   },
   {
@@ -9846,7 +10031,7 @@
   },
   {
     "id": "announcement.iosApp.button",
-    "defaultMessage": "Get the new Toggl iOS app",
+    "defaultMessage": "Get the new Toggl Track iOS app",
     "message": ""
   },
   {
@@ -9911,12 +10096,12 @@
   },
   {
     "id": "announcement.masterCampaign.listItemSecond",
-    "defaultMessage": "Harness the power of Toggl's advanced features",
+    "defaultMessage": "Harness the power of Toggl Track's advanced features",
     "message": ""
   },
   {
     "id": "announcement.masterCampaign.listItemThird",
-    "defaultMessage": "Learn how to integrate Toggl with everyone's workflow",
+    "defaultMessage": "Learn how to integrate Toggl Track with everyone's workflow",
     "message": ""
   },
   {
@@ -9926,7 +10111,7 @@
   },
   {
     "id": "announcement.masterCampaign.title",
-    "defaultMessage": "Get free personalized{lineBreak}Toggl training",
+    "defaultMessage": "Get free personalized{lineBreak}Toggl Track training",
     "message": ""
   },
   {
@@ -9987,11 +10172,6 @@
   {
     "id": "announcements.betaTest.cta",
     "defaultMessage": "Become a Beta Tester!",
-    "message": ""
-  },
-  {
-    "id": "calendar.timeEntryLocked",
-    "defaultMessage": "This time entry is locked and cannot be edited",
     "message": ""
   },
   {
@@ -10247,7 +10427,7 @@
   },
   {
     "id": "popup.savedReports.listItemSecond",
-    "defaultMessage": "Share links to Saved Reports with anyone, even if they don’t use Toggl",
+    "defaultMessage": "Share links to Saved Reports with anyone, even if they don’t use Toggl Track",
     "message": ""
   },
   {
@@ -10463,12 +10643,12 @@
   },
   {
     "id": "sagas.enterpriseContact.flashMessage.body",
-    "defaultMessage": "We will get back to you as soon as possible. Until then please feel free to choose any other plan to try out Toggl features.",
+    "defaultMessage": "We will get back to you as soon as possible. Until then please feel free to choose any other plan to try out Toggl Track features.",
     "message": ""
   },
   {
     "id": "sagas.enterpriseContact.flashMessage.title",
-    "defaultMessage": "Request sent to Toggl",
+    "defaultMessage": "Request sent to Toggl Track",
     "message": ""
   },
   {
