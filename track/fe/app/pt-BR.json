@@ -906,7 +906,7 @@
   },
   {
     "id": "Clients.NameUpdate.error",
-    "defaultMessage": "The tag could not be renamed. Please try again.",
+    "defaultMessage": "Client could not be renamed. Please try again.",
     "message": ""
   },
   {
