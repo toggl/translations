@@ -755,6 +755,21 @@
     "message": ""
   },
   {
+    "id": "Calendar.ExternalEventPopup.copyEntry",
+    "defaultMessage": "Copy as Time Entry",
+    "message": ""
+  },
+  {
+    "id": "Calendar.ExternalEventPopup.startEntry",
+    "defaultMessage": "Start Time Entry",
+    "message": ""
+  },
+  {
+    "id": "Calendar.ExternalEventPopup.viewInExternalCalendar",
+    "defaultMessage": "View in {providerName}",
+    "message": ""
+  },
+  {
     "id": "Calendar.GutterHeader.decrease",
     "defaultMessage": "Decrease zoom",
     "message": ""
@@ -765,8 +780,43 @@
     "message": ""
   },
   {
+    "id": "Calendar.header.menu.connectGoogleCalendar",
+    "defaultMessage": "Connect Google Calendar",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.externalCalendarSettings",
+    "defaultMessage": "External calendar settings",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.title",
+    "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
+    "id": "Calendar.integrations.pullErrorText",
+    "defaultMessage": "Please refresh the page. If that doesn't help, please reach out to support.",
+    "message": ""
+  },
+  {
+    "id": "Calendar.integrations.pullErrorTitle",
+    "defaultMessage": "{providerName} is unable to sync",
+    "message": ""
+  },
+  {
+    "id": "Calendar.integrations.selectCalendarError",
+    "defaultMessage": "Something went wrong updating the calendar. Please try again or reach out to support.",
+    "message": ""
+  },
+  {
     "id": "Calendar.lockedError",
     "defaultMessage": "Your workspace admin has locked time entries up to {lockDate} (UTC time)",
+    "message": ""
+  },
+  {
+    "id": "CalendarIntegrationsProvider.google",
+    "defaultMessage": "Google Calendar",
     "message": ""
   },
   {
@@ -906,7 +956,7 @@
   },
   {
     "id": "Clients.NameUpdate.error",
-    "defaultMessage": "The tag could not be renamed. Please try again.",
+    "defaultMessage": "Client could not be renamed. Please try again.",
     "message": ""
   },
   {
@@ -3730,6 +3780,31 @@
     "message": ""
   },
   {
+    "id": "Organization.Settings.OrganizationOwnership.noOtherAdmins",
+    "defaultMessage": "To change the ownership of the Organization, first add another Admin on the {link}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Settings.OrganizationOwnership.requestTransfer",
+    "defaultMessage": "Request ownership transfer",
+    "message": ""
+  },
+  {
+    "id": "Organization.Settings.OrganizationOwnership.subtitle",
+    "defaultMessage": "Team member who controls the data associated with this Organization. {link}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Settings.OrganizationOwnership.teamPageLink",
+    "defaultMessage": "Team page",
+    "message": ""
+  },
+  {
+    "id": "Organization.Settings.OrganizationOwnership.title",
+    "defaultMessage": "Organization ownership",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.delete",
     "defaultMessage": "Delete",
     "message": ""
@@ -3937,6 +4012,46 @@
   {
     "id": "OrganizationSettings.general.organizationPricingPlan",
     "defaultMessage": "Pricing Plan",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.body",
+    "defaultMessage": "The transfer might take some time. Everyone involved will be asked to confirm the transfer.",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.bodyBlocked",
+    "defaultMessage": "Another transfer is in progress for your Organization. You cannot request a new transfer until this is completed.",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.bodyCancel",
+    "defaultMessage": "You can cancel the request or wait for the transfer to be completed.",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.ctaBlocked",
+    "defaultMessage": "Cancel request",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.placeholder",
+    "defaultMessage": "Select new Organization owner",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.submit",
+    "defaultMessage": "Send request",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.title",
+    "defaultMessage": "Request ownership transfer",
+    "message": ""
+  },
+  {
+    "id": "OrganizationTransferDialog.titleRunning",
+    "defaultMessage": "Awaiting confirmation for transfer of ownership to {name}",
     "message": ""
   },
   {
@@ -4462,6 +4577,71 @@
   {
     "id": "Profile.UserDetails.nameLabel",
     "defaultMessage": "Your name",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.calendarListToggleHide",
+    "defaultMessage": "Hide unselected calendars",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.calendarListToggleShow",
+    "defaultMessage": "Show unselected calendars",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.calendarTableColumn",
+    "defaultMessage": "Calendar",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.confirmation",
+    "defaultMessage": "Your events won't appear in the Calendar View anymore. You can re-connect {providerName} at any time if you change your mind.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.connectButton",
+    "defaultMessage": "Connect",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.connectProviderTitle",
+    "defaultMessage": "Connect {providerName}",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.deleteConfirmTitle",
+    "defaultMessage": "Remove {providerName}",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.integrationSynced",
+    "defaultMessage": "Synced {timeAgo}",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.main",
+    "defaultMessage": "{providerName} will be disconnected from Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.remove",
+    "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.removeIntegration",
+    "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.subtitle",
+    "defaultMessage": "Connect a calendar to see your events and easily create Time Entries. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.title",
+    "defaultMessage": "External calendars",
     "message": ""
   },
   {
@@ -9102,6 +9282,16 @@
   {
     "id": "Timer.TimerViewSelector.listView",
     "defaultMessage": "List view",
+    "message": ""
+  },
+  {
+    "id": "Timer.TimerViewSelector.onboardingText",
+    "defaultMessage": "View and create Time Entries in the calendar view here",
+    "message": ""
+  },
+  {
+    "id": "Timer.TimerViewSelector.onboardingTitle",
+    "defaultMessage": "Get a new perspective on your time ✨",
     "message": ""
   },
   {
