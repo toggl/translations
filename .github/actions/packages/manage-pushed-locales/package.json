@@ -8,7 +8,7 @@
     "build": "ncc build src/index.ts -o dist"
   },
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^2.1.1",
     "@zeit/ncc": "^0.22.1"
   }
