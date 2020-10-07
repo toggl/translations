@@ -3820,6 +3820,16 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.activate",
+    "defaultMessage": "Activate",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.deactivate",
+    "defaultMessage": "Deactivate",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.delete",
     "defaultMessage": "Delete",
     "message": ""
@@ -3852,6 +3862,31 @@
   {
     "id": "Organization.TeamFilters.Status.invited",
     "defaultMessage": "Invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage",
+    "defaultMessage": "View",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.error",
+    "defaultMessage": "Member could not be activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.success",
+    "defaultMessage": "Member activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.error",
+    "defaultMessage": "Member could not be deactivated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.success",
+    "defaultMessage": "Member deactivated",
     "message": ""
   },
   {
