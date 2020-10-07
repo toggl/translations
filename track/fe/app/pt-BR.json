@@ -3820,6 +3820,11 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.deactivate",
+    "defaultMessage": "Deactivate",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.delete",
     "defaultMessage": "Delete",
     "message": ""
@@ -3852,6 +3857,21 @@
   {
     "id": "Organization.TeamFilters.Status.invited",
     "defaultMessage": "Invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage",
+    "defaultMessage": "View",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.error",
+    "defaultMessage": "Member could not be deactivated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.success",
+    "defaultMessage": "Member deactivated",
     "message": ""
   },
   {
