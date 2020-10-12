@@ -400,6 +400,11 @@
     "message": ""
   },
   {
+    "id": "BetaTestOptIn.betaLabel",
+    "defaultMessage": "Beta",
+    "message": ""
+  },
+  {
     "id": "BetaTestOptIn.disabled.buttonText",
     "defaultMessage": "Enable beta features",
     "message": ""
@@ -3820,6 +3825,16 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.activate",
+    "defaultMessage": "Activate",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.deactivate",
+    "defaultMessage": "Deactivate",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.delete",
     "defaultMessage": "Delete",
     "message": ""
@@ -3852,6 +3867,31 @@
   {
     "id": "Organization.TeamFilters.Status.invited",
     "defaultMessage": "Invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage",
+    "defaultMessage": "View",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.error",
+    "defaultMessage": "Member could not be activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.success",
+    "defaultMessage": "Member activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.error",
+    "defaultMessage": "Member could not be deactivated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.success",
+    "defaultMessage": "Member deactivated",
     "message": ""
   },
   {
@@ -9362,6 +9402,16 @@
   {
     "id": "TimelineIntroDialog.title",
     "defaultMessage": "Timeline",
+    "message": ""
+  },
+  {
+    "id": "Timer.Calendar.integrationOnboardingText",
+    "defaultMessage": "You can now connect to your Google Calendar to see your events and easily convert them to Time Entries.",
+    "message": ""
+  },
+  {
+    "id": "Timer.Calendar.integrationOnboardingTitle",
+    "defaultMessage": "🎉 New beta feature available!",
     "message": ""
   },
   {
