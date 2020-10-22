@@ -400,6 +400,11 @@
     "message": ""
   },
   {
+    "id": "BetaTestOptIn.betaLabel",
+    "defaultMessage": "Beta",
+    "message": ""
+  },
+  {
     "id": "BetaTestOptIn.disabled.buttonText",
     "defaultMessage": "Enable beta features",
     "message": ""
@@ -491,7 +496,7 @@
   },
   {
     "id": "BillableSwitch.upsell",
-    "defaultMessage": "Creating billable time-entries is a Starter feature {url}",
+    "defaultMessage": "Billable rates is a Starter feature. {url}",
     "message": ""
   },
   {
@@ -782,6 +787,16 @@
   {
     "id": "Calendar.header.menu.connectGoogleCalendar",
     "defaultMessage": "Connect Google Calendar",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.connectTooltipText",
+    "defaultMessage": "Connected calendar events are private - only you can see them. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.connectTooltipTitle",
+    "defaultMessage": "See your calendar events and easily convert them to Time Entries",
     "message": ""
   },
   {
@@ -2390,6 +2405,11 @@
     "message": ""
   },
   {
+    "id": "EditOrganizationMemberDialog.form.noWorkspaces",
+    "defaultMessage": "Member should belong to at least 1 Workspace",
+    "message": ""
+  },
+  {
     "id": "EditOrganizationMemberDialog.groups",
     "defaultMessage": "Groups",
     "message": ""
@@ -2767,6 +2787,11 @@
   {
     "id": "GroupPopdown.trigger",
     "defaultMessage": "Groups",
+    "message": ""
+  },
+  {
+    "id": "Headers.Title.beta",
+    "defaultMessage": "Beta",
     "message": ""
   },
   {
@@ -3405,6 +3430,11 @@
     "message": ""
   },
   {
+    "id": "Nav.controls.beta",
+    "defaultMessage": "Beta",
+    "message": ""
+  },
+  {
     "id": "Navigation.ReconnectButton",
     "defaultMessage": "Reconnect",
     "message": ""
@@ -3790,6 +3820,86 @@
     "message": ""
   },
   {
+    "id": "Organization.New.Steps.Invite.continue",
+    "defaultMessage": "Continue",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.emailsError",
+    "defaultMessage": "Please enter valid email address(es)",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.skip",
+    "defaultMessage": "I'll invite them later",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.subtitle",
+    "defaultMessage": "You can invite up to 4 people using their email address.{lineBreak}Later, you can invite and manage all your members in the Teams page.  ",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.title",
+    "defaultMessage": "Invite others to your Organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.tooManyInvitesError",
+    "defaultMessage": "Invite up to 4 people now. More can be added after upgrading",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.continue",
+    "defaultMessage": "Continue",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.label",
+    "defaultMessage": "Organization Name",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.nameTooLongError",
+    "defaultMessage": "Please enter a name that is less than 140 characters",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.noNameError",
+    "defaultMessage": "Please choose a name",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.subtitle",
+    "defaultMessage": "Give your Organization a name. Don't worry, you can change it later.",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.title",
+    "defaultMessage": "Create new Organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.body",
+    "defaultMessage": "You can adjust your Organization set-up on the {link} page{lineBreak}or, you can just start tracking time now!",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.buttonText",
+    "defaultMessage": "Start tracking",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.settingsPage",
+    "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.title",
+    "defaultMessage": "Organization {organizationName} created {lineBreak}successfully!",
+    "message": ""
+  },
+  {
     "id": "Organization.Settings.OrganizationOwnership.noOtherAdmins",
     "defaultMessage": "To change the ownership of the Organization, first add another Admin on the {link}",
     "message": ""
@@ -3820,8 +3930,23 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.activate",
+    "defaultMessage": "Activate",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.deactivate",
+    "defaultMessage": "Deactivate",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.delete",
     "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.deleteOwnerTooltip",
+    "defaultMessage": "Owner cannot be deleted",
     "message": ""
   },
   {
@@ -3852,6 +3977,31 @@
   {
     "id": "Organization.TeamFilters.Status.invited",
     "defaultMessage": "Invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage",
+    "defaultMessage": "View",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.error",
+    "defaultMessage": "Member could not be activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.success",
+    "defaultMessage": "Member activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.error",
+    "defaultMessage": "Member could not be deactivated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.success",
+    "defaultMessage": "Member deactivated",
     "message": ""
   },
   {
@@ -3940,11 +4090,6 @@
     "message": ""
   },
   {
-    "id": "Organization.WorkspaceDetails.editButton",
-    "defaultMessage": "Edit Workspace",
-    "message": ""
-  },
-  {
     "id": "Organization.WorkspaceDetails.nameHeader",
     "defaultMessage": "All groups/members",
     "message": ""
@@ -4007,6 +4152,26 @@
   {
     "id": "Organization.flashMessage.removeMember.success",
     "defaultMessage": "Member removed",
+    "message": ""
+  },
+  {
+    "id": "Organization.new.back",
+    "defaultMessage": "Back",
+    "message": ""
+  },
+  {
+    "id": "Organization.restricted.disclaimer",
+    "defaultMessage": "Contact your Organization admin or switch to another Workspace to continue using Toggl",
+    "message": ""
+  },
+  {
+    "id": "Organization.restricted.switchWorkspace",
+    "defaultMessage": "Switch between Workspaces",
+    "message": ""
+  },
+  {
+    "id": "Organization.restricted.title",
+    "defaultMessage": "You are not a member of any Workspaces",
     "message": ""
   },
   {
@@ -4110,8 +4275,8 @@
     "message": ""
   },
   {
-    "id": "OrganizationWorkspaceMenu.labelNewWorkspace",
-    "defaultMessage": "New Workspace",
+    "id": "OrganizationWorkspaceMenu.labelNewOrganization",
+    "defaultMessage": "New Organization",
     "message": ""
   },
   {
@@ -4122,6 +4287,11 @@
   {
     "id": "OrganizationWorkspaceMenu.labelWorkspaces",
     "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.manageWorkspaces",
+    "defaultMessage": "Manage Workspaces",
     "message": ""
   },
   {
@@ -4670,6 +4840,31 @@
     "message": ""
   },
   {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultDeniedBody",
+    "defaultMessage": "Please try again and make sure you allow Toggl Track to access {providerName}",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultDeniedTitle",
+    "defaultMessage": "Access to {providerName} denied",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultErrorBody",
+    "defaultMessage": "Please try again. If that doesn't help, reach out to support",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultErrorTitle",
+    "defaultMessage": "Something went wrong when connecting to {providerName}",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultSuccess",
+    "defaultMessage": "{providerName} is now connected",
+    "message": ""
+  },
+  {
     "id": "Profile.calendarIntegration.integrationSynced",
     "defaultMessage": "Synced {timeAgo}",
     "message": ""
@@ -4691,7 +4886,7 @@
   },
   {
     "id": "Profile.calendarIntegration.subtitle",
-    "defaultMessage": "Connect a calendar to see your events and easily create Time Entries. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "defaultMessage": "Connect a calendar to see your events and easily create Time Entries. Connected calendar events are private - only you can see them. <findOutMoreLink>Find out more</findOutMoreLink>",
     "message": ""
   },
   {
@@ -8460,21 +8655,6 @@
     "message": ""
   },
   {
-    "id": "TagSelectionPrompt.contentTip.addTag",
-    "defaultMessage": "Press Enter to add tag \"{tag}\"",
-    "message": ""
-  },
-  {
-    "id": "TagSelectionPrompt.contentTip.createTag",
-    "defaultMessage": "Press {prompt} to create tag \"{tag}\"",
-    "message": ""
-  },
-  {
-    "id": "TagSelectionPrompt.contentTip.removeTag",
-    "defaultMessage": "Press Enter to remove tag \"{tag}\"",
-    "message": ""
-  },
-  {
     "id": "Tags.NameUpdate.error",
     "defaultMessage": "The tag could not be renamed. Please try again.",
     "message": ""
@@ -8526,17 +8706,17 @@
   },
   {
     "id": "TagsPopdown.contentTip.createTag",
-    "defaultMessage": "Press {prompt} to create tag \"{tag}\"",
+    "defaultMessage": "Try a different keyword or press {prompt} to create a new tag.",
     "message": ""
   },
   {
     "id": "TagsPopdown.contentTip.noTagsMatchingSearch",
-    "defaultMessage": "No tags match your search",
+    "defaultMessage": "No matching tags",
     "message": ""
   },
   {
     "id": "TagsPopdown.contentTip.noTagsYet",
-    "defaultMessage": "No tags yet",
+    "defaultMessage": "There are no tags yet",
     "message": ""
   },
   {
@@ -8546,7 +8726,7 @@
   },
   {
     "id": "TagsPopdown.contentTip.startTyping",
-    "defaultMessage": "Start typing to create one!",
+    "defaultMessage": "Start typing and press {prompt} to create a new tag.",
     "message": ""
   },
   {
@@ -8555,8 +8735,28 @@
     "message": ""
   },
   {
+    "id": "TagsPopdownById.createTagActiveTitle",
+    "defaultMessage": "Create a tag \"{name}\"",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.createTagDisabledEmptyTitle",
+    "defaultMessage": "Start typing to add a new tag",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.createTagDisabledUniqueTitle",
+    "defaultMessage": "Pick a unique name for the tag to add it",
+    "message": ""
+  },
+  {
     "id": "TagsPopdownById.filterPlaceholder",
     "defaultMessage": "Add/filter tags",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.labelNewTag",
+    "defaultMessage": "Create a tag \"{name}\"",
     "message": ""
   },
   {
@@ -9362,6 +9562,16 @@
   {
     "id": "TimelineIntroDialog.title",
     "defaultMessage": "Timeline",
+    "message": ""
+  },
+  {
+    "id": "Timer.Calendar.integrationOnboardingText",
+    "defaultMessage": "You can now connect to your Google Calendar to see your events and easily convert them to Time Entries.",
+    "message": ""
+  },
+  {
+    "id": "Timer.Calendar.integrationOnboardingTitle",
+    "defaultMessage": "🎉 New beta feature available!",
     "message": ""
   },
   {
@@ -10560,6 +10770,12 @@
     "message": ""
   },
   {
+    "id": "images.brickslide.alt",
+    "description": "Alt text for brick-slide image",
+    "defaultMessage": "You are not a member of any Workspaces",
+    "message": ""
+  },
+  {
     "id": "images.chairClock.alt",
     "description": "Alt text for clock on chair image",
     "defaultMessage": "Help your team to be on track!",
@@ -10605,6 +10821,12 @@
     "id": "images.restrictedArea.alt",
     "description": "Alt text for restricted area image",
     "defaultMessage": "Restricted area",
+    "message": ""
+  },
+  {
+    "id": "images.rocket.alt",
+    "description": "Alt text for rocket image",
+    "defaultMessage": "Create a new organization",
     "message": ""
   },
   {
