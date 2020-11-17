@@ -491,7 +491,7 @@
   },
   {
     "id": "BillableSwitch.upsell",
-    "defaultMessage": "Creating billable time-entries is a Starter feature {url}",
+    "defaultMessage": "Billable rates is a Starter feature. {url}",
     "message": ""
   },
   {
@@ -735,11 +735,6 @@
     "message": ""
   },
   {
-    "id": "Calendar.Event.inaccessibleTitle",
-    "defaultMessage": "Project is not available",
-    "message": ""
-  },
-  {
     "id": "Calendar.Event.locked",
     "defaultMessage": "Time entry is locked",
     "message": ""
@@ -782,6 +777,16 @@
   {
     "id": "Calendar.header.menu.connectGoogleCalendar",
     "defaultMessage": "Connect Google Calendar",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.connectTooltipText",
+    "defaultMessage": "Connected calendar events are private - only you can see them. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.connectTooltipTitle",
+    "defaultMessage": "See your calendar events and easily convert them to Time Entries",
     "message": ""
   },
   {
@@ -847,6 +852,11 @@
   {
     "id": "Campaign.Generic.renewAnnual",
     "defaultMessage": "Renew your subscription {beforeEnd, select,\n        yes {before {endDate, date, month} {endDay, selectordinal,\n          one {#st}\n          two {#nd}\n          few {#rd}\n          other {#th}}}\n        other {-}} and enjoy {discountPercent, number, percent} off!",
+    "message": ""
+  },
+  {
+    "id": "Campaign.GenericOrganization..default",
+    "defaultMessage": "Upgrade to an annual plan {beforeEnd, select,\n        yes {before {endDate, date, month} {endDay, selectordinal,\n          one {#st}\n          two {#nd}\n          few {#rd}\n          other {#th}} -}\n        other {-}} get an extra {discountPercent, number, percent} off!",
     "message": ""
   },
   {
@@ -1392,6 +1402,11 @@
   {
     "id": "CreateTimeEntryDialog.ContextMenu.duplicate",
     "defaultMessage": "Duplicate",
+    "message": ""
+  },
+  {
+    "id": "CreateTimeEntryDialog.ContextMenu.duplicateDisabled",
+    "defaultMessage": "Time entry must be updated to meet required constraints before it can be duplicated",
     "message": ""
   },
   {
@@ -2370,6 +2385,41 @@
     "message": ""
   },
   {
+    "id": "EditOrganizationMemberDialog.editEmailUpsell",
+    "defaultMessage": "Editing team member's email is a Premium feature.",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.editInvitedEmail",
+    "defaultMessage": "Editing team member's email will be possible after they have joined the Organization",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.editInvitedName",
+    "defaultMessage": "Editing team member's name will be possible after they have joined the Organization",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.editMultiOrganizationUser",
+    "defaultMessage": "Only {userName} can edit their personal details as they have multiple organizations",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.editNameUpsell",
+    "defaultMessage": "Editing team member's name is a Premium feature.",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.editOwnerEmail",
+    "defaultMessage": "Organization Owner's email cannot be changed.",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.editOwnerName",
+    "defaultMessage": "Organization Owner's name cannot be changed.",
+    "message": ""
+  },
+  {
     "id": "EditOrganizationMemberDialog.email",
     "defaultMessage": "Email",
     "message": ""
@@ -2390,6 +2440,11 @@
     "message": ""
   },
   {
+    "id": "EditOrganizationMemberDialog.form.noWorkspaces",
+    "defaultMessage": "Member should belong to at least 1 Workspace",
+    "message": ""
+  },
+  {
     "id": "EditOrganizationMemberDialog.groups",
     "defaultMessage": "Groups",
     "message": ""
@@ -2397,6 +2452,16 @@
   {
     "id": "EditOrganizationMemberDialog.groupsTooltip",
     "defaultMessage": "By assigning Groups, user gains access to all the Projects that are assigned to that Group.",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.modifyPersonalFields",
+    "defaultMessage": "Changes to your name or email will reflect in all your Organizations.",
+    "message": ""
+  },
+  {
+    "id": "EditOrganizationMemberDialog.moreInfo",
+    "defaultMessage": "Read more",
     "message": ""
   },
   {
@@ -2412,11 +2477,6 @@
   {
     "id": "EditOrganizationMemberDialog.title",
     "defaultMessage": "Edit member details",
-    "message": ""
-  },
-  {
-    "id": "EditOrganizationMemberDialog.todo",
-    "defaultMessage": "TODO",
     "message": ""
   },
   {
@@ -2767,6 +2827,11 @@
   {
     "id": "GroupPopdown.trigger",
     "defaultMessage": "Groups",
+    "message": ""
+  },
+  {
+    "id": "Headers.Title.beta",
+    "defaultMessage": "Beta",
     "message": ""
   },
   {
@@ -3405,6 +3470,11 @@
     "message": ""
   },
   {
+    "id": "Nav.controls.beta",
+    "defaultMessage": "Beta",
+    "message": ""
+  },
+  {
     "id": "Navigation.ReconnectButton",
     "defaultMessage": "Reconnect",
     "message": ""
@@ -3745,6 +3815,21 @@
     "message": ""
   },
   {
+    "id": "Organization.Campaign.Generic.annualSavings",
+    "defaultMessage": "Pay yearly and save ${annualSavings}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Campaign.Generic.popup",
+    "defaultMessage": "{discountPercent, number, percent} discount has been added to your subscription",
+    "message": ""
+  },
+  {
+    "id": "Organization.Campaign.Generic.renewAnnual",
+    "defaultMessage": "Renew your subscription {beforeEnd, select,\n        yes {before {endDate, date, month} {endDay, selectordinal,\n          one {#st}\n          two {#nd}\n          few {#rd}\n          other {#th}}}\n        other {-}} and enjoy {discountPercent, number, percent} off!",
+    "message": ""
+  },
+  {
     "id": "Organization.GroupContextMenu.assign",
     "defaultMessage": "Assign to Workspaces",
     "message": ""
@@ -3775,6 +3860,11 @@
     "message": ""
   },
   {
+    "id": "Organization.Header.subscription",
+    "defaultMessage": "Subscription",
+    "message": ""
+  },
+  {
     "id": "Organization.Header.team",
     "defaultMessage": "Team",
     "message": ""
@@ -3787,6 +3877,146 @@
   {
     "id": "Organization.Header.workspaces",
     "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.continue",
+    "defaultMessage": "Continue",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.emailsError",
+    "defaultMessage": "Please enter valid email address(es)",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.skip",
+    "defaultMessage": "I'll invite them later",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.subtitle",
+    "defaultMessage": "You can invite up to 4 people using their email address.{lineBreak}Later, you can invite and manage all your members in the Teams page.  ",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.title",
+    "defaultMessage": "Invite others to your Organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.Invite.tooManyInvitesError",
+    "defaultMessage": "Invite up to 4 people now. More can be added after upgrading",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.continue",
+    "defaultMessage": "Continue",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.label",
+    "defaultMessage": "Organization Name",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.nameTooLongError",
+    "defaultMessage": "Please enter a name that is less than 140 characters",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.noNameError",
+    "defaultMessage": "Please choose a name",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.subtitle",
+    "defaultMessage": "Give your Organization a name. Don't worry, you can change it later.",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Steps.OrganizationName.title",
+    "defaultMessage": "Create new Organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.body",
+    "defaultMessage": "You can adjust your Organization set-up on the {link} page{lineBreak}or, you can just start tracking time now!",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.buttonText",
+    "defaultMessage": "Start tracking",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.settingsPage",
+    "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
+    "id": "Organization.New.Success.title",
+    "defaultMessage": "Organization {organizationName} created {lineBreak}successfully!",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Enterprise.benefit1",
+    "defaultMessage": "Priority support",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Enterprise.benefit2",
+    "defaultMessage": "Expert training and assistance",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Enterprise.benefit3",
+    "defaultMessage": "Customizable solutions",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Free.benefit1",
+    "defaultMessage": "Up to 5 team members",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Free.benefit2",
+    "defaultMessage": "Unlimited Projects",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Free.benefit3",
+    "defaultMessage": "Reliable reporting",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Premium.benefit1",
+    "defaultMessage": "Project and employee profitability reports",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Premium.benefit2",
+    "defaultMessage": "Schedule reports to email, set tracking reminders, add time for your team and more",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Premium.benefit3",
+    "defaultMessage": "Advanced consultancy service to set up your team from scratch",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Starter.benefit1",
+    "defaultMessage": "Unlimited team size",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Starter.benefit2",
+    "defaultMessage": "Billable Rates and Rounding in Reports",
+    "message": ""
+  },
+  {
+    "id": "Organization.PricingPlan.Benefits.Starter.benefit3",
+    "defaultMessage": "Save Reports for easy access",
     "message": ""
   },
   {
@@ -3815,13 +4045,498 @@
     "message": ""
   },
   {
+    "id": "Organization.Subscription.AllPlans.annualBilling",
+    "defaultMessage": "Annual Billing",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.AllPlans.comparePlans",
+    "defaultMessage": "See full plan comparison",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.AllPlans.monthlyBilling",
+    "defaultMessage": "Monthly Billing",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.AllPlans.more",
+    "defaultMessage": "There's more!",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.AllPlans.newWorkspaceTitle",
+    "defaultMessage": "Choose your subscription plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.AllPlans.title",
+    "defaultMessage": "Supercharge your productivity",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.AllPlans.trialText",
+    "defaultMessage": "30-day free trial included",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.addBillingButton",
+    "defaultMessage": "Add billing info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.addressField",
+    "defaultMessage": "Address",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.changeBillingButton",
+    "defaultMessage": "Change billing info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.contactEmailField",
+    "defaultMessage": "Contact Email",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.contactName",
+    "defaultMessage": "Contact Name",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.countryField",
+    "defaultMessage": "Country",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.headerTitle",
+    "defaultMessage": "Billing Info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.noBillingInfo",
+    "defaultMessage": "No billing information available",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.payerField",
+    "defaultMessage": "Payer",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.stateField",
+    "defaultMessage": "State",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.taxNumberField",
+    "defaultMessage": "Tax Number",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.vatNumberField",
+    "defaultMessage": "VAT Number",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.zipCodeField",
+    "defaultMessage": "Zip Code",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.BillingInfo.zipPostalCodeField",
+    "defaultMessage": "Zip/Postal Code",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.answer1",
+    "defaultMessage": "The first 30 days of a new first time subscription are always free. We’ll send a reminder email when the trial is about to end so you can decide whether the plan is right for you.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.answer2",
+    "defaultMessage": "Billing is based on the number of users in the Workspace. All users in the Workspace will be on the chosen subscription plan.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.answer3",
+    "defaultMessage": "We offer discounts for workspaces of 40 users or more. We also have discounts available for non-profit and educational users. <kbLink>Contact our support team</kbLink> for more information.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.answer4",
+    "defaultMessage": "Our preferred payment option is credit card. For annual subscriptions, however, you may also <kbPurchaseOrderLink>pay by wire transfer</kbPurchaseOrderLink>",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.answer5",
+    "defaultMessage": "When the new users join, we’ll create an invoice to cover them until the end of the subscription period, <kbAnnualLink>and bill you automatically</kbAnnualLink>",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.question1",
+    "defaultMessage": "Can I try out a paid plan?",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.question2",
+    "defaultMessage": "How is the price calculated?",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.question3",
+    "defaultMessage": "Do you offer any discounts?",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.question4",
+    "defaultMessage": "Can I pay by wire transfer?",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.question5",
+    "defaultMessage": "What if I’m on an annual plan and need to add<br></br>users during the year?",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Faqs.title",
+    "defaultMessage": "FAQs",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Header.allPlans",
+    "defaultMessage": "All plans",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Header.invoicesAndPayments",
+    "defaultMessage": "Invoices and payments",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Header.overview",
+    "defaultMessage": "Overview",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.changeBillingPeriod",
+    "defaultMessage": "Pay annually",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.costTooltipContent",
+    "defaultMessage": "Including {discount} discount until {date}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.currentPlan.content",
+    "defaultMessage": "{plan} {period}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.currentPlan.contentTrial",
+    "defaultMessage": "FREE trial for {plan}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.currentPlan.periods.annual",
+    "defaultMessage": "annual",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.currentPlan.periods.monthly",
+    "defaultMessage": "monthly",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.currentPlan.title",
+    "defaultMessage": "Current plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.daysLeft.title",
+    "defaultMessage": "Days left on trial",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.header.subtitle",
+    "defaultMessage": "Your subscription will be renewed on {date}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.header.title",
+    "defaultMessage": "My Plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.montlyCost.title",
+    "defaultMessage": "Cost User/Month",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.savingsInfo",
+    "defaultMessage": "Save {amount} by paying for a year!",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.MyPlan.usersNumber.title",
+    "defaultMessage": "Users",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.InvalidVat.line1",
+    "defaultMessage": "There is an issue with your VAT number.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.InvalidVat.link",
+    "defaultMessage": "Check billing info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.NoBillingInfo.link",
+    "defaultMessage": "Add billing info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.NoBillingInfo.text",
+    "defaultMessage": "Please add billing info to continue using {plan}.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.NoPaymentMethod.description",
+    "defaultMessage": "Please add payment details to continue using {plan}.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.NoPaymentMethod.descriptionTrial",
+    "defaultMessage": "Please add payment details to continue using {plan} after the trial period.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.NoPaymentMethod.link",
+    "defaultMessage": "Add payment info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.NoPaymentMethod.unpaidDescription",
+    "defaultMessage": "If no payment is received by {due}, we have the right to limit services.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.PaymentFailed.line1",
+    "defaultMessage": "Last payment failed with error {paymentError}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.PaymentFailed.line2",
+    "defaultMessage": "If no payment is received, this Workspace will be suspended shortly. <supportLink>Find out more</supportLink>",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.Overview.PaymentFailed.tooltip",
+    "defaultMessage": "Please contact your bank to resolve the<br></br>issue or change your payment method",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.addedBy.content",
+    "defaultMessage": "{user} on {date}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.addedBy.title",
+    "defaultMessage": "Added by",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.adyenBankAccountMethod",
+    "defaultMessage": "{method}, account ending with {number}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.button.addPaymentInfo",
+    "defaultMessage": "Add payment info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.button.changePaymentInfo",
+    "defaultMessage": "Change payment info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.button.payByCreditCard",
+    "defaultMessage": "Pay by credit card",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.cardWithNumber",
+    "defaultMessage": "{card} ending with {number}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.cardWithoutNumber",
+    "defaultMessage": "Credit Card",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.header.title",
+    "defaultMessage": "Payment Info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.noPaymentMethod",
+    "defaultMessage": "No payment method available",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.paymentMethod.title",
+    "defaultMessage": "Payment Method",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.purchaseOrderInfo",
+    "defaultMessage": "To pay by wire transfer, create a {link}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.purchaseOrderLink",
+    "defaultMessage": "purchase order",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PaymentInfo.wireTransfer",
+    "defaultMessage": "Wire Transfer",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.currentlyFree",
+    "defaultMessage": "Currently on <b>Free plan</b>",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.currentlyOnAnnual",
+    "defaultMessage": "Currently on <b>annual plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.currentlyOnMonthly",
+    "defaultMessage": "Currently on <b>monthly plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.enterprisePrice",
+    "defaultMessage": "We'll carve out a plan to suit the needs of your complex or large organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.includesTraining",
+    "defaultMessage": "Includes free training!",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.nothing",
+    "defaultMessage": "Nothing, nada, zilch",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.perUser",
+    "defaultMessage": "Per user/month",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.saveAnnually",
+    "defaultMessage": "Go annual and save 10%!",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.savingAnnually",
+    "defaultMessage": "Saving {amount} a year!",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PlanPrice.suspended",
+    "defaultMessage": "Only available for teams of<br></br>5 or less",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.PlanButton.enterpriseUpgrade",
+    "defaultMessage": "Contact us",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.PlanButton.upgrade",
+    "defaultMessage": "Upgrade to {plan}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.change",
+    "defaultMessage": "Change to {plan}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.descriptionTitle",
+    "defaultMessage": "everything in {previousPlan} plus:",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.downgrade",
+    "defaultMessage": "Downgrade to {plan}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.notAvailable",
+    "defaultMessage": "Not available",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.payAnnually",
+    "defaultMessage": "Pay annually",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.payMonthly",
+    "defaultMessage": "Change to monthly plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.renewSubscription",
+    "defaultMessage": "Renew Subscription",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.upgrade",
+    "defaultMessage": "Current plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.PricingPlan.useFree",
+    "defaultMessage": "Use free version",
+    "message": ""
+  },
+  {
     "id": "Organization.Team.EmptyState.text",
     "defaultMessage": "Try different filters or keywords to find the member you are looking for.",
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.activate",
+    "defaultMessage": "Activate",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.deactivate",
+    "defaultMessage": "Deactivate",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.delete",
     "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.deleteOwnerTooltip",
+    "defaultMessage": "Owner cannot be deleted",
     "message": ""
   },
   {
@@ -3852,6 +4567,31 @@
   {
     "id": "Organization.TeamFilters.Status.invited",
     "defaultMessage": "Invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage",
+    "defaultMessage": "View",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.error",
+    "defaultMessage": "Member could not be activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMember.success",
+    "defaultMessage": "Member activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.error",
+    "defaultMessage": "Member could not be deactivated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMember.success",
+    "defaultMessage": "Member deactivated",
     "message": ""
   },
   {
@@ -3940,11 +4680,6 @@
     "message": ""
   },
   {
-    "id": "Organization.WorkspaceDetails.editButton",
-    "defaultMessage": "Edit Workspace",
-    "message": ""
-  },
-  {
     "id": "Organization.WorkspaceDetails.nameHeader",
     "defaultMessage": "All groups/members",
     "message": ""
@@ -3985,18 +4720,23 @@
     "message": ""
   },
   {
+    "id": "Organization.WorkspaceUserContextItem.leave",
+    "defaultMessage": "Leave",
+    "message": ""
+  },
+  {
     "id": "Organization.WorkspaceUserContextItem.remove",
     "defaultMessage": "Remove",
     "message": ""
   },
   {
-    "id": "Organization.WorkspaceUserContextItem.removeExplanation",
-    "defaultMessage": "To remove this member from this Workspace, please assign them to another Workspace first.",
+    "id": "Organization.flashMessage.leave.error",
+    "defaultMessage": "Could not leave {workspaceName}",
     "message": ""
   },
   {
-    "id": "Organization.WorkspaceUserContextItem.removeTitle",
-    "defaultMessage": "Member should belong to at least 1 Workspace.",
+    "id": "Organization.flashMessage.leave.success",
+    "defaultMessage": "You have left {workspaceName}",
     "message": ""
   },
   {
@@ -4007,6 +4747,26 @@
   {
     "id": "Organization.flashMessage.removeMember.success",
     "defaultMessage": "Member removed",
+    "message": ""
+  },
+  {
+    "id": "Organization.new.back",
+    "defaultMessage": "Back",
+    "message": ""
+  },
+  {
+    "id": "Organization.restricted.disclaimer",
+    "defaultMessage": "Contact your Organization admin or switch to another Workspace to continue using Toggl",
+    "message": ""
+  },
+  {
+    "id": "Organization.restricted.switchWorkspace",
+    "defaultMessage": "Switch between Workspaces",
+    "message": ""
+  },
+  {
+    "id": "Organization.restricted.title",
+    "defaultMessage": "You are not a member of any Workspaces",
     "message": ""
   },
   {
@@ -4110,8 +4870,8 @@
     "message": ""
   },
   {
-    "id": "OrganizationWorkspaceMenu.labelNewWorkspace",
-    "defaultMessage": "New Workspace",
+    "id": "OrganizationWorkspaceMenu.labelNewOrganization",
+    "defaultMessage": "New Organization",
     "message": ""
   },
   {
@@ -4122,6 +4882,11 @@
   {
     "id": "OrganizationWorkspaceMenu.labelWorkspaces",
     "defaultMessage": "Workspaces",
+    "message": ""
+  },
+  {
+    "id": "OrganizationWorkspaceMenu.manageWorkspaces",
+    "defaultMessage": "Manage Workspaces",
     "message": ""
   },
   {
@@ -4362,11 +5127,6 @@
   {
     "id": "PricingPlan.Benefits.Premium.benefit2",
     "defaultMessage": "Schedule reports to email, set tracking reminders, add time for your team and more",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Premium.benefit3",
-    "defaultMessage": "Advanced consultancy service to set up your team from scratch",
     "message": ""
   },
   {
@@ -4670,6 +5430,56 @@
     "message": ""
   },
   {
+    "id": "Profile.calendarIntegration.error.notice",
+    "defaultMessage": "Not syncing",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.error.title",
+    "defaultMessage": "Google Calendar is unable to sync",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.error.unauthorized",
+    "defaultMessage": "Please make sure Toggl Track is allowed access to Google Calendar, or reach out to support",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.error.unexpected",
+    "defaultMessage": "Please refresh the page. If that doesn't help, reach out to support",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultDeniedBody",
+    "defaultMessage": "Please try again and make sure you allow Toggl Track to access {providerName}",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultDeniedTitle",
+    "defaultMessage": "Access to {providerName} denied",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultErrorBody",
+    "defaultMessage": "Please try again. If that doesn't help, reach out to support",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultErrorTitle",
+    "defaultMessage": "Something went wrong when connecting to {providerName}",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.flashMessage.integrationResultSuccess",
+    "defaultMessage": "{providerName} is now connected",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.goToCalendar",
+    "defaultMessage": "Go to calendar",
+    "message": ""
+  },
+  {
     "id": "Profile.calendarIntegration.integrationSynced",
     "defaultMessage": "Synced {timeAgo}",
     "message": ""
@@ -4691,7 +5501,7 @@
   },
   {
     "id": "Profile.calendarIntegration.subtitle",
-    "defaultMessage": "Connect a calendar to see your events and easily create Time Entries. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "defaultMessage": "Connect a calendar to see your events and easily create Time Entries. Connected calendar events are private - only you can see them. <findOutMoreLink>Find out more</findOutMoreLink>",
     "message": ""
   },
   {
@@ -5401,7 +6211,7 @@
   },
   {
     "id": "ProjectsList.contentTip.createProject",
-    "defaultMessage": "Press {prompt} to create a new project.",
+    "defaultMessage": "Try a different keyword or press {prompt} to create a new project.",
     "message": ""
   },
   {
@@ -5416,7 +6226,7 @@
   },
   {
     "id": "ProjectsList.contentTip.noProjectsYet",
-    "defaultMessage": "No projects yet",
+    "defaultMessage": "There are no projects yet",
     "message": ""
   },
   {
@@ -5426,7 +6236,7 @@
   },
   {
     "id": "ProjectsList.contentTip.startTyping",
-    "defaultMessage": "Start typing to create one!",
+    "defaultMessage": "Go ahead and create your first project for this workspace",
     "message": ""
   },
   {
@@ -5450,8 +6260,13 @@
     "message": ""
   },
   {
+    "id": "ProjectsPopdown.ProjectsList.noClientHeader",
+    "defaultMessage": "No Client",
+    "message": ""
+  },
+  {
     "id": "ProjectsPopdown.filterPlaceholder",
-    "defaultMessage": "Find project...",
+    "defaultMessage": "Search by project, task or client",
     "message": ""
   },
   {
@@ -8090,11 +8905,6 @@
     "message": ""
   },
   {
-    "id": "Subscription.PlanPrice.includesTraining",
-    "defaultMessage": "Includes free training!",
-    "message": ""
-  },
-  {
     "id": "Subscription.PlanPrice.nothing",
     "defaultMessage": "Nothing, nada, zilch",
     "message": ""
@@ -8460,21 +9270,6 @@
     "message": ""
   },
   {
-    "id": "TagSelectionPrompt.contentTip.addTag",
-    "defaultMessage": "Press Enter to add tag \"{tag}\"",
-    "message": ""
-  },
-  {
-    "id": "TagSelectionPrompt.contentTip.createTag",
-    "defaultMessage": "Press {prompt} to create tag \"{tag}\"",
-    "message": ""
-  },
-  {
-    "id": "TagSelectionPrompt.contentTip.removeTag",
-    "defaultMessage": "Press Enter to remove tag \"{tag}\"",
-    "message": ""
-  },
-  {
     "id": "Tags.NameUpdate.error",
     "defaultMessage": "The tag could not be renamed. Please try again.",
     "message": ""
@@ -8526,17 +9321,17 @@
   },
   {
     "id": "TagsPopdown.contentTip.createTag",
-    "defaultMessage": "Press {prompt} to create tag \"{tag}\"",
+    "defaultMessage": "Try a different keyword or press {prompt} to create a new tag.",
     "message": ""
   },
   {
     "id": "TagsPopdown.contentTip.noTagsMatchingSearch",
-    "defaultMessage": "No tags match your search",
+    "defaultMessage": "No matching tags",
     "message": ""
   },
   {
     "id": "TagsPopdown.contentTip.noTagsYet",
-    "defaultMessage": "No tags yet",
+    "defaultMessage": "There are no tags yet",
     "message": ""
   },
   {
@@ -8546,7 +9341,7 @@
   },
   {
     "id": "TagsPopdown.contentTip.startTyping",
-    "defaultMessage": "Start typing to create one!",
+    "defaultMessage": "Start typing and press {prompt} to create a new tag.",
     "message": ""
   },
   {
@@ -8555,8 +9350,28 @@
     "message": ""
   },
   {
+    "id": "TagsPopdownById.createTagActiveTitle",
+    "defaultMessage": "Create a tag \"{name}\"",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.createTagDisabledEmptyTitle",
+    "defaultMessage": "Start typing to add a new tag",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.createTagDisabledUniqueTitle",
+    "defaultMessage": "Pick a unique name for the tag to add it",
+    "message": ""
+  },
+  {
     "id": "TagsPopdownById.filterPlaceholder",
     "defaultMessage": "Add/filter tags",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.labelNewTag",
+    "defaultMessage": "Create a tag \"{name}\"",
     "message": ""
   },
   {
@@ -9365,6 +10180,16 @@
     "message": ""
   },
   {
+    "id": "Timer.Calendar.integrationOnboardingText",
+    "defaultMessage": "You can now connect to your Google Calendar to see your events and easily convert them to Time Entries.",
+    "message": ""
+  },
+  {
+    "id": "Timer.Calendar.integrationOnboardingTitle",
+    "defaultMessage": "🎉 New beta feature available!",
+    "message": ""
+  },
+  {
     "id": "Timer.TimerViewSelector.calendarView",
     "defaultMessage": "Calendar view",
     "message": ""
@@ -10065,8 +10890,8 @@
     "message": ""
   },
   {
-    "id": "WorkspaceSelector.title",
-    "defaultMessage": "Workspace",
+    "id": "WorkspaceSelector.wsSelectorButton",
+    "defaultMessage": "Change",
     "message": ""
   },
   {
@@ -10560,6 +11385,12 @@
     "message": ""
   },
   {
+    "id": "images.brickslide.alt",
+    "description": "Alt text for brick-slide image",
+    "defaultMessage": "You are not a member of any Workspaces",
+    "message": ""
+  },
+  {
     "id": "images.chairClock.alt",
     "description": "Alt text for clock on chair image",
     "defaultMessage": "Help your team to be on track!",
@@ -10605,6 +11436,12 @@
     "id": "images.restrictedArea.alt",
     "description": "Alt text for restricted area image",
     "defaultMessage": "Restricted area",
+    "message": ""
+  },
+  {
+    "id": "images.rocket.alt",
+    "description": "Alt text for rocket image",
+    "defaultMessage": "Create a new organization",
     "message": ""
   },
   {
