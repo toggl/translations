@@ -3410,6 +3410,11 @@
     "message": ""
   },
   {
+    "id": "JiraConfiguringState.text",
+    "defaultMessage": "This may take up to 5 minutes.{lineBreak}Feel free to leave the page and come back later",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.badgeConfigured",
     "defaultMessage": "Configured",
     "message": ""
