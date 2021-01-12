@@ -400,6 +400,11 @@
     "message": ""
   },
   {
+    "id": "BetaTestOptIn.betaLabel",
+    "defaultMessage": "Beta",
+    "message": ""
+  },
+  {
     "id": "BetaTestOptIn.disabled.buttonText",
     "defaultMessage": "Enable beta features",
     "message": ""
@@ -875,6 +880,16 @@
     "message": ""
   },
   {
+    "id": "Calendar.header.menu.connectOutlookCalendar",
+    "defaultMessage": "Connect Outlook Calendar",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.connectOutlookCalendarNoAccess",
+    "defaultMessage": "Connecting to Outlook Calendar is a starter feature. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "message": ""
+  },
+  {
     "id": "Calendar.header.menu.connectTooltipText",
     "defaultMessage": "Connected calendar events are private - only you can see them. <findOutMoreLink>Find out more</findOutMoreLink>",
     "message": ""
@@ -892,6 +907,16 @@
   {
     "id": "Calendar.header.menu.title",
     "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
+    "id": "Calendar.integrations.outlookNewFeatureText",
+    "defaultMessage": "You can now connect to Outlook Calendar to see your events and easily track them as Time Entries",
+    "message": ""
+  },
+  {
+    "id": "Calendar.integrations.outlookNewFeatureTitle",
+    "defaultMessage": "Outlook calendar available! 🎉",
     "message": ""
   },
   {
@@ -3410,6 +3435,11 @@
     "message": ""
   },
   {
+    "id": "JiraConfiguringState.text",
+    "defaultMessage": "This may take up to 5 minutes.{lineBreak}Feel free to leave the page and come back later",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.badgeConfigured",
     "defaultMessage": "Configured",
     "message": ""
@@ -3445,13 +3475,23 @@
     "message": ""
   },
   {
+    "id": "JiraIntegration.configuredState.lastSync",
+    "defaultMessage": "Last sync: {date} {time}",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.mappingInfo",
+    "defaultMessage": "This how Toggl Track interprets the entities created in Jira",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.configuredState.overwriteInfo",
     "defaultMessage": "In the event of duplicate names Toggl Track data is overwritten with data from Jira",
     "message": ""
   },
   {
     "id": "JiraIntegration.configuredState.prefixInfo",
-    "defaultMessage": "In the event of duplicate names Toggl Track data is prefixed with {prefix}",
+    "defaultMessage": "Entities created in Jira will be added a prefix: {value}",
     "message": ""
   },
   {
@@ -3460,8 +3500,8 @@
     "message": ""
   },
   {
-    "id": "JiraIntegration.configuredState.sectionSubtitle",
-    "defaultMessage": "This how Toggl Track interprets the entities created in Jira",
+    "id": "JiraIntegration.configuredState.removeIntegration",
+    "defaultMessage": "Remove integration",
     "message": ""
   },
   {
@@ -3470,8 +3510,18 @@
     "message": ""
   },
   {
+    "id": "JiraIntegration.configuredState.siteInfo",
+    "defaultMessage": "The data is synced with {site}",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.configuredState.suffixInfo",
-    "defaultMessage": "In the event of duplicate names Toggl Track data is suffixed with {suffix}",
+    "defaultMessage": "Entities created in Jira will be added a suffix: {value}",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.sync",
+    "defaultMessage": "Sync",
     "message": ""
   },
   {
@@ -3507,6 +3557,11 @@
   {
     "id": "JiraIntegration.finishSetup",
     "defaultMessage": "Finish set up",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.nonPremiumTooltip",
+    "defaultMessage": "Jira integration is a Premium feature.{lineBreak}{link}",
     "message": ""
   },
   {
@@ -3555,6 +3610,11 @@
     "message": ""
   },
   {
+    "id": "JiraIntegrationConfigurationDialog.defineNaming",
+    "defaultMessage": "Define naming",
+    "message": ""
+  },
+  {
     "id": "JiraIntegrationConfigurationDialog.description",
     "defaultMessage": "Describe how you’d like your Jira entities to be imported to Toggl Track. Any new data will be kept up to date with automatic sync.",
     "message": ""
@@ -3590,6 +3650,11 @@
     "message": ""
   },
   {
+    "id": "JiraIntegrationConfigurationDialog.jiraSite",
+    "defaultMessage": "Jira site",
+    "message": ""
+  },
+  {
     "id": "JiraIntegrationConfigurationDialog.mappingError",
     "defaultMessage": "* Please define at least one mapping pair",
     "message": ""
@@ -3617,6 +3682,11 @@
   {
     "id": "JiraIntegrationConfigurationDialog.projects",
     "defaultMessage": "Projects",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.singleSiteInfo",
+    "defaultMessage": "The data will be synced from {value}",
     "message": ""
   },
   {
@@ -3687,6 +3757,36 @@
   {
     "id": "JiraRemoveAuthenticationConfirmationDialog.title",
     "defaultMessage": "Remove authentication?",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.body",
+    "defaultMessage": "{bold} but you will lose access to any new data created in Jira.",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.bodyBold",
+    "defaultMessage": "Your existing data will not be affected",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.confirmation",
+    "defaultMessage": "Are you sure you want to remove integration?",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.main",
+    "defaultMessage": "Removing this integration will stop Toggl Track receiving data from Jira.",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.removeIntegration",
+    "defaultMessage": "Remove integration",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.title",
+    "defaultMessage": "Remove integration?",
     "message": ""
   },
   {
@@ -5815,18 +5915,33 @@
     "message": ""
   },
   {
+    "id": "Profile.calendarIntegration.error.noAccess",
+    "defaultMessage": "{providerName} is a Starter feature. Please check your workspace subscription plan or contact support for additional help. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "message": ""
+  },
+  {
     "id": "Profile.calendarIntegration.error.notice",
     "defaultMessage": "Not syncing",
     "message": ""
   },
   {
     "id": "Profile.calendarIntegration.error.title",
-    "defaultMessage": "Google Calendar is unable to sync",
+    "defaultMessage": "{providerName} is unable to sync",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.error.titleGeneric",
+    "defaultMessage": "Calendar integrations are unable to sync",
     "message": ""
   },
   {
     "id": "Profile.calendarIntegration.error.unauthorized",
-    "defaultMessage": "Please make sure Toggl Track is allowed access to Google Calendar, or reach out to support",
+    "defaultMessage": "Please make sure Toggl Track is allowed access to {providerName}, or reach out to support",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.error.unauthorizedGeneric",
+    "defaultMessage": "Please make sure Toggl Track is allowed access to your calendars, or reach out to support",
     "message": ""
   },
   {
@@ -5877,6 +5992,21 @@
   {
     "id": "Profile.calendarIntegration.main",
     "defaultMessage": "{providerName} will be disconnected from Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.outlookRemovedDialogTitle",
+    "defaultMessage": "Outlook Calendar has been removed from Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.outlookRemovedDialogWarningBody",
+    "defaultMessage": "Some permissions can't be removed automatically. Please <microsoftAccountLink>visit your Microsoft account</microsoftAccountLink> to remove the permissions manually.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.outlookRemovedDialogWarningTitle",
+    "defaultMessage": "Further action required",
     "message": ""
   },
   {
@@ -6876,7 +7006,7 @@
   },
   {
     "id": "ResourceColumnHeader.label",
-    "defaultMessage": "Google Calendar",
+    "defaultMessage": "External Calendars",
     "message": ""
   },
   {
@@ -10576,12 +10706,12 @@
   },
   {
     "id": "Timer.Calendar.integrationOnboardingText",
-    "defaultMessage": "You can now connect to your Google Calendar to see your events and easily convert them to Time Entries.",
+    "defaultMessage": "See your calendar events and easily track them as Time Entries",
     "message": ""
   },
   {
     "id": "Timer.Calendar.integrationOnboardingTitle",
-    "defaultMessage": "🎉 New feature available!",
+    "defaultMessage": "Connect your calendar",
     "message": ""
   },
   {
