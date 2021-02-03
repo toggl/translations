@@ -400,6 +400,11 @@
     "message": ""
   },
   {
+    "id": "BetaTestOptIn.betaLabel",
+    "defaultMessage": "Beta",
+    "message": ""
+  },
+  {
     "id": "BetaTestOptIn.disabled.buttonText",
     "defaultMessage": "Enable beta features",
     "message": ""
@@ -875,6 +880,16 @@
     "message": ""
   },
   {
+    "id": "Calendar.header.menu.connectOutlookCalendar",
+    "defaultMessage": "Connect Outlook Calendar",
+    "message": ""
+  },
+  {
+    "id": "Calendar.header.menu.connectOutlookCalendarNoAccess",
+    "defaultMessage": "Connecting to Outlook Calendar is a starter feature. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "message": ""
+  },
+  {
     "id": "Calendar.header.menu.connectTooltipText",
     "defaultMessage": "Connected calendar events are private - only you can see them. <findOutMoreLink>Find out more</findOutMoreLink>",
     "message": ""
@@ -892,6 +907,16 @@
   {
     "id": "Calendar.header.menu.title",
     "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
+    "id": "Calendar.integrations.outlookNewFeatureText",
+    "defaultMessage": "You can now connect to Outlook Calendar to see your events and easily track them as Time Entries",
+    "message": ""
+  },
+  {
+    "id": "Calendar.integrations.outlookNewFeatureTitle",
+    "defaultMessage": "Outlook calendar available! 🎉",
     "message": ""
   },
   {
@@ -3350,6 +3375,11 @@
     "message": ""
   },
   {
+    "id": "IntegrationsOAuthRedirect.error",
+    "defaultMessage": "Something went wrong. Please try again or contact support.",
+    "message": ""
+  },
+  {
     "id": "InviteMembersDialog.form.invalidEmails",
     "defaultMessage": "Please enter valid email address(es)",
     "message": ""
@@ -3410,6 +3440,11 @@
     "message": ""
   },
   {
+    "id": "JiraConfiguringState.text",
+    "defaultMessage": "This may take up to 5 minutes.{lineBreak}Feel free to leave the page and come back later",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.badgeConfigured",
     "defaultMessage": "Configured",
     "message": ""
@@ -3425,6 +3460,11 @@
     "message": ""
   },
   {
+    "id": "JiraIntegration.badgeRevoked",
+    "defaultMessage": "Connection lost",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.configuredState.clients",
     "defaultMessage": "Clients",
     "message": ""
@@ -3435,8 +3475,23 @@
     "message": ""
   },
   {
+    "id": "JiraIntegration.configuredState.connectInfo",
+    "defaultMessage": "In the event of duplicate names the data from Jira will be connected with the entities with the same name in Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.disabledMessage",
+    "defaultMessage": "Jira is currently disabled and not syncing. Please enable integration to start syncing again.",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.configuredState.dismissInfo",
-    "defaultMessage": "In the event of duplicate names Toggl Track data remains unaffected",
+    "defaultMessage": "In the event of duplicate names the data on Toggl Track will remain unaffected. Duplicate data coming from Jira will be dismissed.",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.editButton",
+    "defaultMessage": "Edit",
     "message": ""
   },
   {
@@ -3445,13 +3500,23 @@
     "message": ""
   },
   {
+    "id": "JiraIntegration.configuredState.lastSync",
+    "defaultMessage": "Last sync: {date} {time}",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.mappingInfo",
+    "defaultMessage": "This is how Toggl Track interprets the entities created in Jira",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.configuredState.overwriteInfo",
-    "defaultMessage": "In the event of duplicate names Toggl Track data is overwritten with data from Jira",
+    "defaultMessage": "In the event of duplicate names Toggl Track data is overwritten with data from Jira.",
     "message": ""
   },
   {
     "id": "JiraIntegration.configuredState.prefixInfo",
-    "defaultMessage": "In the event of duplicate names Toggl Track data is prefixed with {prefix}",
+    "defaultMessage": "Entities created in Jira will be added a prefix: {value}",
     "message": ""
   },
   {
@@ -3460,8 +3525,18 @@
     "message": ""
   },
   {
-    "id": "JiraIntegration.configuredState.sectionSubtitle",
-    "defaultMessage": "This how Toggl Track interprets the entities created in Jira",
+    "id": "JiraIntegration.configuredState.reconnect",
+    "defaultMessage": "Reconnect",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.removeIntegration",
+    "defaultMessage": "Remove integration",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.revokedMessage",
+    "defaultMessage": "Jira is not connected. {link}",
     "message": ""
   },
   {
@@ -3470,8 +3545,23 @@
     "message": ""
   },
   {
+    "id": "JiraIntegration.configuredState.siteInfo",
+    "defaultMessage": "The data is synced with {site}",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.configuredState.suffixInfo",
-    "defaultMessage": "In the event of duplicate names Toggl Track data is suffixed with {suffix}",
+    "defaultMessage": "Entities created in Jira will be added a suffix: {value}",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.sync",
+    "defaultMessage": "Sync",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegration.configuredState.syncingNow",
+    "defaultMessage": "Syncing now...",
     "message": ""
   },
   {
@@ -3510,6 +3600,11 @@
     "message": ""
   },
   {
+    "id": "JiraIntegration.nonPremiumTooltip",
+    "defaultMessage": "Jira integration is a Premium feature.{lineBreak}{link}",
+    "message": ""
+  },
+  {
     "id": "JiraIntegration.progress.connectStepLabel",
     "defaultMessage": "Connect",
     "message": ""
@@ -3545,13 +3640,23 @@
     "message": ""
   },
   {
-    "id": "JiraIntegrationConfigurationDialog.cancelButton",
-    "defaultMessage": "Finish later",
+    "id": "JiraIntegrationConfigurationDialog.backButton",
+    "defaultMessage": "Back",
     "message": ""
   },
   {
     "id": "JiraIntegrationConfigurationDialog.clients",
     "defaultMessage": "Clients",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.connectTooltip",
+    "defaultMessage": "We won’t change existing data. Imported items will be matched and connected with identical entities in Toggl Track.{lineBreak}{link}",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.defineNaming",
+    "defaultMessage": "Define naming",
     "message": ""
   },
   {
@@ -3565,13 +3670,33 @@
     "message": ""
   },
   {
+    "id": "JiraIntegrationConfigurationDialog.dismissTooltip",
+    "defaultMessage": "Duplicate data from Jira will not be imported.{lineBreak}{link}",
+    "message": ""
+  },
+  {
     "id": "JiraIntegrationConfigurationDialog.dropdownPlaceholder",
     "defaultMessage": "No selection",
     "message": ""
   },
   {
+    "id": "JiraIntegrationConfigurationDialog.duplicateConnect",
+    "defaultMessage": "Connect Toggl Track data with data from Jira",
+    "message": ""
+  },
+  {
     "id": "JiraIntegrationConfigurationDialog.duplicateDescription",
     "defaultMessage": "Handling duplicate input",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.editFeedbackBody",
+    "defaultMessage": "Changing the configuration will not affect previously synced data",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.editTitle",
+    "defaultMessage": "Edit Jira integration configuration",
     "message": ""
   },
   {
@@ -3590,13 +3715,33 @@
     "message": ""
   },
   {
+    "id": "JiraIntegrationConfigurationDialog.jiraSite",
+    "defaultMessage": "Jira site",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.learnMore",
+    "defaultMessage": "Learn more",
+    "message": ""
+  },
+  {
     "id": "JiraIntegrationConfigurationDialog.mappingError",
     "defaultMessage": "* Please define at least one mapping pair",
     "message": ""
   },
   {
+    "id": "JiraIntegrationConfigurationDialog.nextButton",
+    "defaultMessage": "Next",
+    "message": ""
+  },
+  {
     "id": "JiraIntegrationConfigurationDialog.overwriteData",
     "defaultMessage": "Overwrite Toggl Track data with data from Jira",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.overwriteTooltip",
+    "defaultMessage": "Matching entities will be removed from Toggl Track and new ones will be created based on imported Jira data. Beware, some data may be deleted.{lineBreak}{link}",
     "message": ""
   },
   {
@@ -3615,8 +3760,18 @@
     "message": ""
   },
   {
+    "id": "JiraIntegrationConfigurationDialog.projectError",
+    "defaultMessage": "Please map a Project with Jira entity",
+    "message": ""
+  },
+  {
     "id": "JiraIntegrationConfigurationDialog.projects",
     "defaultMessage": "Projects",
+    "message": ""
+  },
+  {
+    "id": "JiraIntegrationConfigurationDialog.singleSiteInfo",
+    "defaultMessage": "The data will be synced from {value}",
     "message": ""
   },
   {
@@ -3660,11 +3815,6 @@
     "message": ""
   },
   {
-    "id": "JiraIntegrationConfigurationDialog.tooltipContent",
-    "defaultMessage": "Toggl Track will create new entities based on the data coming from Jira.{lineBreak}Please configure how to handle duplicate names when a name collision occurs.",
-    "message": ""
-  },
-  {
     "id": "JiraRemoveAuthenticationConfirmationDialog.confirmation",
     "defaultMessage": "To continue setting up the integration you'll need to reconnect.",
     "message": ""
@@ -3687,6 +3837,36 @@
   {
     "id": "JiraRemoveAuthenticationConfirmationDialog.title",
     "defaultMessage": "Remove authentication?",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.body",
+    "defaultMessage": "{bold} but you will lose access to any new data created in Jira.",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.bodyBold",
+    "defaultMessage": "Your existing data will not be affected",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.confirmation",
+    "defaultMessage": "Are you sure you want to remove integration?",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.main",
+    "defaultMessage": "Removing this integration will stop Toggl Track receiving data from Jira.",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.removeIntegration",
+    "defaultMessage": "Remove integration",
+    "message": ""
+  },
+  {
+    "id": "JiraRemoveIntegrationConfirmationDialog.title",
+    "defaultMessage": "Remove integration?",
     "message": ""
   },
   {
@@ -3960,11 +4140,6 @@
     "message": ""
   },
   {
-    "id": "Navigation.savedReports",
-    "defaultMessage": "Saved Reports",
-    "message": ""
-  },
-  {
     "id": "Navigation.settings",
     "defaultMessage": "Settings",
     "message": ""
@@ -4195,6 +4370,71 @@
     "message": ""
   },
   {
+    "id": "Organization.DowngradeConfirmation.cancel",
+    "defaultMessage": "Cancel subscription",
+    "message": ""
+  },
+  {
+    "id": "Organization.DowngradeConfirmation.confirm",
+    "defaultMessage": "Are you sure?",
+    "message": ""
+  },
+  {
+    "id": "Organization.DowngradeConfirmation.enterprise",
+    "defaultMessage": "Once your balance runs out, you'll lose access to all Enterprise features - including priority support and expanded team size.",
+    "message": ""
+  },
+  {
+    "id": "Organization.DowngradeConfirmation.premium",
+    "defaultMessage": "Once your balance runs out, you'll lose access to all Premium features - including time audits, emailed reports, Insights and expanded team size.",
+    "message": ""
+  },
+  {
+    "id": "Organization.DowngradeConfirmation.starter",
+    "defaultMessage": "Once your balance runs out, you'll lose access to all Starter features - including billable rates, rounding in reports and expanded team size.",
+    "message": ""
+  },
+  {
+    "id": "Organization.DowngradeConfirmation.stay",
+    "defaultMessage": "Stay on current plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.DowngradeConfirmation.title",
+    "defaultMessage": "You’re about to cancel your subscription",
+    "message": ""
+  },
+  {
+    "id": "Organization.EnterpriseContact.error",
+    "defaultMessage": "Your message wasn't sent. Please, check your connection and try again.",
+    "message": ""
+  },
+  {
+    "id": "Organization.EnterpriseContact.inputPlaceholder",
+    "defaultMessage": "Your message",
+    "message": ""
+  },
+  {
+    "id": "Organization.EnterpriseContact.label",
+    "defaultMessage": "Tell us about your needs and requirements",
+    "message": ""
+  },
+  {
+    "id": "Organization.EnterpriseContact.required",
+    "defaultMessage": "Please add a message",
+    "message": ""
+  },
+  {
+    "id": "Organization.EnterpriseContact.submit",
+    "defaultMessage": "Send",
+    "message": ""
+  },
+  {
+    "id": "Organization.EnterpriseContact.title",
+    "defaultMessage": "Request more information",
+    "message": ""
+  },
+  {
     "id": "Organization.GroupContextMenu.assign",
     "defaultMessage": "Assign to Workspaces",
     "message": ""
@@ -4322,6 +4562,91 @@
   {
     "id": "Organization.New.Success.title",
     "defaultMessage": "Organization {organizationName} created {lineBreak}successfully!",
+    "message": ""
+  },
+  {
+    "id": "Organization.PaymentError.popup.button",
+    "defaultMessage": "Close",
+    "message": ""
+  },
+  {
+    "id": "Organization.PaymentError.popup.content",
+    "defaultMessage": "Our payment gateway seems to have rejected your payment. Please try again. If the issue persists, please contact <supportEmailLink>support@toggl.com</supportEmailLink>",
+    "message": ""
+  },
+  {
+    "id": "Organization.PaymentError.popup.title",
+    "defaultMessage": "Oops, something went wrong",
+    "message": ""
+  },
+  {
+    "id": "Organization.PaymentInfo.saveButton",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "Organization.PaymentInto.title",
+    "defaultMessage": "Payment Info",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.premium.button",
+    "defaultMessage": "Start exploring",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.premium.content",
+    "defaultMessage": "You can now use all <featuresLink>Premium features</featuresLink>",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.premium.feature1",
+    "defaultMessage": "See trends and analyze your organization's profitability with <b>Insights</b>",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.premium.feature2",
+    "defaultMessage": "Take control of team managment with <b>Saved reports to email, Tracking reminders, Add time for team</b> and other powerful features",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.premium.title",
+    "defaultMessage": "Welcome to Premium!",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.starter.button",
+    "defaultMessage": "Start exploring",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.starter.content",
+    "defaultMessage": "You can now use all Starter features, including:",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.starter.feature1",
+    "defaultMessage": "<b>Billable rates</b> to keep track of your earnings",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.starter.feature2",
+    "defaultMessage": "<b>Project Dashboard</b> for detailed Project overviews",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.starter.feature3",
+    "defaultMessage": "<b>Tasks</b> to break up your projects",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.starter.feature4",
+    "defaultMessage": "And <featuresLink>much more</featuresLink> for advanced time tracking",
+    "message": ""
+  },
+  {
+    "id": "Organization.PlanWelcome.starter.title",
+    "defaultMessage": "Welcome to Starter!",
     "message": ""
   },
   {
@@ -4512,6 +4837,111 @@
   {
     "id": "Organization.Subscription.BillingInfo.zipPostalCodeField",
     "defaultMessage": "Zip/Postal Code",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.annualPlanName",
+    "defaultMessage": "{planLevel} Annual Plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.billingInfoTitle",
+    "defaultMessage": "Billing Info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.changeBillingAndPaymentInfo",
+    "defaultMessage": "Change billing and payment info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.changeBillingInfo",
+    "defaultMessage": "Change billing info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.confirmButton",
+    "defaultMessage": "Confirm",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.creditCardInfo",
+    "defaultMessage": "Paying by {cardType} ending with {cardNumber}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.disclaimer",
+    "defaultMessage": "No refunds. Additional users will be billed for separately",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.discount",
+    "defaultMessage": "Discount until {date}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.firstCharge",
+    "defaultMessage": "First charge on {date}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.greaterDiscountActive",
+    "defaultMessage": "A larger discount ({currentPercent, number, percent}) has already been applied to your workspace.{lineBreak}Please {contactLink} if you require further assistance.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.greaterDiscountContactLink",
+    "defaultMessage": "contact our support team",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.masterBenefit1",
+    "defaultMessage": "Learn about Toggl's paid features",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.masterBenefit2",
+    "defaultMessage": "Integrate your favourite tools with Toggl",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.masterBenefit3",
+    "defaultMessage": "Get my team tracking",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.monthlyPlanName",
+    "defaultMessage": "{planLevel} Monthly Plan",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.paymentInfoTitle",
+    "defaultMessage": "Payment Info",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.paymentMethodInfo",
+    "defaultMessage": "Paying by {paymentMethod}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.savings",
+    "defaultMessage": "Saving you {amount} a year!",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.shopifyDiscount",
+    "defaultMessage": "Shopify discount is applied after upgrade",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.title",
+    "defaultMessage": "Subscription overview",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.ConfirmationDialog.userCount",
+    "defaultMessage": "{userCount} {userCount, plural, one {user} other {users}}",
     "message": ""
   },
   {
@@ -4885,6 +5315,76 @@
     "message": ""
   },
   {
+    "id": "Organization.Subscription.SuspendedWorkspace.description",
+    "defaultMessage": "To continue using Toggl, <plansPageLink>choose a new plan</plansPageLink><br></br>or reactivate your {plan} subscription",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.SuspendedWorkspace.longDescription",
+    "defaultMessage": "Your Organization was suspended because we could not charge you for the last invoice. Your data is safe, but your team won’t be able to log time until this is resolved.<br></br><supportLink>Learn more</supportLink>",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.SuspendedWorkspace.reactivate",
+    "defaultMessage": "Reactivate",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.SuspendedWorkspace.title",
+    "defaultMessage": "This Organization is suspended",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.amount",
+    "defaultMessage": "Amount",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.contactSupport",
+    "defaultMessage": "For any missing invoices before October 1st 2017, contact {email}.",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.date",
+    "defaultMessage": "Date",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.description",
+    "defaultMessage": "Description",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.downloadAlt",
+    "defaultMessage": "Download invoice",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.downloadTooltipTitpe",
+    "defaultMessage": "Download",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.empty",
+    "defaultMessage": "We haven't charged you yet",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.invoiceId",
+    "defaultMessage": "Invoice #",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.paymentDescription",
+    "defaultMessage": "Payment received",
+    "message": ""
+  },
+  {
+    "id": "Organization.SubscriptionInvoicesAndPayments.purchaseOrderDescription",
+    "defaultMessage": "Purchase order, due {date}",
+    "message": ""
+  },
+  {
     "id": "Organization.Team.EmptyState.text",
     "defaultMessage": "Try different filters or keywords to find the member you are looking for.",
     "message": ""
@@ -5137,6 +5637,141 @@
   {
     "id": "Organization.restricted.title",
     "defaultMessage": "You are not a member of any Workspaces",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.State.required",
+    "defaultMessage": "Please select your state",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.Zip.invalid",
+    "defaultMessage": "Please enter a valid ZIP code",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.Zip.required",
+    "defaultMessage": "Please enter your zip code",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.addressPlaceholder",
+    "defaultMessage": "Street, City *",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.addressRequiredError",
+    "defaultMessage": "Please enter your street address",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.countryPlaceholder",
+    "defaultMessage": "Country *",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.countryRequiredError",
+    "defaultMessage": "Please select your country",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.emailDescription",
+    "defaultMessage": "Subscription updates will be sent to this email and to your email",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.emailPlaceholder",
+    "defaultMessage": "Contact email",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.emailValidation",
+    "defaultMessage": "Please check the email format",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.nameDescription",
+    "defaultMessage": "This will be shown on the invoice",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.namePlaceholder",
+    "defaultMessage": "Contact name",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.next",
+    "defaultMessage": "Next",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.payerDescription",
+    "defaultMessage": "This is who the invoice will be made out to",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.payerPlaceholder",
+    "defaultMessage": "Payer *",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.payerRequired",
+    "defaultMessage": "Please enter the name of a person or company",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.save",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.statePlaceholder",
+    "defaultMessage": "State",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.taxPlaceholder",
+    "defaultMessage": "Tax number",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.title",
+    "defaultMessage": "Billing Info",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.usStatePlaceholder",
+    "defaultMessage": "State *",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.vatAddedDescription",
+    "defaultMessage": "{vatPercentage}% VAT will be added to your invoice",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.vatDescription",
+    "defaultMessage": "<eg>e.g.</eg> EU123456789",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.vatPlaceholder",
+    "defaultMessage": "VAT number",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.vatValidationError",
+    "defaultMessage": "Please check that:<br></br>\n      1) You’ve added the country code with your VAT number<br></br>\n      2) The VAT number is correct<br></br>\n      3) There are no spaces between the characters",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.zipPlaceholder",
+    "defaultMessage": "Zip/Postal code",
+    "message": ""
+  },
+  {
+    "id": "OrganizationBillingInfo.zipRequiredPlaceholder",
+    "defaultMessage": "Zip code *",
     "message": ""
   },
   {
@@ -5815,18 +6450,33 @@
     "message": ""
   },
   {
+    "id": "Profile.calendarIntegration.error.noAccess",
+    "defaultMessage": "{providerName} is a Starter feature. Please check your workspace subscription plan or contact support for additional help. <findOutMoreLink>Find out more</findOutMoreLink>",
+    "message": ""
+  },
+  {
     "id": "Profile.calendarIntegration.error.notice",
     "defaultMessage": "Not syncing",
     "message": ""
   },
   {
     "id": "Profile.calendarIntegration.error.title",
-    "defaultMessage": "Google Calendar is unable to sync",
+    "defaultMessage": "{providerName} is unable to sync",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.error.titleGeneric",
+    "defaultMessage": "Calendar integrations are unable to sync",
     "message": ""
   },
   {
     "id": "Profile.calendarIntegration.error.unauthorized",
-    "defaultMessage": "Please make sure Toggl Track is allowed access to Google Calendar, or reach out to support",
+    "defaultMessage": "Please make sure Toggl Track is allowed access to {providerName}, or reach out to support",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.error.unauthorizedGeneric",
+    "defaultMessage": "Please make sure Toggl Track is allowed access to your calendars, or reach out to support",
     "message": ""
   },
   {
@@ -5877,6 +6527,21 @@
   {
     "id": "Profile.calendarIntegration.main",
     "defaultMessage": "{providerName} will be disconnected from Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.outlookRemovedDialogTitle",
+    "defaultMessage": "Outlook Calendar has been removed from Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.outlookRemovedDialogWarningBody",
+    "defaultMessage": "Some permissions can't be removed automatically. Please <microsoftAccountLink>visit your Microsoft account</microsoftAccountLink> to remove the permissions manually.",
+    "message": ""
+  },
+  {
+    "id": "Profile.calendarIntegration.outlookRemovedDialogWarningTitle",
+    "defaultMessage": "Further action required",
     "message": ""
   },
   {
@@ -6876,7 +7541,7 @@
   },
   {
     "id": "ResourceColumnHeader.label",
-    "defaultMessage": "Google Calendar",
+    "defaultMessage": "External Calendars",
     "message": ""
   },
   {
@@ -8582,6 +9247,11 @@
   {
     "id": "Shared.TeamGroup.all",
     "defaultMessage": "All",
+    "message": ""
+  },
+  {
+    "id": "Shared.TeamGroup.cannotRemoveFromLastWorkspace",
+    "defaultMessage": "Member should belong to at least 1 Workspace",
     "message": ""
   },
   {
@@ -10576,12 +11246,22 @@
   },
   {
     "id": "Timer.Calendar.integrationOnboardingText",
-    "defaultMessage": "You can now connect to your Google Calendar to see your events and easily convert them to Time Entries.",
+    "defaultMessage": "See your calendar events and easily track them as Time Entries",
     "message": ""
   },
   {
     "id": "Timer.Calendar.integrationOnboardingTitle",
-    "defaultMessage": "🎉 New feature available!",
+    "defaultMessage": "Connect your calendar",
+    "message": ""
+  },
+  {
+    "id": "Timer.ExternalEvent.externalEventCopyFeatureText",
+    "defaultMessage": "Click on an event to easily start it. We’ll fill in the details for you.",
+    "message": ""
+  },
+  {
+    "id": "Timer.ExternalEvent.externalEventCopyFeatureTitle",
+    "defaultMessage": "Add time quickly",
     "message": ""
   },
   {
@@ -10592,16 +11272,6 @@
   {
     "id": "Timer.TimerViewSelector.calendarView",
     "defaultMessage": "Weekly calendar",
-    "message": ""
-  },
-  {
-    "id": "Timer.TimerViewSelector.dayViewNewFeatureText",
-    "defaultMessage": "Get an overview of your day in calendar view and spot any gaps in your time tracking",
-    "message": ""
-  },
-  {
-    "id": "Timer.TimerViewSelector.dayViewNewFeatureTitle",
-    "defaultMessage": "Day view now available 🎉",
     "message": ""
   },
   {
@@ -11874,6 +12544,12 @@
     "message": ""
   },
   {
+    "id": "images.welcome.alt",
+    "description": "Alt text for welcome image",
+    "defaultMessage": "Welcome",
+    "message": ""
+  },
+  {
     "id": "insights.MultiProjectBarGraph.empty",
     "defaultMessage": "No time was tracked in the selected date range.",
     "message": ""
@@ -11896,6 +12572,16 @@
   {
     "id": "message.timeEntryLocked",
     "defaultMessage": "Editing of this time entry is locked by the workspace administrator.",
+    "message": ""
+  },
+  {
+    "id": "organization.sagas.enterpriseContact.flashMessage.body",
+    "defaultMessage": "We will get back to you as soon as possible. Until then please feel free to choose any other plan to try out Toggl Track features.",
+    "message": ""
+  },
+  {
+    "id": "organization.sagas.enterpriseContact.flashMessage.title",
+    "defaultMessage": "Request sent to Toggl Track",
     "message": ""
   },
   {
