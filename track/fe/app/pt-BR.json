@@ -3940,6 +3940,31 @@
     "message": ""
   },
   {
+    "id": "LeaveOrganizationDialog.cancel",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.confirmationText",
+    "defaultMessage": "This actions is not reversible.",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.leave",
+    "defaultMessage": "Leave Organization",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.mainText",
+    "defaultMessage": "By leaving the Organization, you will be deleted from this Organization and won’t have access to the Workspaces within it anymore (including their Time Entries in the Works).",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.title",
+    "defaultMessage": "Leave Organization",
+    "message": ""
+  },
+  {
     "id": "LeaveWorkspace.cancel",
     "defaultMessage": "Cancel",
     "message": ""
@@ -5680,6 +5705,11 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.cannotLeaveLastOrganization",
+    "defaultMessage": "Cannot leave last organization",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.deactivate",
     "defaultMessage": "Deactivate",
     "message": ""
@@ -5697,6 +5727,16 @@
   {
     "id": "Organization.TeamContextMenu.edit",
     "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.leave",
+    "defaultMessage": "Leave",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.ownerLeaveTooltip",
+    "defaultMessage": "Owner cannot leave",
     "message": ""
   },
   {
@@ -5752,6 +5792,16 @@
   {
     "id": "Organization.Teams.flashMessage.inviteMembers.success",
     "defaultMessage": "Member(s) invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.leave.error",
+    "defaultMessage": "Could not leave {organizationName}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.leave.success",
+    "defaultMessage": "You have left {organizationName}",
     "message": ""
   },
   {
@@ -5882,6 +5932,21 @@
   {
     "id": "Organization.WorkspaceUserContextItem.remove",
     "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.leave",
+    "defaultMessage": "Leave Organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.leaveDisabled",
+    "defaultMessage": "Cannot leave last organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.title",
+    "defaultMessage": "Membership",
     "message": ""
   },
   {
