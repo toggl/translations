@@ -895,6 +895,11 @@
     "message": ""
   },
   {
+    "id": "Calendar.TimeEntryContextPopup.timerDisabledLockedWhileRunning",
+    "defaultMessage": "Stopping the Time Entry is not possible as the time period has been locked. Ask your workspace admin to disable the lock.",
+    "message": ""
+  },
+  {
     "id": "Calendar.TimeEntryContextPopup.timerDisabledUnsavedChanges",
     "defaultMessage": "Please save your changes to continue this Time Entry",
     "message": ""
@@ -2275,18 +2280,18 @@
     "message": ""
   },
   {
+    "id": "DiscardTimeEntryChangesConfirmationDialog.cancel",
+    "defaultMessage": "Go back",
+    "message": ""
+  },
+  {
     "id": "DiscardTimeEntryChangesConfirmationDialog.content",
-    "defaultMessage": "You have unsaved changes to this Time Entry. Do you want to discard them?",
+    "defaultMessage": "Discard unsaved changes?",
     "message": ""
   },
   {
     "id": "DiscardTimeEntryChangesConfirmationDialog.delete",
-    "defaultMessage": "Discard changes",
-    "message": ""
-  },
-  {
-    "id": "DiscardTimeEntryChangesConfirmationDialog.title",
-    "defaultMessage": "Discard changes?",
+    "defaultMessage": "Discard",
     "message": ""
   },
   {
@@ -3937,6 +3942,31 @@
   {
     "id": "JiraRemoveIntegrationConfirmationDialog.title",
     "defaultMessage": "Remove Jira Sync?",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.cancel",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.confirmationText",
+    "defaultMessage": "This actions is not reversible.",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.leave",
+    "defaultMessage": "Leave Organization",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.mainText",
+    "defaultMessage": "By leaving the Organization, you will be deleted from this Organization and won’t have access to the Workspaces within it anymore (including their Time Entries in the Works).",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.title",
+    "defaultMessage": "Leave Organization",
     "message": ""
   },
   {
@@ -5680,6 +5710,11 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.cannotLeaveLastOrganization",
+    "defaultMessage": "Cannot leave last organization",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.deactivate",
     "defaultMessage": "Deactivate",
     "message": ""
@@ -5697,6 +5732,16 @@
   {
     "id": "Organization.TeamContextMenu.edit",
     "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.leave",
+    "defaultMessage": "Leave",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.ownerLeaveTooltip",
+    "defaultMessage": "Owner cannot leave",
     "message": ""
   },
   {
@@ -5752,6 +5797,16 @@
   {
     "id": "Organization.Teams.flashMessage.inviteMembers.success",
     "defaultMessage": "Member(s) invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.leave.error",
+    "defaultMessage": "Could not leave {organizationName}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.leave.success",
+    "defaultMessage": "You have left {organizationName}",
     "message": ""
   },
   {
@@ -5882,6 +5937,21 @@
   {
     "id": "Organization.WorkspaceUserContextItem.remove",
     "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.leave",
+    "defaultMessage": "Leave Organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.leaveDisabled",
+    "defaultMessage": "Cannot leave last organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.title",
+    "defaultMessage": "Membership",
     "message": ""
   },
   {
@@ -7855,8 +7925,18 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.connectDescription",
+    "defaultMessage": "With Salesforce connected to Toggl Track you can set up your work in one place and enable your team to track their time accurately with the least clicks possible. Your data will stay up to date in both places.",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.description",
     "defaultMessage": "Stay on top of your task list by automatically syncing your Salesforce data with Toggl Track. {link}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.finishSetup",
+    "defaultMessage": "Finish set up",
     "message": ""
   },
   {
@@ -7877,6 +7957,11 @@
   {
     "id": "SalesforceIntegration.progress.setUpStepLabel",
     "defaultMessage": "Set Up",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.removeAuthentication",
+    "defaultMessage": "Remove authentication",
     "message": ""
   },
   {
@@ -10437,6 +10522,46 @@
   {
     "id": "Subscription.SuspendedWorkspace.title",
     "defaultMessage": "This Workspace is suspended",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list1",
+    "defaultMessage": "Unlimited team size",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list2",
+    "defaultMessage": "Scheduled Reports",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list3",
+    "defaultMessage": "Insights",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list4",
+    "defaultMessage": "Lock Timesheets",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list5",
+    "defaultMessage": "Required Fields",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.title",
+    "defaultMessage": "Enter your billing and payment info to continue using Premium after the trial",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trialInfo.daysLeft",
+    "defaultMessage": "{days} {days, plural, one {day} other {days}} LEFT in trial",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trialInfo.title",
+    "defaultMessage": "Your free trial will end on",
     "message": ""
   },
   {
