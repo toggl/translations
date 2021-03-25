@@ -875,7 +875,12 @@
     "message": ""
   },
   {
-    "id": "Calendar.TimeEntryContextPopup.submit",
+    "id": "Calendar.TimeEntryContextPopup.submitCreate",
+    "defaultMessage": "Add",
+    "message": ""
+  },
+  {
+    "id": "Calendar.TimeEntryContextPopup.submitEdit",
     "defaultMessage": "Save",
     "message": ""
   },
@@ -892,6 +897,11 @@
   {
     "id": "Calendar.TimeEntryContextPopup.timeEntryDetails",
     "defaultMessage": "{duration}{startToStop}",
+    "message": ""
+  },
+  {
+    "id": "Calendar.TimeEntryContextPopup.timerDisabledLockedWhileRunning",
+    "defaultMessage": "Stopping the Time Entry is not possible as the time period has been locked. Ask your workspace admin to disable the lock.",
     "message": ""
   },
   {
@@ -2275,18 +2285,18 @@
     "message": ""
   },
   {
+    "id": "DiscardTimeEntryChangesConfirmationDialog.cancel",
+    "defaultMessage": "Go back",
+    "message": ""
+  },
+  {
     "id": "DiscardTimeEntryChangesConfirmationDialog.content",
-    "defaultMessage": "You have unsaved changes to this Time Entry. Do you want to discard them?",
+    "defaultMessage": "Discard unsaved changes?",
     "message": ""
   },
   {
     "id": "DiscardTimeEntryChangesConfirmationDialog.delete",
-    "defaultMessage": "Discard changes",
-    "message": ""
-  },
-  {
-    "id": "DiscardTimeEntryChangesConfirmationDialog.title",
-    "defaultMessage": "Discard changes?",
+    "defaultMessage": "Discard",
     "message": ""
   },
   {
@@ -3937,6 +3947,31 @@
   {
     "id": "JiraRemoveIntegrationConfirmationDialog.title",
     "defaultMessage": "Remove Jira Sync?",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.cancel",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.confirmationText",
+    "defaultMessage": "This actions is not reversible.",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.leave",
+    "defaultMessage": "Leave Organization",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.mainText",
+    "defaultMessage": "By leaving the Organization, you will be deleted from this Organization and won’t have access to the Workspaces within it anymore (including their Time Entries in the Works).",
+    "message": ""
+  },
+  {
+    "id": "LeaveOrganizationDialog.title",
+    "defaultMessage": "Leave Organization",
     "message": ""
   },
   {
@@ -5680,6 +5715,11 @@
     "message": ""
   },
   {
+    "id": "Organization.TeamContextMenu.cannotLeaveLastOrganization",
+    "defaultMessage": "Cannot leave last organization",
+    "message": ""
+  },
+  {
     "id": "Organization.TeamContextMenu.deactivate",
     "defaultMessage": "Deactivate",
     "message": ""
@@ -5697,6 +5737,16 @@
   {
     "id": "Organization.TeamContextMenu.edit",
     "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.leave",
+    "defaultMessage": "Leave",
+    "message": ""
+  },
+  {
+    "id": "Organization.TeamContextMenu.ownerLeaveTooltip",
+    "defaultMessage": "Owner cannot leave",
     "message": ""
   },
   {
@@ -5752,6 +5802,16 @@
   {
     "id": "Organization.Teams.flashMessage.inviteMembers.success",
     "defaultMessage": "Member(s) invited",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.leave.error",
+    "defaultMessage": "Could not leave {organizationName}",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.leave.success",
+    "defaultMessage": "You have left {organizationName}",
     "message": ""
   },
   {
@@ -5882,6 +5942,21 @@
   {
     "id": "Organization.WorkspaceUserContextItem.remove",
     "defaultMessage": "Remove",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.leave",
+    "defaultMessage": "Leave Organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.leaveDisabled",
+    "defaultMessage": "Cannot leave last organization",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.OrganizationMembership.title",
+    "defaultMessage": "Membership",
     "message": ""
   },
   {
@@ -7855,8 +7930,28 @@
     "message": ""
   },
   {
+    "id": "SalesforceConfiguringState.longText",
+    "defaultMessage": "This may take up to 5 minutes.{lineBreak}Feel free to leave the page and come back later",
+    "message": ""
+  },
+  {
+    "id": "SalesforceConfiguringState.text",
+    "defaultMessage": "Plugging the wires...",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.connectDescription",
+    "defaultMessage": "With Salesforce connected to Toggl Track you can set up your work in one place and enable your team to track their time accurately with the least clicks possible. Your data will stay up to date in both places.",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.description",
     "defaultMessage": "Stay on top of your task list by automatically syncing your Salesforce data with Toggl Track. {link}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.finishSetup",
+    "defaultMessage": "Finish set up",
     "message": ""
   },
   {
@@ -7880,8 +7975,38 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.removeAuthentication",
+    "defaultMessage": "Remove authentication",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.title",
     "defaultMessage": "Salesforce Sync",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveAuthenticationConfirmationDialog.confirmation",
+    "defaultMessage": "To continue setting up the Salesforce Sync you'll need to reconnect.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveAuthenticationConfirmationDialog.confirmationHeader",
+    "defaultMessage": "Your existing data will not be affected.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveAuthenticationConfirmationDialog.main",
+    "defaultMessage": "Removing authentication will stop the sync between Salesforce and Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveAuthenticationConfirmationDialog.removeAuthentication",
+    "defaultMessage": "Remove authentication",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveAuthenticationConfirmationDialog.title",
+    "defaultMessage": "Remove authentication?",
     "message": ""
   },
   {
@@ -9690,6 +9815,11 @@
     "message": ""
   },
   {
+    "id": "Subscription.AllPlans.Trial.message",
+    "defaultMessage": "Whatever plan you choose, you won't be charged until your trial has ended",
+    "message": ""
+  },
+  {
     "id": "Subscription.AllPlans.annualBilling",
     "defaultMessage": "Annual Billing",
     "message": ""
@@ -9965,18 +10095,13 @@
     "message": ""
   },
   {
-    "id": "Subscription.Faqs.answer1",
-    "defaultMessage": "The first 30 days of a new first time subscription are always free. We’ll send a reminder email when the trial is about to end so you can decide whether the plan is right for you.",
-    "message": ""
-  },
-  {
     "id": "Subscription.Faqs.answer2",
     "defaultMessage": "Billing is based on the number of users in the Workspace. All users in the Workspace will be on the chosen subscription plan.",
     "message": ""
   },
   {
     "id": "Subscription.Faqs.answer3",
-    "defaultMessage": "We offer discounts for workspaces of 40 users or more. We also have discounts available for non-profit and educational users. <kbLink>Contact our support team</kbLink> for more information.",
+    "defaultMessage": "We have discounts available for non-profit and educational users. Contact our support team for more information.",
     "message": ""
   },
   {
@@ -9987,11 +10112,6 @@
   {
     "id": "Subscription.Faqs.answer5",
     "defaultMessage": "When the new users join, we’ll create an invoice to cover them until the end of the subscription period, <kbAnnualLink>and bill you automatically</kbAnnualLink>",
-    "message": ""
-  },
-  {
-    "id": "Subscription.Faqs.question1",
-    "defaultMessage": "Can I try out a paid plan?",
     "message": ""
   },
   {
@@ -10437,6 +10557,76 @@
   {
     "id": "Subscription.SuspendedWorkspace.title",
     "defaultMessage": "This Workspace is suspended",
+    "message": ""
+  },
+  {
+    "id": "Subscription.Trial.Faqs.answer1",
+    "defaultMessage": "You can upgrade to our Enterprise plan or switch to the Starter plan at any time during your 30-day trial. Otherwise, your Workspace will revert to our Free plan at the end of the trial period if you don't take action—but don't worry, we'll notify you in advance so that you’re not taken off guard.",
+    "message": ""
+  },
+  {
+    "id": "Subscription.Trial.Faqs.answer2",
+    "defaultMessage": "In the absence of any action on your part, your Workspace will be automatically downgraded to our Free plan at the end of the 30-day trial period. You will not lose any data, but you will lose access to our Premium features, and your Workspace will be limited to 5 members.",
+    "message": ""
+  },
+  {
+    "id": "Subscription.Trial.Faqs.answer3",
+    "defaultMessage": "No. You will not be charged for any plan you choose until the end of your free trial. You can decide to commit to Premium at any time throughout your free trial, but this will not affect the length of your free trial period in any way.",
+    "message": ""
+  },
+  {
+    "id": "Subscription.Trial.Faqs.question1",
+    "defaultMessage": "Can I change to another plan during my 30-day trial of Premium?",
+    "message": ""
+  },
+  {
+    "id": "Subscription.Trial.Faqs.question2",
+    "defaultMessage": "What will happen to my Workspace and data at the end of the 30-day Premium trial?",
+    "message": ""
+  },
+  {
+    "id": "Subscription.Trial.Faqs.question3",
+    "defaultMessage": "If I commit to Premium during my 30-day trial, will I be charged immediately?",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list1",
+    "defaultMessage": "Unlimited team size",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list2",
+    "defaultMessage": "Scheduled Reports",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list3",
+    "defaultMessage": "Insights",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list4",
+    "defaultMessage": "Lock Timesheets",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.list5",
+    "defaultMessage": "Required Fields",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trial.heroUpsell.title",
+    "defaultMessage": "Enter your billing and payment info to continue using Premium after the trial",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trialInfo.daysLeft",
+    "defaultMessage": "{days} {days, plural, one {day} other {days}} LEFT in trial",
+    "message": ""
+  },
+  {
+    "id": "Subscription.trialInfo.title",
+    "defaultMessage": "Your free trial will end on",
     "message": ""
   },
   {
@@ -12287,6 +12477,16 @@
   {
     "id": "WorkspaceList.Admins",
     "defaultMessage": "Admins",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceList.CreateWorkspaceButton.link",
+    "defaultMessage": "Find out more",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceList.CreateWorkspaceButton.upsellTooltip",
+    "defaultMessage": "Adding multiple Workspaces to an Organization is a Premium feature. {link}",
     "message": ""
   },
   {
