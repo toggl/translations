@@ -11910,8 +11910,13 @@
     "message": ""
   },
   {
-    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "id": "TimeEntryContextPopup.DescriptionField.focusedPlaceholder",
     "defaultMessage": "What have you done?",
+    "message": ""
+  },
+  {
+    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "defaultMessage": "(no description)",
     "message": ""
   },
   {
