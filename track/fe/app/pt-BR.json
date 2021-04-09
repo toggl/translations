@@ -8075,6 +8075,56 @@
     "message": ""
   },
   {
+    "id": "SalesforceMappingDialog.ArrangeEntities.backButton",
+    "defaultMessage": "Back to mapping",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.client",
+    "defaultMessage": "Client",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.description",
+    "defaultMessage": "You can rearrange the order in which the mapped entities will be displayed in Toggl Track. Multiple entities will be separated by a space. To edit the order simply drag and drop the entities into the preferred order.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.project",
+    "defaultMessage": "Project",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.salesforceEntitiesLabel",
+    "defaultMessage": "Salesforce Entities",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.submitButton",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.tag",
+    "defaultMessage": "Tag",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.task",
+    "defaultMessage": "Task",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.title",
+    "defaultMessage": "Arrange mapping entities",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.trackEntitiesLabel",
+    "defaultMessage": "Toggl Entities",
+    "message": ""
+  },
+  {
     "id": "SalesforceMappingDialog.CreateNewGroup.assignError",
     "defaultMessage": "Please add team members",
     "message": ""
@@ -11910,8 +11960,13 @@
     "message": ""
   },
   {
-    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "id": "TimeEntryContextPopup.DescriptionField.focusedPlaceholder",
     "defaultMessage": "What have you done?",
+    "message": ""
+  },
+  {
+    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "defaultMessage": "(no description)",
     "message": ""
   },
   {
@@ -12632,6 +12687,21 @@
   {
     "id": "WorkspaceDataExport.workspaceSettings",
     "defaultMessage": "Workspace Settings",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotice.content",
+    "defaultMessage": "Your Workspace has been frozen as there are more than 5 members. ",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotice.isAdmin",
+    "defaultMessage": "Manage Members",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotice.nonAdmin",
+    "defaultMessage": "Contact your administrator to resolve this",
     "message": ""
   },
   {
