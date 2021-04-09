@@ -11910,8 +11910,13 @@
     "message": ""
   },
   {
-    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "id": "TimeEntryContextPopup.DescriptionField.focusedPlaceholder",
     "defaultMessage": "What have you done?",
+    "message": ""
+  },
+  {
+    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "defaultMessage": "(no description)",
     "message": ""
   },
   {
@@ -12632,6 +12637,21 @@
   {
     "id": "WorkspaceDataExport.workspaceSettings",
     "defaultMessage": "Workspace Settings",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotice.content",
+    "defaultMessage": "Your Workspace has been frozen as there are more than 5 members. ",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotice.isAdmin",
+    "defaultMessage": "Manage Members",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotice.nonAdmin",
+    "defaultMessage": "Contact your administrator to resolve this",
     "message": ""
   },
   {
