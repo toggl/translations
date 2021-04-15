@@ -2775,6 +2775,11 @@
     "message": ""
   },
   {
+    "id": "EditProjectDialog.rateAndCurrencyDescription",
+    "defaultMessage": "You are updating all historical data and reporting associated with the rate.",
+    "message": ""
+  },
+  {
     "id": "EditProjectDialog.rateLabel",
     "defaultMessage": "Rate",
     "message": ""
@@ -7955,6 +7960,61 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.HandlingDuplicates.connectDescription",
+    "defaultMessage": "We won't change existing data. Imported items will be matched and connected with identical entities in Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.connectLabel",
+    "defaultMessage": "Connect Toggl Track data with data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.continueToPreviewButton",
+    "defaultMessage": "Continue to preview your setup",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.dismissDescription",
+    "defaultMessage": "Duplicate data from Salesforce will not be imported. ",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.dismissLabel",
+    "defaultMessage": "Dismiss duplicate data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.overwriteDescription",
+    "defaultMessage": "Matching entities will be removed from Toggl Track and new ones will be created based on imported Salesforce data. {noticeText}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.overwriteDescriptionNotice",
+    "defaultMessage": "Beware, some data may be deleted.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.overwriteLabel",
+    "defaultMessage": "Overwrite Toggl Track data with data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.previousStepButton",
+    "defaultMessage": "Previous step",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.subtitle",
+    "defaultMessage": "Please select how you'd want Toggl Track to handle identical names (name collision)",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.HandlingDuplicates.title",
+    "defaultMessage": "Handling duplicates",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.connectDescription",
     "defaultMessage": "With Salesforce connected to Toggl Track you can set up your work in one place and enable your team to track their time accurately with the least clicks possible. Your data will stay up to date in both places.",
     "message": ""
@@ -8075,6 +8135,56 @@
     "message": ""
   },
   {
+    "id": "SalesforceMappingDialog.ArrangeEntities.backButton",
+    "defaultMessage": "Back to mapping",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.client",
+    "defaultMessage": "Client",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.description",
+    "defaultMessage": "You can rearrange the order in which the mapped entities will be displayed in Toggl Track. Multiple entities will be separated by a space. To edit the order simply drag and drop the entities into the preferred order.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.project",
+    "defaultMessage": "Project",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.salesforceEntitiesLabel",
+    "defaultMessage": "Salesforce Entities",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.submitButton",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.tag",
+    "defaultMessage": "Tag",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.task",
+    "defaultMessage": "Task",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.title",
+    "defaultMessage": "Arrange mapping entities",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.ArrangeEntities.trackEntitiesLabel",
+    "defaultMessage": "Toggl Entities",
+    "message": ""
+  },
+  {
     "id": "SalesforceMappingDialog.CreateNewGroup.assignError",
     "defaultMessage": "Please add team members",
     "message": ""
@@ -8140,11 +8250,6 @@
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.DataMapping.createNewGroupLink",
-    "defaultMessage": "Create new group",
-    "message": ""
-  },
-  {
     "id": "SalesforceMappingDialog.DataMapping.description",
     "defaultMessage": "Describe how you’d like your Salesforce entities to be imported to Toggl Track for each team in your Salesforce Workspace. Any new data will be kept up to date with automatic sync.",
     "message": ""
@@ -8157,6 +8262,21 @@
   {
     "id": "SalesforceMappingDialog.DataMapping.title",
     "defaultMessage": "Data mapping",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.Mapping.createNewGroupLink",
+    "defaultMessage": "Create new group",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.Mapping.salesforceEntitiesDescription",
+    "defaultMessage": "Salesforce Entities",
+    "message": ""
+  },
+  {
+    "id": "SalesforceMappingDialog.Mapping.togglEntitiesDescription",
+    "defaultMessage": "Toggl Entities",
     "message": ""
   },
   {
@@ -8672,6 +8792,26 @@
   {
     "id": "Settings.Alerts.workspaceAdmin",
     "defaultMessage": "workspace admin",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.DefaultBillingSetup.BillingChangeConfirmation.body",
+    "defaultMessage": "By changing this rate, you are updating all historical data and\n    reporting associated with the rate.\n    Previous and future time entry data attributed to this will be affected.\n    {lineBreak}{lineBreak}\n    Do you want to proceed?",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.DefaultBillingSetup.BillingChangeConfirmation.ok",
+    "defaultMessage": "Yes, change rate",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.DefaultBillingSetup.BillingChangeConfirmation.title",
+    "defaultMessage": "Change Rate?",
+    "message": ""
+  },
+  {
+    "id": "Settings.General.DefaultBillingSetup.BillingChangeMemberConfirmation.body",
+    "defaultMessage": "By changing this rate, you are updating all historical data and\n    reporting associated with the rate.\n    Previous and future time entry data attributed to this member will be affected.\n    {lineBreak}{lineBreak}\n    Do you want to proceed?",
     "message": ""
   },
   {
@@ -10795,6 +10935,11 @@
     "message": ""
   },
   {
+    "id": "Subscription.trial.timer.notification.title",
+    "defaultMessage": "{days, plural, one {This is the last day of your Premium trial. <upgradeLink>Upgrade today</upgradeLink> so your team can continue tracking smoothly.} other {You have # days remaining  on your trial. <upgradeLink>Upgrade today</upgradeLink>}}",
+    "message": ""
+  },
+  {
     "id": "Subscription.trialInfo.daysLeft",
     "defaultMessage": "{days} {days, plural, one {day} other {days}} LEFT in trial",
     "message": ""
@@ -11910,8 +12055,13 @@
     "message": ""
   },
   {
-    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "id": "TimeEntryContextPopup.DescriptionField.focusedPlaceholder",
     "defaultMessage": "What have you done?",
+    "message": ""
+  },
+  {
+    "id": "TimeEntryContextPopup.DescriptionField.placeholder",
+    "defaultMessage": "(no description)",
     "message": ""
   },
   {
@@ -12157,6 +12307,31 @@
   {
     "id": "TogglWebappApi.notifiedError",
     "defaultMessage": "There was an error, we have been notified.",
+    "message": ""
+  },
+  {
+    "id": "TrialEndDialog.title",
+    "defaultMessage": "{remainingDays, plural,\n      =0 {This is the last day of your Premium trial}\n      other {Your free trial of Premium ends in {remainingDays, plural,\n        one {# day}\n        other {# days}\n      }}\n    }",
+    "message": ""
+  },
+  {
+    "id": "TrialEndingDialog.body",
+    "defaultMessage": "When your trial expires you will be automatically downgraded to the Free plan, with limited features and support for up to only 5 Workspace users. You will lose access to the paid features used during your trial.",
+    "message": ""
+  },
+  {
+    "id": "TrialEndingDialog.cancel",
+    "defaultMessage": "Maybe later",
+    "message": ""
+  },
+  {
+    "id": "TrialEndingDialog.cta",
+    "defaultMessage": "Upgrade",
+    "message": ""
+  },
+  {
+    "id": "TrialEndingDialog.well",
+    "defaultMessage": "{remainingDays, plural,\n      =0 {Upgrade today to continue using our Premium features uninterrupted.}\n      other {Upgrade by {endDate} to continue using our Premium features uninterrupted.}\n    }",
     "message": ""
   },
   {
@@ -12632,6 +12807,21 @@
   {
     "id": "WorkspaceDataExport.workspaceSettings",
     "defaultMessage": "Workspace Settings",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotification.content",
+    "defaultMessage": "Your Workspace has been frozen as there are more than 5 members. ",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotification.isAdmin",
+    "defaultMessage": "Manage Members",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceFrozenNotification.nonAdmin",
+    "defaultMessage": "Contact your administrator to resolve this",
     "message": ""
   },
   {
@@ -13177,6 +13367,11 @@
   {
     "id": "generic.loading",
     "defaultMessage": "Loading...",
+    "message": ""
+  },
+  {
+    "id": "generic.no",
+    "defaultMessage": "No",
     "message": ""
   },
   {
