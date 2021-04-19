@@ -4485,6 +4485,31 @@
     "message": ""
   },
   {
+    "id": "Onboarding.IntroDialog.cancelButton",
+    "defaultMessage": "I’ll explore on my own*",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.content",
+    "defaultMessage": "You can now use Toggl Track Premium for free for 30 days.<br></br>Explore our guide or jump right into tracking your time.",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.disclaimer",
+    "defaultMessage": "* You can always resume onboarding in the bottom left corner of the navigation menu",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.title",
+    "defaultMessage": "Let’s get tracking!",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.upsellButton",
+    "defaultMessage": "Start the guide",
+    "message": ""
+  },
+  {
     "id": "OnboardingEditTE.text",
     "defaultMessage": "Click the time entry to edit it!",
     "message": ""
