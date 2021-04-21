@@ -4485,6 +4485,31 @@
     "message": ""
   },
   {
+    "id": "Onboarding.IntroDialog.cancelButton",
+    "defaultMessage": "I’ll explore on my own*",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.content",
+    "defaultMessage": "You can now use Toggl Track Premium for free for 30 days.<br></br>Explore our guide or jump right into tracking your time.",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.disclaimer",
+    "defaultMessage": "* You can always resume onboarding in the bottom left corner of the navigation menu",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.title",
+    "defaultMessage": "Let’s get tracking!",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.IntroDialog.upsellButton",
+    "defaultMessage": "Start the guide",
+    "message": ""
+  },
+  {
     "id": "OnboardingEditTE.text",
     "defaultMessage": "Click the time entry to edit it!",
     "message": ""
@@ -7960,6 +7985,76 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.EntitiesTable.assignedToEntityHeader",
+    "defaultMessage": "Assigned to",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.assignedToPlaceholder",
+    "defaultMessage": "e.g. Product Team",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.client",
+    "defaultMessage": "Clients",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.group",
+    "defaultMessage": "{amount, plural, one {# group} other {# groups}}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.member",
+    "defaultMessage": "{amount, plural, one {# team member} other {# team members}}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.project",
+    "defaultMessage": "Projects",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.salesforceEntityHeader",
+    "defaultMessage": "Salesforce Entities",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.salesforceEntityPlaceholder",
+    "defaultMessage": "e.g. Product ID",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.showMore",
+    "defaultMessage": "Show all",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.tag",
+    "defaultMessage": "Tags",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.task",
+    "defaultMessage": "Tasks",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.togglEntityHeader",
+    "defaultMessage": "Toggl Entities",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.togglEntityPlaceholder",
+    "defaultMessage": "e.g. Project",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.EntitiesTable.unknown",
+    "defaultMessage": "Unknown",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.HandlingDuplicates.connectDescription",
     "defaultMessage": "We won't change existing data. Imported items will be matched and connected with identical entities in Toggl Track.",
     "message": ""
@@ -8015,6 +8110,16 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.MappingPreview.changeLink",
+    "defaultMessage": "(applies to all users)",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.togglWorkspaceLevel",
+    "defaultMessage": "Toggl workspace level",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.connectDescription",
     "defaultMessage": "With Salesforce connected to Toggl Track you can set up your work in one place and enable your team to track their time accurately with the least clicks possible. Your data will stay up to date in both places.",
     "message": ""
@@ -8055,28 +8160,73 @@
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.setup.dataMapping.assignedToEntityHeader",
-    "defaultMessage": "Assigned to",
+    "id": "SalesforceIntegration.setup.Preview.changeLink",
+    "defaultMessage": "Change",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.setup.dataMapping.assignedToPlaceholder",
-    "defaultMessage": "e.g. Product Team",
+    "id": "SalesforceIntegration.setup.Preview.connect",
+    "defaultMessage": "overwrite Toggl Track data with data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.dataMappingDescription",
+    "defaultMessage": "This is how Toggl Track interprets the entities created in Salesforce:",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.dataMappingHeader",
+    "defaultMessage": "Data mapping",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.dismiss",
+    "defaultMessage": "dismiss Toggl Track data with data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.finishSetupButton",
+    "defaultMessage": "Finish setup and begin syncing",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.handlingDuplicatesDescription",
+    "defaultMessage": "You have chosen to {onDuplicate} in case of duplicate input.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.handlingDuplicatesHeader",
+    "defaultMessage": "Handling duplicates",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.overwrite",
+    "defaultMessage": "connect Toggl Track data with data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.previousStepButton",
+    "defaultMessage": "Previous step",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.subtitle",
+    "defaultMessage": "Here’s the summary of your chosen settings.{lineBreak}Take a look and when you’re happy, click finish setup.{lineBreak}Your data from Salesforce will be synced with Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.syncLocation",
+    "defaultMessage": "The data will be synced from {workspace}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.Preview.title",
+    "defaultMessage": "Preview",
     "message": ""
   },
   {
     "id": "SalesforceIntegration.setup.dataMapping.configureButton",
     "defaultMessage": "Configure mapping",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.dataMapping.salesforceEntityHeader",
-    "defaultMessage": "Salesforce Entities",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.dataMapping.salesforceEntityPlaceholder",
-    "defaultMessage": "e.g. Product ID",
     "message": ""
   },
   {
@@ -8097,16 +8247,6 @@
   {
     "id": "SalesforceIntegration.setup.dataMapping.title",
     "defaultMessage": "Data Mapping",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.dataMapping.togglEntityHeader",
-    "defaultMessage": "Toggl Entities",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.dataMapping.togglEntityPlaceholder",
-    "defaultMessage": "e.g. Project",
     "message": ""
   },
   {
