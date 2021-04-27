@@ -5955,6 +5955,31 @@
     "message": ""
   },
   {
+    "id": "Organization.WorkspaceList.RequestSentView.explanation",
+    "defaultMessage": "Our team will get back to you soon to get you set up.<br></br>Until then, you can check out more about the Multiple Workspaces feature in our <a>Knowledge Base</a>",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.RequestSentView.title",
+    "defaultMessage": "Thank you for your request!",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.button",
+    "defaultMessage": "Contact us",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.explanation",
+    "defaultMessage": "Control all the users, access rights and billing of multiple Workspaces under\n      one central Organization with the Multiple Workspaces feature, available on our Enterprise plan.\n      You can find out more in our <a>Knowledge Base</a> or get in touch directly.",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.title",
+    "defaultMessage": "Manage multiple Workspaces under one Organization",
+    "message": ""
+  },
+  {
     "id": "Organization.WorkspaceMember.BulkEditBar.bulkEdit",
     "defaultMessage": "Bulk Edit",
     "message": ""
@@ -6002,6 +6027,21 @@
   {
     "id": "Organization.Workspaces.OrganizationMembership.title",
     "defaultMessage": "Membership",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.contactError",
+    "defaultMessage": "Something went wrong, please try again",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.successContent",
+    "defaultMessage": "We will get back to you as soon as possible.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.successTitle",
+    "defaultMessage": "Request sent to Toggl Track",
     "message": ""
   },
   {
@@ -12991,7 +13031,12 @@
   },
   {
     "id": "WorkspaceList.CreateWorkspaceButton.upsellTooltip",
-    "defaultMessage": "Adding multiple Workspaces to an Organization is a Premium feature. {link}",
+    "defaultMessage": "Adding multiple Workspaces to an Organization is an Enterprise feature.",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceList.CreateWorkspaceButton.upsellTooltipContactUs",
+    "defaultMessage": " <a>Contact us</a> for more information",
     "message": ""
   },
   {
