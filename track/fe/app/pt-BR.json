@@ -4530,6 +4530,26 @@
     "message": ""
   },
   {
+    "id": "Organization.ContactUs.cancel",
+    "defaultMessage": "No",
+    "message": ""
+  },
+  {
+    "id": "Organization.ContactUs.confirm",
+    "defaultMessage": "Yes",
+    "message": ""
+  },
+  {
+    "id": "Organization.ContactUs.content",
+    "defaultMessage": "The Organization feature was created for large companies with complex employee structures in order to give them more flexibility in how data is organized. \n      <br></br><br></br>Would you like to proceed with the request?",
+    "message": ""
+  },
+  {
+    "id": "Organization.ContactUs.title",
+    "defaultMessage": "Request access to Organization feature",
+    "message": ""
+  },
+  {
     "id": "Organization.CreatePurchaseOrder.bankFees",
     "defaultMessage": "All bank fees must be paid by {company}.",
     "message": ""
@@ -5955,6 +5975,31 @@
     "message": ""
   },
   {
+    "id": "Organization.WorkspaceList.RequestSentView.explanation",
+    "defaultMessage": "Our team will get back to you soon to get you set up.<br></br>Until then, you can check out more about the Multiple Workspaces feature in our <a>Knowledge Base</a>",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.RequestSentView.title",
+    "defaultMessage": "Thank you for your request!",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.button",
+    "defaultMessage": "Contact us",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.explanation",
+    "defaultMessage": "Control all the users, access rights and billing of multiple Workspaces under\n      one central Organization with the Multiple Workspaces feature, available on our Enterprise plan.\n      You can find out more in our <a>Knowledge Base</a> or get in touch directly.",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.title",
+    "defaultMessage": "Manage multiple Workspaces under one Organization",
+    "message": ""
+  },
+  {
     "id": "Organization.WorkspaceMember.BulkEditBar.bulkEdit",
     "defaultMessage": "Bulk Edit",
     "message": ""
@@ -6002,6 +6047,21 @@
   {
     "id": "Organization.Workspaces.OrganizationMembership.title",
     "defaultMessage": "Membership",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.contactError",
+    "defaultMessage": "Something went wrong, please try again",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.successContent",
+    "defaultMessage": "We will get back to you as soon as possible.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.successTitle",
+    "defaultMessage": "Request sent to Toggl Track",
     "message": ""
   },
   {
@@ -8120,6 +8180,51 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.configuredState.confirmationMessage",
+    "defaultMessage": "Salesforce Sync is working",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.connectInfo",
+    "defaultMessage": "In the event of duplicate names the data from Salesforce will be connected with the entities with the same name in Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.disabledMessage",
+    "defaultMessage": "Salesforce Sync is currently disabled and not syncing. Please enable Salesforce Sync to start syncing again.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.dismissInfo",
+    "defaultMessage": "In the event of duplicate names the data on Toggl Track will remain unaffected. Duplicate data coming from Salesforce will be dismissed.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.overwriteInfo",
+    "defaultMessage": "In the event of duplicate names Toggl Track data is overwritten with data from Salesforce.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.reconnect",
+    "defaultMessage": "Reconnect",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.revokedMessage",
+    "defaultMessage": "Salesforce is not connected. {link}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.sectionInfo",
+    "defaultMessage": "This is how Toggl Track interprets the entities created in Salesforce.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.siteInfo",
+    "defaultMessage": "The data is synced with {site}.",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.connectDescription",
     "defaultMessage": "With Salesforce connected to Toggl Track you can set up your work in one place and enable your team to track their time accurately with the least clicks possible. Your data will stay up to date in both places.",
     "message": ""
@@ -8442,6 +8547,31 @@
   {
     "id": "SalesforceRemoveAuthenticationConfirmationDialog.title",
     "defaultMessage": "Remove authentication?",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.editButton",
+    "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.lastSync",
+    "defaultMessage": "Last sync: {date} {time}",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.removeIntegration",
+    "defaultMessage": "Remove Salesforce Sync",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.sync",
+    "defaultMessage": "Sync",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.syncingNow",
+    "defaultMessage": "Syncing now...",
     "message": ""
   },
   {
@@ -12991,7 +13121,12 @@
   },
   {
     "id": "WorkspaceList.CreateWorkspaceButton.upsellTooltip",
-    "defaultMessage": "Adding multiple Workspaces to an Organization is a Premium feature. {link}",
+    "defaultMessage": "Adding multiple Workspaces to an Organization is an Enterprise feature.",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceList.CreateWorkspaceButton.upsellTooltipContactUs",
+    "defaultMessage": " <a>Contact us</a> for more information",
     "message": ""
   },
   {
