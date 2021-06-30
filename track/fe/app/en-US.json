@@ -235,6 +235,21 @@
     "message": ""
   },
   {
+    "id": "AddWorkspaceMemberDialog.emptyGroups",
+    "defaultMessage": "No such Group for this name",
+    "message": ""
+  },
+  {
+    "id": "AddWorkspaceMemberDialog.emptyInvitedUsers",
+    "defaultMessage": "No invited member for this name",
+    "message": ""
+  },
+  {
+    "id": "AddWorkspaceMemberDialog.emptyUsers",
+    "defaultMessage": "No Member found for this name",
+    "message": ""
+  },
+  {
     "id": "AddWorkspaceMemberDialog.groupsTitle",
     "defaultMessage": "Groups",
     "message": ""
@@ -780,8 +795,18 @@
     "message": ""
   },
   {
+    "id": "Calendar.TimeEntryContextPopup.createFavorite",
+    "defaultMessage": "Add to favorites",
+    "message": ""
+  },
+  {
+    "id": "Calendar.TimeEntryContextPopup.createFavoriteDisabled",
+    "defaultMessage": "Please save your changes to add this to favorites",
+    "message": ""
+  },
+  {
     "id": "Calendar.TimeEntryContextPopup.delete",
-    "defaultMessage": "Delete Time Entry",
+    "defaultMessage": "Delete",
     "message": ""
   },
   {
@@ -830,6 +855,11 @@
     "message": ""
   },
   {
+    "id": "Calendar.TimeEntryContextPopup.goToProject",
+    "defaultMessage": "Go to project",
+    "message": ""
+  },
+  {
     "id": "Calendar.TimeEntryContextPopup.inaccessible",
     "defaultMessage": "(Inaccessible project)",
     "message": ""
@@ -847,6 +877,11 @@
   {
     "id": "Calendar.TimeEntryContextPopup.lockedLabelTooltip",
     "defaultMessage": "Time Entry is locked by the workspace administrator",
+    "message": ""
+  },
+  {
+    "id": "Calendar.TimeEntryContextPopup.menuTitle",
+    "defaultMessage": "More actions",
     "message": ""
   },
   {
@@ -960,16 +995,6 @@
     "message": ""
   },
   {
-    "id": "Calendar.integrations.outlookNewFeatureText",
-    "defaultMessage": "You can now connect to Outlook Calendar to see your events and easily track them as Time Entries",
-    "message": ""
-  },
-  {
-    "id": "Calendar.integrations.outlookNewFeatureTitle",
-    "defaultMessage": "Outlook calendar available! 🎉",
-    "message": ""
-  },
-  {
     "id": "Calendar.integrations.pullErrorText",
     "defaultMessage": "Please refresh the page. If that doesn't help, please reach out to support.",
     "message": ""
@@ -987,6 +1012,11 @@
   {
     "id": "Calendar.lockedError",
     "defaultMessage": "Your workspace admin has locked time entries up to {lockDate} (UTC time)",
+    "message": ""
+  },
+  {
+    "id": "Calendar.suggestionError",
+    "defaultMessage": "Failed to retrieve suggested time entry details",
     "message": ""
   },
   {
@@ -1122,6 +1152,56 @@
   {
     "id": "ChartSelector.weekly",
     "defaultMessage": "This week",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Enterprise.reasonFour",
+    "defaultMessage": "The price doesn’t seem justified",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Enterprise.reasonOne",
+    "defaultMessage": "I didn’t use the extra functionality",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Enterprise.reasonThree",
+    "defaultMessage": "Starter seems a better fit",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Enterprise.reasonTwo",
+    "defaultMessage": "Premium seems a better fit",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Premium.reasonOne",
+    "defaultMessage": "I didn’t find what I was looking for",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Premium.reasonThree",
+    "defaultMessage": "I don’t need the extra functionality",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Premium.reasonTwo",
+    "defaultMessage": "The price doesn’t seem justified",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Starter.reasonOne",
+    "defaultMessage": "I didn’t find what I was looking for",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Starter.reasonThree",
+    "defaultMessage": "We decided to go with another tool",
+    "message": ""
+  },
+  {
+    "id": "CheckboxListForPlan.Starter.reasonTwo",
+    "defaultMessage": "The feature(s) I needed didn’t work as expected",
     "message": ""
   },
   {
@@ -1920,8 +2000,18 @@
     "message": ""
   },
   {
+    "id": "DeleteMemberConfirmationDialog.deleteDialogHelpText",
+    "defaultMessage": "Consider deactivating them instead. This will prevent the user from accessing the Workspace (and tracking time) but won't negatively impact reporting.",
+    "message": ""
+  },
+  {
     "id": "DeleteMemberConfirmationDialog.title",
     "defaultMessage": "Delete member",
+    "message": ""
+  },
+  {
+    "id": "DeleteMemberConfirmationDialog.warningTitle",
+    "defaultMessage": "This action cannot be reversed",
     "message": ""
   },
   {
@@ -1940,8 +2030,18 @@
     "message": ""
   },
   {
+    "id": "DeleteMemberDialog.deactivate",
+    "defaultMessage": "Deactivate instead",
+    "message": ""
+  },
+  {
     "id": "DeleteMemberDialog.delete",
     "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "DeleteMemberDialog.deleteDialogHelpText",
+    "defaultMessage": "Consider deactivating them instead. This will prevent the user from accessing the Organization (and tracking time) but won't negatively impact reporting.",
     "message": ""
   },
   {
@@ -1965,13 +2065,23 @@
     "message": ""
   },
   {
+    "id": "DeleteMemberDialog.warningTitle",
+    "defaultMessage": "This action cannot be reversed",
+    "message": ""
+  },
+  {
     "id": "DeleteMembersConfirmationDialog.cancel",
     "defaultMessage": "Cancel",
     "message": ""
   },
   {
     "id": "DeleteMembersConfirmationDialog.confirmationText",
-    "defaultMessage": "Are you sure you want to delete {userName} from {workspaceName}?",
+    "defaultMessage": "Are you sure you want to delete {userName}?",
+    "message": ""
+  },
+  {
+    "id": "DeleteMembersConfirmationDialog.deactivate",
+    "defaultMessage": "Deactivate instead",
     "message": ""
   },
   {
@@ -1981,7 +2091,7 @@
   },
   {
     "id": "DeleteMembersConfirmationDialog.mainText",
-    "defaultMessage": "The deleted member will no longer have access to the Workspace. Their tracked time will remain in the Workspace anonymously.",
+    "defaultMessage": "Deleting a team member will remove them from the Workspace entirely. Their names will also be removed from Reports.",
     "message": ""
   },
   {
@@ -2047,6 +2157,16 @@
   {
     "id": "DeleteTagConfirmation.title",
     "defaultMessage": "Delete tag",
+    "message": ""
+  },
+  {
+    "id": "DeleteWithSecondaryActionDialog.cancel",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "DeleteWithSecondaryActionDialog.delete",
+    "defaultMessage": "Delete",
     "message": ""
   },
   {
@@ -2880,6 +3000,96 @@
     "message": ""
   },
   {
+    "id": "Favorite.Tooltip.billable",
+    "defaultMessage": "Billable",
+    "message": ""
+  },
+  {
+    "id": "Favorite.Tooltip.billableIcon",
+    "defaultMessage": "{separator}{icon}",
+    "message": ""
+  },
+  {
+    "id": "Favorite.Tooltip.delete",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "Favorite.Tooltip.noDescription",
+    "defaultMessage": "(no description)",
+    "message": ""
+  },
+  {
+    "id": "Favorite.Tooltip.title",
+    "defaultMessage": "Favorite",
+    "message": ""
+  },
+  {
+    "id": "Favorites.addFavorite.descriptionOrProjectRequired",
+    "defaultMessage": "To add this Time Entry as a favorite, <br></br>please add a description or project to it.",
+    "message": ""
+  },
+  {
+    "id": "Favorites.addFavorite.favoriteAlreadyExists",
+    "defaultMessage": "You already have a favorite with these details.",
+    "message": ""
+  },
+  {
+    "id": "Favorites.addFavorite.favoriteLimitReached",
+    "defaultMessage": "You can have a maximum of 10 favorites. <br></br>Please delete some to be able to add more.",
+    "message": ""
+  },
+  {
+    "id": "Favorites.addFavorite.noWorkspaceAccess",
+    "defaultMessage": "Adding favorites is a Starter feature. <br></br><kbLink>Find out more</kbLink>",
+    "message": ""
+  },
+  {
+    "id": "Favorites.addFavorite.offline",
+    "defaultMessage": "You need to be online to create a Favorite",
+    "message": ""
+  },
+  {
+    "id": "Favorites.createErrorGeneric",
+    "defaultMessage": "There was an error while creating the favorite. Please try again or contact support.",
+    "message": ""
+  },
+  {
+    "id": "Favorites.createErrorTooMany",
+    "defaultMessage": "You already have the maximum of 10 favorites. Please delete some to be able to add more.",
+    "message": ""
+  },
+  {
+    "id": "Favorites.deleteError",
+    "defaultMessage": "There was an error while deleting the favorite. Please try again or contact support.",
+    "message": ""
+  },
+  {
+    "id": "Favorites.onboarding.autoGeneratedContent",
+    "defaultMessage": "You can now set Time Entries as Favorite and track them from here.<br></br>Here are some suggestions to get you started.",
+    "message": ""
+  },
+  {
+    "id": "Favorites.onboarding.autoGeneratedOnboardingKB",
+    "defaultMessage": "See how to create a Favorite",
+    "message": ""
+  },
+  {
+    "id": "Favorites.onboarding.autoGeneratedOnboardingOK",
+    "defaultMessage": "OK, got it!",
+    "message": ""
+  },
+  {
+    "id": "Favorites.onboarding.autoGeneratedTitle",
+    "defaultMessage": "Favorite Time Entries",
+    "message": ""
+  },
+  {
+    "id": "Favorites.onboarding.createTitle",
+    "defaultMessage": "Add this Time Entry as a Favorite to track it easily",
+    "message": ""
+  },
+  {
     "id": "FeedbackDialog.addScreenshot",
     "defaultMessage": "Add screenshot",
     "message": ""
@@ -2972,6 +3182,21 @@
   {
     "id": "FlashMessages.genericSuccessTitle",
     "defaultMessage": "Success!",
+    "message": ""
+  },
+  {
+    "id": "FormattedProjectDetails.client",
+    "defaultMessage": " • {client}",
+    "message": ""
+  },
+  {
+    "id": "FormattedProjectDetails.details",
+    "defaultMessage": "{project}{task}{client}",
+    "message": ""
+  },
+  {
+    "id": "FormattedProjectDetails.task",
+    "defaultMessage": ": {task}",
     "message": ""
   },
   {
@@ -4020,6 +4245,46 @@
     "message": ""
   },
   {
+    "id": "LessThanFiveTracked.body",
+    "defaultMessage": "We know things can occasionally get busy, so we wanted to check in to see how we could help you get tracking. If you have any questions just reach out to our Support team or check out our <knowledgeBaseLink>Knowledge Base</knowledgeBaseLink> for helpful tips on how to get started.",
+    "message": ""
+  },
+  {
+    "id": "LessThanFiveTracked.cta",
+    "defaultMessage": "Get tracking",
+    "message": ""
+  },
+  {
+    "id": "LessThanFiveTracked.subtitle",
+    "defaultMessage": "Here are just a few things you can learn with Toggl Track:",
+    "message": ""
+  },
+  {
+    "id": "LessThanFiveTracked.title",
+    "defaultMessage": "Time flies",
+    "message": ""
+  },
+  {
+    "id": "LessThanFiveTracked.well.stat1",
+    "defaultMessage": "Time flies, but where? Discover where all your time is going",
+    "message": ""
+  },
+  {
+    "id": "LessThanFiveTracked.well.stat2",
+    "defaultMessage": "Find out what you could be spending more time doing",
+    "message": ""
+  },
+  {
+    "id": "LessThanFiveTracked.well.stat3",
+    "defaultMessage": "Find your peak work hours—and your slumps",
+    "message": ""
+  },
+  {
+    "id": "LessThanFiveTracked.well.stat4",
+    "defaultMessage": "See which projects bring in the most revenue",
+    "message": ""
+  },
+  {
     "id": "LoadMore.default",
     "defaultMessage": "Load more",
     "message": ""
@@ -4135,6 +4400,46 @@
     "message": ""
   },
   {
+    "id": "MoreTanFiveTracked.body",
+    "defaultMessage": "All the time you tracked this month with Toggl Track is now valuable data about how you work (and play). This data can act as a powerful tool to guide{lineBreak}future decisions and smarter work habits.",
+    "message": ""
+  },
+  {
+    "id": "MoreTanFiveTracked.cancel",
+    "defaultMessage": "Maybe later",
+    "message": ""
+  },
+  {
+    "id": "MoreTanFiveTracked.cta",
+    "defaultMessage": "Upgrade",
+    "message": ""
+  },
+  {
+    "id": "MoreTanFiveTracked.footerNote",
+    "defaultMessage": "Continue getting these insights—and much more—about your time",
+    "message": ""
+  },
+  {
+    "id": "MoreTanFiveTracked.footerNoteBusiness",
+    "defaultMessage": "Continue getting these insights—and much more—about your business",
+    "message": ""
+  },
+  {
+    "id": "MoreTanFiveTracked.subtitle",
+    "defaultMessage": "Your first 30 days is just the beginning:",
+    "message": ""
+  },
+  {
+    "id": "MoreTanFiveTracked.title",
+    "defaultMessage": "What a ride!",
+    "message": ""
+  },
+  {
+    "id": "MoreThanFiveTracked.footerNoteFeatures",
+    "defaultMessage": "Get even better data by trying out features such as Billable Rates and Time Estimates",
+    "message": ""
+  },
+  {
     "id": "Nav.controls.beta",
     "defaultMessage": "Beta",
     "message": ""
@@ -4147,6 +4452,11 @@
   {
     "id": "Navigation.NavInfo.timeLeft",
     "defaultMessage": "Trial: {days, plural,\n      one {# day left}\n      other {# days left}\n    }",
+    "message": ""
+  },
+  {
+    "id": "Navigation.Onboarding.ResumeOnboarding",
+    "defaultMessage": "Resume onboarding",
     "message": ""
   },
   {
@@ -4340,41 +4650,6 @@
     "message": ""
   },
   {
-    "id": "NewUserOverlay.categorizeTime",
-    "defaultMessage": "Categorize your tracked time",
-    "message": ""
-  },
-  {
-    "id": "NewUserOverlay.describe",
-    "defaultMessage": "Describe your activity",
-    "message": ""
-  },
-  {
-    "id": "NewUserOverlay.heading",
-    "defaultMessage": "Hey there!",
-    "message": ""
-  },
-  {
-    "id": "NewUserOverlay.obm.heading",
-    "defaultMessage": "Welcome to Toggl Track",
-    "message": ""
-  },
-  {
-    "id": "NewUserOverlay.obm.text",
-    "defaultMessage": "Time each activity you do and see where your hours go",
-    "message": ""
-  },
-  {
-    "id": "NewUserOverlay.startTracking",
-    "defaultMessage": "And start tracking",
-    "message": ""
-  },
-  {
-    "id": "NewUserOverlay.text",
-    "defaultMessage": "Get ready to track time and boost your productivity!",
-    "message": ""
-  },
-  {
     "id": "NewWorkspaceDialog.adminsDescription",
     "defaultMessage": "Organization admins have admin rights by default.",
     "message": ""
@@ -4510,8 +4785,173 @@
     "message": ""
   },
   {
-    "id": "OnboardingEditTE.text",
-    "defaultMessage": "Click the time entry to edit it!",
+    "id": "Onboarding.SegmentTwoDialog.cancelButton",
+    "defaultMessage": "Maybe later",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.SegmentTwoDialog.content",
+    "defaultMessage": "Now that you’ve successfully created your first Time Entry, it’s time to take it up a notch. How about we show you a couple of ways you can bring more flexibility into your time tracking experience?",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.SegmentTwoDialog.disclaimer",
+    "defaultMessage": "* You can always resume onboarding in the bottom left corner of the navigation menu",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.SegmentTwoDialog.title",
+    "defaultMessage": "Wow! You’re a natural at this!",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.SegmentTwoDialog.upsellButton",
+    "defaultMessage": "Show me",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TeamManagement.CreateGroupsContent",
+    "defaultMessage": "Instead of adding each individual team member to every project, you can create a user group instead and add the group to the project",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TeamManagement.CreateGroupsTitle",
+    "defaultMessage": "Create user groups",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TeamManagement.OrganizationTitle",
+    "defaultMessage": "Invite your team!",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TeamManagement.SettingsContent",
+    "defaultMessage": "Control who can see various Workspace content and define your billing setup",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TeamManagement.SettingsTitle",
+    "defaultMessage": "Manage access rights and billable rates",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TeamManagement.Title",
+    "defaultMessage": "Team management",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.BillableContent",
+    "defaultMessage": "Using Billable Rates makes it easy to separate your billable hours from unbilled work so you can invoice with confidence",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.BillableTitle",
+    "defaultMessage": "Mark as billable",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.DescriptionTitle",
+    "defaultMessage": "Describe your activity",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.ProjectContent",
+    "defaultMessage": "Doing this allows you to easily run<br></br>Reports and analyze time tracking data",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.ProjectTitle",
+    "defaultMessage": "Create a Project and Client",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.TagContent",
+    "defaultMessage": "Add context to Time Entries with relevant tags, such as \"Remote work\" or \"Unplanned\"",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.TagTitle",
+    "defaultMessage": "Create a Tag",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.TimerStopTitle",
+    "defaultMessage": "Stop the Timer",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.TimerTitle",
+    "defaultMessage": "And start tracking!",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.TimerTitleAlternative",
+    "defaultMessage": "And now you're tracking!",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTracking.Title",
+    "defaultMessage": "Time tracking",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.CalendarViewDescription",
+    "defaultMessage": "Immediately spot gaps in your day and add or edit Time Entries as needed.",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.CalendarViewTitle",
+    "defaultMessage": "Explore a more visual way to track time in Calendar view",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.EditTimeEntryDescription",
+    "defaultMessage": "To make changes to your Time Entries, just click on the part you'd like to edit",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.EditTimeEntryTitle",
+    "defaultMessage": "Editing Time Entries",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.ExternalCalendarDescription",
+    "defaultMessage": "Integrate your external calendar into our Calendar view and easily create or start Time Entries based on calendar events",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.ExternalCalendarTitle",
+    "defaultMessage": "Add external calendars",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.ManualModeDescription",
+    "defaultMessage": "Enter time retroactively by switching to Manual Mode. It's useful when you've forgotten to turn on the timer. You can also input Time Entries in advance to time block your day.",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.ManualModeTitle",
+    "defaultMessage": "Add time in Manual Mode",
+    "message": ""
+  },
+  {
+    "id": "Onboarding.TimeTrackingBonus.Title",
+    "defaultMessage": "Time tracking bonus",
+    "message": ""
+  },
+  {
+    "id": "OnboardingTooltip.skip",
+    "defaultMessage": "Skip this step",
+    "message": ""
+  },
+  {
+    "id": "OnboardingTooltip.steps",
+    "defaultMessage": "Step {currentStep}/{totalSteps}",
+    "message": ""
+  },
+  {
+    "id": "Org.Subscription.AllPlans.subtitle",
+    "defaultMessage": "Get the most out of your time and the best out of your team with our paid plans",
     "message": ""
   },
   {
@@ -4527,6 +4967,26 @@
   {
     "id": "Organization.Campaign.Generic.renewAnnual",
     "defaultMessage": "Renew your subscription {beforeEnd, select,\n        yes {before {endDate, date, month} {endDay, selectordinal,\n          one {#st}\n          two {#nd}\n          few {#rd}\n          other {#th}}}\n        other {-}} and enjoy {discountPercent, number, percent} off!",
+    "message": ""
+  },
+  {
+    "id": "Organization.ContactUs.cancel",
+    "defaultMessage": "No",
+    "message": ""
+  },
+  {
+    "id": "Organization.ContactUs.confirm",
+    "defaultMessage": "Yes",
+    "message": ""
+  },
+  {
+    "id": "Organization.ContactUs.content",
+    "defaultMessage": "The Organization feature was created for large companies with complex employee structures in order to give them more flexibility in how data is organized. \n      <br></br><br></br>Would you like to proceed with the request?",
+    "message": ""
+  },
+  {
+    "id": "Organization.ContactUs.title",
+    "defaultMessage": "Request access to Organization feature",
     "message": ""
   },
   {
@@ -4622,6 +5082,11 @@
   {
     "id": "Organization.DowngradeFeedback.body",
     "defaultMessage": "We’re always trying to provide the best possible product for our users. Would you mind sharing why you downgraded?",
+    "message": ""
+  },
+  {
+    "id": "Organization.DowngradeFeedback.commentsPlaceholder",
+    "defaultMessage": "Additional comments...",
     "message": ""
   },
   {
@@ -4890,66 +5355,6 @@
     "message": ""
   },
   {
-    "id": "Organization.PricingPlan.Benefits.Enterprise.benefit1",
-    "defaultMessage": "Priority support",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Enterprise.benefit2",
-    "defaultMessage": "Expert training and assistance",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Enterprise.benefit3",
-    "defaultMessage": "Customizable solutions",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Free.benefit1",
-    "defaultMessage": "Up to 5 team members",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Free.benefit2",
-    "defaultMessage": "Unlimited Projects",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Free.benefit3",
-    "defaultMessage": "Reliable reporting",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Premium.benefit1",
-    "defaultMessage": "Project and employee profitability reports",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Premium.benefit2",
-    "defaultMessage": "Schedule reports to email, set tracking reminders, add time for your team and more",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Premium.benefit3",
-    "defaultMessage": "Advanced consultancy service to set up your team from scratch",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Starter.benefit1",
-    "defaultMessage": "Unlimited team size",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Starter.benefit2",
-    "defaultMessage": "Billable Rates and Rounding in Reports",
-    "message": ""
-  },
-  {
-    "id": "Organization.PricingPlan.Benefits.Starter.benefit3",
-    "defaultMessage": "Save Reports for easy access",
-    "message": ""
-  },
-  {
     "id": "Organization.Settings.OrganizationOwnership.noOtherAdmins",
     "defaultMessage": "To change the ownership of the Organization, first add another Admin on the {link}",
     "message": ""
@@ -4975,8 +5380,13 @@
     "message": ""
   },
   {
-    "id": "Organization.Subscription.AllPlans.annualBilling",
-    "defaultMessage": "Annual Billing",
+    "id": "Organization.Subscription.AllPlans.annualLabel",
+    "defaultMessage": "Annual",
+    "message": ""
+  },
+  {
+    "id": "Organization.Subscription.AllPlans.billingLabel",
+    "defaultMessage": "Choose your billing",
     "message": ""
   },
   {
@@ -4985,8 +5395,8 @@
     "message": ""
   },
   {
-    "id": "Organization.Subscription.AllPlans.monthlyBilling",
-    "defaultMessage": "Monthly Billing",
+    "id": "Organization.Subscription.AllPlans.monthlyLabel",
+    "defaultMessage": "Monthly",
     "message": ""
   },
   {
@@ -5001,12 +5411,7 @@
   },
   {
     "id": "Organization.Subscription.AllPlans.title",
-    "defaultMessage": "Supercharge your productivity",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.AllPlans.trialText",
-    "defaultMessage": "30-day free trial included",
+    "defaultMessage": "Something for Everyone",
     "message": ""
   },
   {
@@ -5570,111 +5975,6 @@
     "message": ""
   },
   {
-    "id": "Organization.Subscription.PlanPrice.currentlyFree",
-    "defaultMessage": "Currently on <b>Free plan</b>",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.currentlyOnAnnual",
-    "defaultMessage": "Currently on <b>annual plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.currentlyOnMonthly",
-    "defaultMessage": "Currently on <b>monthly plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.enterprisePrice",
-    "defaultMessage": "We'll carve out a plan to suit the needs of your complex or large organization",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.includesTraining",
-    "defaultMessage": "Includes free training!",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.nothing",
-    "defaultMessage": "Nothing, nada, zilch",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.perUser",
-    "defaultMessage": "Per user/month",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.saveAnnually",
-    "defaultMessage": "Go annual and save 10%!",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.savingAnnually",
-    "defaultMessage": "Saving {amount} a year!",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PlanPrice.suspended",
-    "defaultMessage": "Only available for teams of<br></br>5 or less",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.PlanButton.enterpriseUpgrade",
-    "defaultMessage": "Contact us",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.PlanButton.upgrade",
-    "defaultMessage": "Upgrade to {plan}",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.change",
-    "defaultMessage": "Change to {plan}",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.descriptionTitle",
-    "defaultMessage": "everything in {previousPlan} plus:",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.downgrade",
-    "defaultMessage": "Downgrade to {plan}",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.notAvailable",
-    "defaultMessage": "Not available",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.payAnnually",
-    "defaultMessage": "Pay annually",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.payMonthly",
-    "defaultMessage": "Change to monthly plan",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.renewSubscription",
-    "defaultMessage": "Renew Subscription",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.upgrade",
-    "defaultMessage": "Current plan",
-    "message": ""
-  },
-  {
-    "id": "Organization.Subscription.PricingPlan.useFree",
-    "defaultMessage": "Use free version",
-    "message": ""
-  },
-  {
     "id": "Organization.Subscription.SuspendedWorkspace.description",
     "defaultMessage": "To continue using Toggl, <plansPageLink>choose a new plan</plansPageLink><br></br>or reactivate your {plan} subscription",
     "message": ""
@@ -5835,6 +6135,16 @@
     "message": ""
   },
   {
+    "id": "Organization.Teams.flashMessage.activateMultipleMembers.error",
+    "defaultMessage": "Members could not be activated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.activateMultipleMembers.success",
+    "defaultMessage": "Members activated",
+    "message": ""
+  },
+  {
     "id": "Organization.Teams.flashMessage.deactivateMember.error",
     "defaultMessage": "Member could not be deactivated",
     "message": ""
@@ -5842,6 +6152,16 @@
   {
     "id": "Organization.Teams.flashMessage.deactivateMember.success",
     "defaultMessage": "Member deactivated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMultipleMembers.error",
+    "defaultMessage": "Members could not be deactivated",
+    "message": ""
+  },
+  {
+    "id": "Organization.Teams.flashMessage.deactivateMultipleMembers.success",
+    "defaultMessage": "Members deactivated",
     "message": ""
   },
   {
@@ -5955,6 +6275,31 @@
     "message": ""
   },
   {
+    "id": "Organization.WorkspaceList.RequestSentView.explanation",
+    "defaultMessage": "Our team will get back to you soon to get you set up.<br></br>Until then, you can check out more about the Multiple Workspaces feature in our <a>Knowledge Base</a>",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.RequestSentView.title",
+    "defaultMessage": "Thank you for your request!",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.button",
+    "defaultMessage": "Contact us",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.explanation",
+    "defaultMessage": "Control all the users, access rights and billing of multiple Workspaces under\n      one central Organization with the Multiple Workspaces feature, available on our Enterprise plan.\n      You can find out more in our <a>Knowledge Base</a> or get in touch directly.",
+    "message": ""
+  },
+  {
+    "id": "Organization.WorkspaceList.Upsell.title",
+    "defaultMessage": "Manage multiple Workspaces under one Organization",
+    "message": ""
+  },
+  {
     "id": "Organization.WorkspaceMember.BulkEditBar.bulkEdit",
     "defaultMessage": "Bulk Edit",
     "message": ""
@@ -6002,6 +6347,21 @@
   {
     "id": "Organization.Workspaces.OrganizationMembership.title",
     "defaultMessage": "Membership",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.contactError",
+    "defaultMessage": "Something went wrong, please try again",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.successContent",
+    "defaultMessage": "We will get back to you as soon as possible.",
+    "message": ""
+  },
+  {
+    "id": "Organization.Workspaces.sagas.successTitle",
+    "defaultMessage": "Request sent to Toggl Track",
     "message": ""
   },
   {
@@ -6515,58 +6875,13 @@
     "message": ""
   },
   {
-    "id": "PricingPlan.Benefits.Enterprise.benefit1",
-    "defaultMessage": "Priority support",
+    "id": "PricingPlan.Enterprise.Enterprise.well.monthly",
+    "defaultMessage": "Currently on {period} plan with {users} users <changeLink></changeLink>",
     "message": ""
   },
   {
-    "id": "PricingPlan.Benefits.Enterprise.benefit2",
-    "defaultMessage": "Expert training and assistance",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Enterprise.benefit3",
-    "defaultMessage": "Customizable solutions",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Free.benefit1",
-    "defaultMessage": "Up to 5 team members",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Free.benefit2",
-    "defaultMessage": "Unlimited Projects",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Free.benefit3",
-    "defaultMessage": "Reliable reporting",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Premium.benefit1",
-    "defaultMessage": "Project and employee profitability reports",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Premium.benefit2",
-    "defaultMessage": "Schedule reports to email, set tracking reminders, add time for your team and more",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Starter.benefit1",
-    "defaultMessage": "Unlimited team size",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Starter.benefit2",
-    "defaultMessage": "Billable Rates and Rounding in Reports",
-    "message": ""
-  },
-  {
-    "id": "PricingPlan.Benefits.Starter.benefit3",
-    "defaultMessage": "Save Reports for easy access",
+    "id": "PricingPlan.buttons.downgrade",
+    "defaultMessage": "Downgrade to {plan}",
     "message": ""
   },
   {
@@ -6582,6 +6897,161 @@
   {
     "id": "PricingPlan.link",
     "defaultMessage": "Upgrade",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Enterprise.benefit1",
+    "defaultMessage": "Everything in Premium +",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Enterprise.benefit2",
+    "defaultMessage": "Priority support",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Enterprise.benefit3",
+    "defaultMessage": "Expert training and assistance",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Enterprise.benefit4",
+    "defaultMessage": "Customizable solutions",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Free.benefit1",
+    "defaultMessage": "Time tracking",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Free.benefit2",
+    "defaultMessage": "Timeline",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Free.benefit3",
+    "defaultMessage": "Auto-tracker",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Free.benefit4",
+    "defaultMessage": "Idle detection",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Free.benefit5",
+    "defaultMessage": "Pomodoro Timer",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Free.benefit6",
+    "defaultMessage": "Imports & Exports",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Free.benefit7",
+    "defaultMessage": "100+ Integrations",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit1",
+    "defaultMessage": "Everything in Starter +",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit10",
+    "defaultMessage": "Single Sign-On (SSO)",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit2",
+    "defaultMessage": "Time tracking reminders",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit3",
+    "defaultMessage": "Scheduled Reports",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit4",
+    "defaultMessage": "Time audits",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit5",
+    "defaultMessage": "Insights",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit6",
+    "defaultMessage": "Project Dashboard",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit7",
+    "defaultMessage": "Admin Dashboard",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit8",
+    "defaultMessage": "Add & Lock Time Entries",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Premium.benefit9",
+    "defaultMessage": "Required fields",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Starter.benefit1",
+    "defaultMessage": "Everything in Free +",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Starter.benefit2",
+    "defaultMessage": "Billable Rates",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Starter.benefit3",
+    "defaultMessage": "Time Rounding",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Starter.benefit5",
+    "defaultMessage": "Time Estimates",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Starter.benefit6",
+    "defaultMessage": "Tasks",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Starter.benefit7",
+    "defaultMessage": "Project Templates",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Benefits.Starter.benefit8",
+    "defaultMessage": "iCal Integration",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Sub.AllPlans.demo",
+    "defaultMessage": "Request a demo",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Subscription.AllPlans.description.enterprise",
+    "defaultMessage": "Solutions for your large or complex organization",
+    "message": ""
+  },
+  {
+    "id": "PricingPlanNew.Subscription.AllPlans.title.enterprise",
+    "defaultMessage": "Enterprise",
     "message": ""
   },
   {
@@ -7120,23 +7590,48 @@
     "message": ""
   },
   {
-    "id": "ProjectDeleteConfirmationDialog.confirmationText",
-    "defaultMessage": "Are you sure you want to delete {projectName} Project?",
+    "id": "ProjectDeleteConfirmationDialog.archive",
+    "defaultMessage": "Archive instead",
     "message": ""
   },
   {
-    "id": "ProjectDeleteConfirmationDialog.deleteDialogConfirmationTextMultiple",
+    "id": "ProjectDeleteConfirmationDialog.cancel",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "ProjectDeleteConfirmationDialog.confirmationText",
+    "defaultMessage": "Are you sure you want to delete {projectName}?",
+    "message": ""
+  },
+  {
+    "id": "ProjectDeleteConfirmationDialog.delete",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "ProjectDeleteConfirmationDialog.deleteDialogConfirmationMultiple",
     "defaultMessage": "Are you sure you want to delete {number} Projects?",
     "message": ""
   },
   {
+    "id": "ProjectDeleteConfirmationDialog.deleteDialogHelpText",
+    "defaultMessage": "Consider archiving it instead. Archiving will prevent you from adding more time to the Project, but will still allow for reporting.",
+    "message": ""
+  },
+  {
+    "id": "ProjectDeleteConfirmationDialog.deleteDialogHelpTextMultiple",
+    "defaultMessage": "Consider archiving them instead. Archiving will prevent you from adding more time to the Projects, but will still allow for reporting.",
+    "message": ""
+  },
+  {
     "id": "ProjectDeleteConfirmationDialog.mainText",
-    "defaultMessage": "This Project will be removed from all Time Entries it has been added to.",
+    "defaultMessage": "Deleting the Project will cause it to be removed from all Time Entries it has been added to.",
     "message": ""
   },
   {
     "id": "ProjectDeleteConfirmationDialog.mainTextMultiple",
-    "defaultMessage": "These Projects will be removed from all Time Entries they have been added to.",
+    "defaultMessage": "Deleting these Projects will cause them to be removed from all Time Entries they have been added to.",
     "message": ""
   },
   {
@@ -7147,6 +7642,11 @@
   {
     "id": "ProjectDeleteConfirmationDialog.titleMultiple",
     "defaultMessage": "Delete Projects",
+    "message": ""
+  },
+  {
+    "id": "ProjectDeleteConfirmationDialog.warningTitle",
+    "defaultMessage": "This action cannot be reversed",
     "message": ""
   },
   {
@@ -7985,73 +8485,178 @@
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.assignedToEntityHeader",
-    "defaultMessage": "Assigned to",
+    "id": "SalesforceIntegration.ConfigurationPreview.changeLink",
+    "defaultMessage": "Change",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.assignedToPlaceholder",
-    "defaultMessage": "e.g. Product Team",
+    "id": "SalesforceIntegration.ConfigurationPreview.connect",
+    "defaultMessage": "connect Toggl Track data with data from Salesforce",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.client",
-    "defaultMessage": "Clients",
+    "id": "SalesforceIntegration.ConfigurationPreview.dataMappingHeader",
+    "defaultMessage": "Data mapping",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.group",
+    "id": "SalesforceIntegration.ConfigurationPreview.dismiss",
+    "defaultMessage": "dismiss Toggl Track data with data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConfigurationPreview.handlingDuplicatesDescription",
+    "defaultMessage": "You have chosen to {onDuplicate} in case of duplicate input.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConfigurationPreview.handlingDuplicatesHeader",
+    "defaultMessage": "Handling duplicates",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConfigurationPreview.overwrite",
+    "defaultMessage": "overwrite Toggl Track data with data from Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConfigurationPreview.syncLocation",
+    "defaultMessage": "The data will be synced from {workspace}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.assignError",
+    "defaultMessage": "Please add team members",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.assignGroup",
     "defaultMessage": "{amount, plural, one {# group} other {# groups}}",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.member",
+    "id": "SalesforceIntegration.ConnectionNaming.assignLabel",
+    "defaultMessage": "Who should have access to the synced data?",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.assignMember",
     "defaultMessage": "{amount, plural, one {# team member} other {# team members}}",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.project",
+    "id": "SalesforceIntegration.ConnectionNaming.assignPlaceholder",
+    "defaultMessage": "Select Team Member or Group",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.duplicateNameError",
+    "defaultMessage": "Group with this name already exists",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.missingNameError",
+    "defaultMessage": "Please add a name",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.nameLabel",
+    "defaultMessage": "Name this connection",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.namePlaceholder",
+    "defaultMessage": "e.g. Biz Dev",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.subtitle",
+    "defaultMessage": "The name of the synced Toggl Track entity will consist of the fields you choose in this step.{lineBreak}The fields will be separated by space and you can easily rearrange them to your liking.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConnectionNaming.title",
+    "defaultMessage": "Name this connection and give access to team members",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.FieldsList.filterPlaceholder",
+    "defaultMessage": "Find fields",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.ParentSelector.label",
+    "defaultMessage": "Parent:",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.ParentSelector.tooltipContent",
+    "defaultMessage": "When syncing, we’ll use this to add Tasks to the right Project",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.ParentSelector.triggerContent",
+    "defaultMessage": "{field} (from: {object})",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.arrangeFieldsLabel",
+    "defaultMessage": "reorder fields in name",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.client",
+    "defaultMessage": "Clients",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.connectingClients",
+    "defaultMessage": "You are connecting Toggl Track Clients to {sObject}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.connectingProjects",
+    "defaultMessage": "You are connecting Toggl Track Projects to {sObject}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.connectingTags",
+    "defaultMessage": "You are connecting Toggl Track Tags to {sObject}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.connectingTasks",
+    "defaultMessage": "You are connecting Toggl Track Tasks to {sObject}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.fieldsListLabel",
+    "defaultMessage": "Select Fields for synced {entity} name",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldsSelection.project",
     "defaultMessage": "Projects",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.salesforceEntityHeader",
-    "defaultMessage": "Salesforce Entities",
+    "id": "SalesforceIntegration.FieldsSelection.subtitle",
+    "defaultMessage": "The name of the synced Toggl Track {entity} will use the fields you choose on the left, in the order you set on the right. Make sure these names are unique! If there is a conflict, we’ll ask an admin on your team to make changes here.",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.salesforceEntityPlaceholder",
-    "defaultMessage": "e.g. Product ID",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.EntitiesTable.showMore",
-    "defaultMessage": "Show all",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.EntitiesTable.tag",
+    "id": "SalesforceIntegration.FieldsSelection.tag",
     "defaultMessage": "Tags",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.task",
+    "id": "SalesforceIntegration.FieldsSelection.task",
     "defaultMessage": "Tasks",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.EntitiesTable.togglEntityHeader",
-    "defaultMessage": "Toggl Entities",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.EntitiesTable.togglEntityPlaceholder",
-    "defaultMessage": "e.g. Project",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.EntitiesTable.unknown",
-    "defaultMessage": "Unknown",
+    "id": "SalesforceIntegration.FieldsSelection.title",
+    "defaultMessage": "How should Toggl Track name the new {entity}?",
     "message": ""
   },
   {
@@ -8110,18 +8715,128 @@
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.MappingPreview.changeLink",
+    "id": "SalesforceIntegration.MappingPreview.appliesToAllUsers",
     "defaultMessage": "(applies to all users)",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.MappingPreview.togglWorkspaceLevel",
+    "id": "SalesforceIntegration.MappingPreview.client",
+    "defaultMessage": "Client",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.delete",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.edit",
+    "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.group",
+    "defaultMessage": "{amount, plural, one {# group} other {# groups}}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.member",
+    "defaultMessage": "{amount, plural, one {# team member} other {# team members}}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.project",
+    "defaultMessage": "Project",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.salesforceLabel",
+    "defaultMessage": "Salesforce",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.tag",
+    "defaultMessage": "Tag",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.task",
+    "defaultMessage": "Task",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.togglTrackLabel",
+    "defaultMessage": "Toggl Track",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.workspaceLevelHeader",
     "defaultMessage": "Toggl workspace level",
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.NextButton.finish",
+    "defaultMessage": "Finish",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.NextButton.next",
+    "defaultMessage": "Next",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ObjectPick.client",
+    "defaultMessage": "Clients",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ObjectPick.filterPlaceholder",
+    "defaultMessage": "Search for Salesforce objects",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ObjectPick.project",
+    "defaultMessage": "Projects",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ObjectPick.tag",
+    "defaultMessage": "Tags",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ObjectPick.task",
+    "defaultMessage": "Tasks",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ObjectPick.title",
+    "defaultMessage": "Choose what Salesforce data should be synced with Toggl Track {entity}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.confirmationMessage",
+    "defaultMessage": "Salesforce Sync is working",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.disabledMessage",
+    "defaultMessage": "Salesforce Sync is currently disabled and not syncing. Please enable Salesforce Sync to start syncing again.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.reconnect",
+    "defaultMessage": "Reconnect",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.configuredState.revokedMessage",
+    "defaultMessage": "Salesforce is not connected. {link}",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.connectDescription",
-    "defaultMessage": "With Salesforce connected to Toggl Track you can set up your work in one place and enable your team to track their time accurately with the least clicks possible. Your data will stay up to date in both places.",
+    "defaultMessage": "When Salesforce is connected to Toggl Track, your team will be able to easily categorize their time entries without having to manually set up Projects, Tasks, Clients, or Tags. The integration maps Salesforce objects to Toggl Track, and automatically syncs any new data from Salesforce. <cta>To get started, continue set up.</cta>",
     "message": ""
   },
   {
@@ -8131,7 +8846,7 @@
   },
   {
     "id": "SalesforceIntegration.finishSetup",
-    "defaultMessage": "Finish set up",
+    "defaultMessage": "Continue set up",
     "message": ""
   },
   {
@@ -8160,48 +8875,8 @@
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.setup.Preview.changeLink",
-    "defaultMessage": "Change",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.Preview.connect",
-    "defaultMessage": "overwrite Toggl Track data with data from Salesforce",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.Preview.dataMappingDescription",
-    "defaultMessage": "This is how Toggl Track interprets the entities created in Salesforce:",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.Preview.dataMappingHeader",
-    "defaultMessage": "Data mapping",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.Preview.dismiss",
-    "defaultMessage": "dismiss Toggl Track data with data from Salesforce",
-    "message": ""
-  },
-  {
     "id": "SalesforceIntegration.setup.Preview.finishSetupButton",
     "defaultMessage": "Finish setup and begin syncing",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.Preview.handlingDuplicatesDescription",
-    "defaultMessage": "You have chosen to {onDuplicate} in case of duplicate input.",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.Preview.handlingDuplicatesHeader",
-    "defaultMessage": "Handling duplicates",
-    "message": ""
-  },
-  {
-    "id": "SalesforceIntegration.setup.Preview.overwrite",
-    "defaultMessage": "connect Toggl Track data with data from Salesforce",
     "message": ""
   },
   {
@@ -8215,18 +8890,23 @@
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.setup.Preview.syncLocation",
-    "defaultMessage": "The data will be synced from {workspace}",
-    "message": ""
-  },
-  {
     "id": "SalesforceIntegration.setup.Preview.title",
     "defaultMessage": "Preview",
     "message": ""
   },
   {
-    "id": "SalesforceIntegration.setup.dataMapping.configureButton",
-    "defaultMessage": "Configure mapping",
+    "id": "SalesforceIntegration.setup.dataMapping.addConnectionButton",
+    "defaultMessage": "Add a connection",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.dataMapping.addNewButton",
+    "defaultMessage": "Add new connection",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.setup.dataMapping.addNewGroupButton",
+    "defaultMessage": "Add new connection for a group",
     "message": ""
   },
   {
@@ -8235,23 +8915,28 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.setup.dataMapping.submitButton",
+    "defaultMessage": "Continue to handle duplicates",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.setup.dataMapping.subtitle",
-    "defaultMessage": "Short introductory sentence that may take up to two lines",
+    "defaultMessage": "Set up how Toggl Track should import your Salesforce data",
     "message": ""
   },
   {
     "id": "SalesforceIntegration.setup.dataMapping.syncLocation",
-    "defaultMessage": "The data will be synced from {workspace}",
+    "defaultMessage": "The data will be synced from {salesforceSite}",
     "message": ""
   },
   {
     "id": "SalesforceIntegration.setup.dataMapping.title",
-    "defaultMessage": "Data Mapping",
+    "defaultMessage": "Connecting data",
     "message": ""
   },
   {
     "id": "SalesforceIntegration.setup.dataMappingStep",
-    "defaultMessage": "Data mapping",
+    "defaultMessage": "Connecting data",
     "message": ""
   },
   {
@@ -8275,173 +8960,193 @@
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.backButton",
-    "defaultMessage": "Back to mapping",
+    "id": "SalesforceMappingDialog.MappingList.addConnectionButton",
+    "defaultMessage": "Add connection",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.client",
-    "defaultMessage": "Client",
+    "id": "SalesforceMappingDialog.MappingList.client",
+    "defaultMessage": "Clients",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.description",
-    "defaultMessage": "You can rearrange the order in which the mapped entities will be displayed in Toggl Track. Multiple entities will be separated by a space. To edit the order simply drag and drop the entities into the preferred order.",
+    "id": "SalesforceMappingDialog.MappingList.project",
+    "defaultMessage": "Projects",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.project",
-    "defaultMessage": "Project",
+    "id": "SalesforceMappingDialog.MappingList.saleforceEntityLabel",
+    "defaultMessage": "Salesforce",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.salesforceEntitiesLabel",
-    "defaultMessage": "Salesforce Entities",
+    "id": "SalesforceMappingDialog.MappingList.tag",
+    "defaultMessage": "Tags",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.submitButton",
-    "defaultMessage": "Save",
+    "id": "SalesforceMappingDialog.MappingList.task",
+    "defaultMessage": "Tasks",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.tag",
-    "defaultMessage": "Tag",
+    "id": "SalesforceMappingDialog.MappingList.taskDisabledTooltip",
+    "defaultMessage": "To sync Salesforce data with Tasks, you have to connect Projects first, since Tasks are essentially an extra level within Projects (think of them as sub-projects)",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.task",
-    "defaultMessage": "Task",
+    "id": "SalesforceMappingDialog.MappingList.title",
+    "defaultMessage": "Select what to sync from Salesforce to Toggl Track",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.title",
-    "defaultMessage": "Arrange mapping entities",
+    "id": "SalesforceMappingDialog.MappingList.togglEntityLabel",
+    "defaultMessage": "Toggl Track",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.ArrangeEntities.trackEntitiesLabel",
-    "defaultMessage": "Toggl Entities",
+    "id": "SalesforceMappingDialog.MappingTypeSelector.groupButton",
+    "defaultMessage": "Specific users/teams",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.assignError",
-    "defaultMessage": "Please add team members",
+    "id": "SalesforceMappingDialog.MappingTypeSelector.groupImageAlt",
+    "defaultMessage": "Three cupcakes representing the specific user or teams option",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.assignGroup",
-    "defaultMessage": "{amount, plural, one {# group} other {# groups}}",
+    "id": "SalesforceMappingDialog.MappingTypeSelector.subtitle",
+    "defaultMessage": "Connecting to Toggl Track Clients or Tags can only be done for the whole Workspace. You can connect to Projects and Tasks using either option.",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.assignLabel",
-    "defaultMessage": "Assign to",
+    "id": "SalesforceMappingDialog.MappingTypeSelector.title",
+    "defaultMessage": "Who in your Toggl Track Organization is this connection for?",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.assignMember",
-    "defaultMessage": "{amount, plural, one {# team member} other {# team members}}",
+    "id": "SalesforceMappingDialog.MappingTypeSelector.wholeWorkspaceImageAlt",
+    "defaultMessage": "A whole cake representing the whole workspace option.",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.assignPlaceholder",
-    "defaultMessage": "Select Team Member or Group",
+    "id": "SalesforceMappingDialog.MappingTypeSelector.workspaceButton",
+    "defaultMessage": "Whole Workspace",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.backButton",
-    "defaultMessage": "Back to mapping",
+    "id": "SalesforceMappingDialog.backButton",
+    "defaultMessage": "Back",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.description",
-    "defaultMessage": "Create a group to define mappings per team.",
+    "id": "SalesforceMappingDialog.workspaceLevel",
+    "defaultMessage": "Workspace level",
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.CreateNewGroup.duplicateNameError",
-    "defaultMessage": "Group with this name already exists",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.CreateNewGroup.missingNameError",
-    "defaultMessage": "Please add a name",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.CreateNewGroup.nameLabel",
-    "defaultMessage": "Mapping name",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.CreateNewGroup.namePlaceholder",
-    "defaultMessage": "e.g. Biz Dev",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.CreateNewGroup.submitButton",
-    "defaultMessage": "Create new group",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.CreateNewGroup.title",
-    "defaultMessage": "Create new group",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.DataMapping.description",
-    "defaultMessage": "Describe how you’d like your Salesforce entities to be imported to Toggl Track for each team in your Salesforce Workspace. Any new data will be kept up to date with automatic sync.",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.DataMapping.saveButton",
-    "defaultMessage": "Save",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.DataMapping.title",
-    "defaultMessage": "Data mapping",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.Mapping.createNewGroupLink",
-    "defaultMessage": "Create new group",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.Mapping.salesforceEntitiesDescription",
-    "defaultMessage": "Salesforce Entities",
-    "message": ""
-  },
-  {
-    "id": "SalesforceMappingDialog.Mapping.togglEntitiesDescription",
-    "defaultMessage": "Toggl Entities",
-    "message": ""
-  },
-  {
-    "id": "SalesforceRemoveAuthenticationConfirmationDialog.confirmation",
+    "id": "SalesforceRemoveConfirmationDialog.auth.confirmation",
     "defaultMessage": "To continue setting up the Salesforce Sync you'll need to reconnect.",
     "message": ""
   },
   {
-    "id": "SalesforceRemoveAuthenticationConfirmationDialog.confirmationHeader",
+    "id": "SalesforceRemoveConfirmationDialog.auth.confirmationHeader",
     "defaultMessage": "Your existing data will not be affected.",
     "message": ""
   },
   {
-    "id": "SalesforceRemoveAuthenticationConfirmationDialog.main",
-    "defaultMessage": "Removing authentication will stop the sync between Salesforce and Toggl Track.",
-    "message": ""
-  },
-  {
-    "id": "SalesforceRemoveAuthenticationConfirmationDialog.removeAuthentication",
+    "id": "SalesforceRemoveConfirmationDialog.auth.deleteMessage",
     "defaultMessage": "Remove authentication",
     "message": ""
   },
   {
-    "id": "SalesforceRemoveAuthenticationConfirmationDialog.title",
+    "id": "SalesforceRemoveConfirmationDialog.auth.main",
+    "defaultMessage": "Removing authentication will stop the sync between Salesforce and Toggl Track.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.auth.title",
     "defaultMessage": "Remove authentication?",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.connection.confirmation",
+    "defaultMessage": "If you have previously synced data, it will not be deleted from your Toggl Track workspace.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.connection.deleteMessage",
+    "defaultMessage": "Delete connection",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.connection.main",
+    "defaultMessage": "All sync settings for the {name} connection will be lost, and new records created in Salesforce will no longer sync via this connection.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.connection.title",
+    "defaultMessage": "Delete {name} connection?",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.connection.workspaceLevel",
+    "defaultMessage": "Toggl workspace level",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.integration.body",
+    "defaultMessage": "{bold} but you will lose access to any new data created in Salesforce.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.integration.bodyBold",
+    "defaultMessage": "Your existing data will not be affected",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.integration.confirmation",
+    "defaultMessage": "Are you sure you want to remove Salesforce Sync?",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.integration.deleteMessage",
+    "defaultMessage": "Remove Salesforce Sync",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.integration.main",
+    "defaultMessage": "Removing Salesforce Sync will stop Toggl Track from receiving data from Salesforce.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceRemoveConfirmationDialog.integration.title",
+    "defaultMessage": "Remove Salesforce Sync?",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.editButton",
+    "defaultMessage": "Edit",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.lastSync",
+    "defaultMessage": "Last sync: {date} {time}",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.removeIntegration",
+    "defaultMessage": "Remove Salesforce Sync",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.sync",
+    "defaultMessage": "Sync",
+    "message": ""
+  },
+  {
+    "id": "SalesforeIntegration.configuredState.syncingNow",
+    "defaultMessage": "Syncing now...",
     "message": ""
   },
   {
@@ -10275,8 +10980,23 @@
     "message": ""
   },
   {
-    "id": "Subscription.AllPlans.annualBilling",
-    "defaultMessage": "Annual Billing",
+    "id": "Subscription.AllPlans.annualLabel",
+    "defaultMessage": "Annual",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.bestforTeams",
+    "defaultMessage": "Best for teams",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.billingLabel",
+    "defaultMessage": "Choose your billing",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.commit",
+    "defaultMessage": "Commit to {plan}",
     "message": ""
   },
   {
@@ -10285,8 +11005,28 @@
     "message": ""
   },
   {
-    "id": "Subscription.AllPlans.monthlyBilling",
-    "defaultMessage": "Monthly Billing",
+    "id": "Subscription.AllPlans.demo",
+    "defaultMessage": "Request a demo",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.description.free",
+    "defaultMessage": "Compact time tracking & reporting designed with freelancers in mind",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.description.premium",
+    "defaultMessage": "Tools to facilitate consistent processes across multiple teams",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.description.starter",
+    "defaultMessage": "Built for small teams to work at a fast pace without a lot of overhead",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.monthlyLabel",
+    "defaultMessage": "Monthly",
     "message": ""
   },
   {
@@ -10300,13 +11040,38 @@
     "message": ""
   },
   {
-    "id": "Subscription.AllPlans.title",
-    "defaultMessage": "Supercharge your productivity",
+    "id": "Subscription.AllPlans.subtitle",
+    "defaultMessage": "Get the most out of your time and the best out of your team with our paid plans",
     "message": ""
   },
   {
-    "id": "Subscription.AllPlans.trialText",
-    "defaultMessage": "30-day free trial included",
+    "id": "Subscription.AllPlans.title",
+    "defaultMessage": "Something for Everyone",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.title.free",
+    "defaultMessage": "Free",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.title.premium",
+    "defaultMessage": "Premium",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.title.starter",
+    "defaultMessage": "Starter",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.upgrade",
+    "defaultMessage": "Upgrade to {plan}",
+    "message": ""
+  },
+  {
+    "id": "Subscription.AllPlans.well",
+    "defaultMessage": "You can continue using our Free plan when the trial ends",
     "message": ""
   },
   {
@@ -10840,51 +11605,6 @@
     "message": ""
   },
   {
-    "id": "Subscription.PlanPrice.currentlyFree",
-    "defaultMessage": "Currently on <b>Free plan</b>",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.currentlyOnAnnual",
-    "defaultMessage": "Currently on <b>annual plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.currentlyOnMonthly",
-    "defaultMessage": "Currently on <b>monthly plan</b> with<br></br>{userCount} {userCount, plural, one {user} other {users}}",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.enterprisePrice",
-    "defaultMessage": "We'll carve out a plan to suit the needs of your complex or large organization",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.nothing",
-    "defaultMessage": "Nothing, nada, zilch",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.perUser",
-    "defaultMessage": "Per user/month",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.saveAnnually",
-    "defaultMessage": "Go annual and save 10%!",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.savingAnnually",
-    "defaultMessage": "Saving {amount} a year!",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PlanPrice.suspended",
-    "defaultMessage": "Only available for teams of<br></br>5 or less",
-    "message": ""
-  },
-  {
     "id": "Subscription.Preselected.Enterprise.benefit1",
     "defaultMessage": "Receive any report to your email",
     "message": ""
@@ -10937,61 +11657,6 @@
   {
     "id": "Subscription.Preselected.upgrade",
     "defaultMessage": "Upgrade",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.PlanButton.enterpriseUpgrade",
-    "defaultMessage": "Contact us",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.PlanButton.upgrade",
-    "defaultMessage": "Upgrade to {plan}",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.change",
-    "defaultMessage": "Change to {plan}",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.descriptionTitle",
-    "defaultMessage": "everything in {previousPlan} plus:",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.downgrade",
-    "defaultMessage": "Downgrade to {plan}",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.notAvailable",
-    "defaultMessage": "Not available",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.payAnnually",
-    "defaultMessage": "Pay annually",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.payMonthly",
-    "defaultMessage": "Change to monthly plan",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.renewSubscription",
-    "defaultMessage": "Renew Subscription",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.upgrade",
-    "defaultMessage": "Current plan",
-    "message": ""
-  },
-  {
-    "id": "Subscription.PricingPlan.useFree",
-    "defaultMessage": "Use free version",
     "message": ""
   },
   {
@@ -11076,7 +11741,7 @@
   },
   {
     "id": "Subscription.trial.timer.notification.title",
-    "defaultMessage": "{days, plural, one {This is the last day of your Premium trial. <upgradeLink>Upgrade today</upgradeLink> so your team can continue tracking smoothly.} other {You have # days remaining  on your trial. <upgradeLink>Upgrade today</upgradeLink>}}",
+    "defaultMessage": "{days, plural, one {This is the last day of your Premium trial. <upgradeLink>Upgrade today</upgradeLink> so your team can continue tracking smoothly.} other {You have # days remaining on your Premium trial. <upgradeLink>Upgrade today</upgradeLink>}}",
     "message": ""
   },
   {
@@ -12055,6 +12720,21 @@
     "message": ""
   },
   {
+    "id": "TimeEntriesList.EmptyState.bottomText",
+    "defaultMessage": "+100 Integrations",
+    "message": ""
+  },
+  {
+    "id": "TimeEntriesList.EmptyState.subtitle",
+    "defaultMessage": "Keep track of your time – anytime and anywhere",
+    "message": ""
+  },
+  {
+    "id": "TimeEntriesList.EmptyState.title",
+    "defaultMessage": "Let's get tracking!",
+    "message": ""
+  },
+  {
     "id": "TimeEntriesList.loadEntries",
     "defaultMessage": "Load old entries",
     "message": ""
@@ -12150,6 +12830,11 @@
     "message": ""
   },
   {
+    "id": "TimeEntryAutocompletePopdown.noPrject",
+    "defaultMessage": "No project",
+    "message": ""
+  },
+  {
     "id": "TimeEntryAutocompletePopdown.projects",
     "defaultMessage": "Projects",
     "message": ""
@@ -12161,7 +12846,12 @@
   },
   {
     "id": "TimeEntryAutocompletePopdown.timeEntries",
-    "defaultMessage": "Time Entries",
+    "defaultMessage": "Previously tracked time entries",
+    "message": ""
+  },
+  {
+    "id": "TimeEntryContextMenu.addFavorite",
+    "defaultMessage": "Add to favorites",
     "message": ""
   },
   {
@@ -12315,6 +13005,21 @@
     "message": ""
   },
   {
+    "id": "TimerForm.RunningEntryContextMenu.addFavorite",
+    "defaultMessage": "Add to favorites",
+    "message": ""
+  },
+  {
+    "id": "TimerForm.RunningEntryContextMenu.delete",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "TimerForm.RunningEntryContextMenu.menuTitle",
+    "defaultMessage": "More actions",
+    "message": ""
+  },
+  {
     "id": "TimerForm.UnmetConstraintsFieldsTooltip",
     "defaultMessage": "Please fill out required {numberOfUnmetFields, plural, one {field} other {fields}}: {fields}",
     "message": ""
@@ -12455,6 +13160,66 @@
     "message": ""
   },
   {
+    "id": "TrialEndedDialog.averageMinutesPerTask",
+    "defaultMessage": "You spent an average length of {minutes} minutes on each task",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.billableHours",
+    "defaultMessage": "You really brought home the bacon! You worked {billableHours} billable hours (compared to {nonBillableHours} non-billable hours)",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.brokedDownWork",
+    "defaultMessage": "You broke down your work into manageable chunks. You divided {projectsCount} Projects and {hours} hours of work into {tasksCount} Tasks",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.busyHours",
+    "defaultMessage": "You found that your busiest day was {busiest}. Your least busy day was {leastBusy}. Rest is important too",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.earnings",
+    "defaultMessage": "Your most time-consuming client this month was worth it. You earned {earnings}",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.longestWorkDay",
+    "defaultMessage": "You had some pretty long workdays. You worked {hours} hours on your longest day!",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.mostActiveUser",
+    "defaultMessage": "Your most active team member tracked {hours} hours",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.mostProfitableProjectHours",
+    "defaultMessage": "Your most profitable project this month took {hours} hours",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.mostTrackedProject",
+    "defaultMessage": "Your most time-consuming project this month was a whopping {hours} hours",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.projectEstimates",
+    "defaultMessage": "Your learned that time is pretty hard to predict. You budgeted {hoursBudgeted} hours for a Project but logged {hoursLogged}",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.workspaceSizeAndHours",
+    "defaultMessage": "You kept {userCount} people on the same page during {hours} hours of work",
+    "message": ""
+  },
+  {
+    "id": "TrialEndedDialog.yourTotalHours",
+    "defaultMessage": "You tracked a total of {hours} hours and took a good hard look at where your time was going",
+    "message": ""
+  },
+  {
     "id": "TrialEndingDialog.body",
     "defaultMessage": "When your trial expires you will be automatically downgraded to the Free plan, with limited features and support for up to only 5 Workspace users. You will lose access to the paid features used during your trial.",
     "message": ""
@@ -12472,6 +13237,11 @@
   {
     "id": "TrialEndingDialog.well",
     "defaultMessage": "{remainingDays, plural,\n      =0 {Upgrade today to continue using our Premium features uninterrupted.}\n      other {Upgrade by {endDate} to continue using our Premium features uninterrupted.}\n    }",
+    "message": ""
+  },
+  {
+    "id": "TrialEndingDialog.yourRhythm",
+    "defaultMessage": "You found your work rhythm. You work in an average of {hours}-hour chunks",
     "message": ""
   },
   {
@@ -12991,7 +13761,12 @@
   },
   {
     "id": "WorkspaceList.CreateWorkspaceButton.upsellTooltip",
-    "defaultMessage": "Adding multiple Workspaces to an Organization is a Premium feature. {link}",
+    "defaultMessage": "Adding multiple Workspaces to an Organization is an Enterprise feature.",
+    "message": ""
+  },
+  {
+    "id": "WorkspaceList.CreateWorkspaceButton.upsellTooltipContactUs",
+    "defaultMessage": " <a>Contact us</a> for more information",
     "message": ""
   },
   {
@@ -13572,6 +14347,12 @@
     "message": ""
   },
   {
+    "id": "images.handsClapping.alt",
+    "description": "Alt text for hands clapping image image",
+    "defaultMessage": "Well done!",
+    "message": ""
+  },
+  {
     "id": "images.invite.alt",
     "description": "Alt text for invite image",
     "defaultMessage": "Invite others to your workspace",
@@ -13647,7 +14428,17 @@
   },
   {
     "id": "integration.salesforce.connectDescription",
-    "defaultMessage": "With Salesforce connected to Toggl Track you can set up your work in one place and enable your team to track their time accurately with the least clicks possible. Your data will stay up to date in both places.",
+    "defaultMessage": "When Salesforce is connected to Toggl Track, your team will be able to easily categorize their time entries without having to manually set up Projects, Tasks, Clients, or Tags. The integration maps Salesforce objects to Toggl Track, and automatically syncs any new data from Salesforce. <cta>To get started, connect your Salesforce account.</cta>",
+    "message": ""
+  },
+  {
+    "id": "integration.salesforce.connectDisclaimer",
+    "defaultMessage": "Note: This integration only supports Salesforce Enterprise and Unlimited editions.",
+    "message": ""
+  },
+  {
+    "id": "integration.salesforce.disclaimer",
+    "defaultMessage": "Note: This integration only supports Salesforce Enterprise and Unlimited editions.",
     "message": ""
   },
   {
