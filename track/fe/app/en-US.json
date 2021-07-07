@@ -210,21 +210,6 @@
     "message": ""
   },
   {
-    "id": "AddTimeEntryDialog.submit",
-    "defaultMessage": "Add time entry",
-    "message": ""
-  },
-  {
-    "id": "AddTimeEntryDialog.success",
-    "defaultMessage": "Time entry added!",
-    "message": ""
-  },
-  {
-    "id": "AddTimeEntryDialog.title",
-    "defaultMessage": "Add Time Entry",
-    "message": ""
-  },
-  {
     "id": "AddWorkspaceMemberDialog.all",
     "defaultMessage": "All",
     "message": ""
@@ -8220,6 +8205,51 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.ConflictMessages.betweenMappingGroupEntities",
+    "defaultMessage": "We have paused this integration because your connection {name} is trying to import two or more {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} named {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.betweenMappingGroups",
+    "defaultMessage": "We have paused this integration because two of your connections {mappingNameA} and {mappingNameB} are both trying to create a {entityType} named {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.betweenWorkspaceLevelEntities",
+    "defaultMessage": "We have paused this integration because the {workspace} workspace level connection is trying to import two or more {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} named {entityName} named {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.conflictTitle",
+    "defaultMessage": "Name conflict ({date} {time})",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.editConnection",
+    "defaultMessage": " {entityType, select, project {Project} task {Task} client {Client} tag {Tag}} names must be unique in Toggl Track, and these {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} have not been synced yet. To re-enable syncing, <link>edit the connection</link> to make sure each {entityType} has a unique name or change the name of the record in Salesforce.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.mappingGroupAndExistingEntity",
+    "defaultMessage": "We have paused this integration because the {mappingName} connection is trying to create a private {entityType} with the same name as an existing public {entityType} {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.showLessControl",
+    "defaultMessage": "Show less",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.showMoreControl",
+    "defaultMessage": "Show more",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.workspaceLevelAndExistingEntity",
+    "defaultMessage": "We have paused this integration because the {workspace} workspace level connection is trying to create a public {entityType} with the same name as an existing private {entityType} {entityName}.",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.ConnectionNaming.assignError",
     "defaultMessage": "Please add team members",
     "message": ""
@@ -12382,11 +12412,6 @@
   {
     "id": "TimeEntriesBulkEditDialog.descriptionPlaceholder",
     "defaultMessage": "New description...",
-    "message": ""
-  },
-  {
-    "id": "TimeEntriesBulkEditDialog.form.descriptionPlaceholder",
-    "defaultMessage": "Description...",
     "message": ""
   },
   {
