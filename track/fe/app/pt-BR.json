@@ -320,6 +320,46 @@
     "message": ""
   },
   {
+    "id": "AuditFilter.byDuration",
+    "defaultMessage": "By duration",
+    "message": ""
+  },
+  {
+    "id": "AuditFilter.durationOptions.entries",
+    "defaultMessage": "Entries",
+    "message": ""
+  },
+  {
+    "id": "AuditFilter.durationOptions.longer",
+    "defaultMessage": "Longer",
+    "message": ""
+  },
+  {
+    "id": "AuditFilter.durationOptions.shorter",
+    "defaultMessage": "Shorter",
+    "message": ""
+  },
+  {
+    "id": "AuditFilter.durationOptions.than",
+    "defaultMessage": "Than",
+    "message": ""
+  },
+  {
+    "id": "AuditFilter.label",
+    "defaultMessage": "Audit",
+    "message": ""
+  },
+  {
+    "id": "AuditFilter.withoutProject",
+    "defaultMessage": "Without project",
+    "message": ""
+  },
+  {
+    "id": "AuditFilter.withoutTask",
+    "defaultMessage": "Without task",
+    "message": ""
+  },
+  {
     "id": "BackToTop.backToTop",
     "defaultMessage": "Back to Top",
     "message": ""
@@ -462,6 +502,141 @@
   {
     "id": "BillableSwitch.upsell",
     "defaultMessage": "Billable rates is a Starter feature. {url}",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.State.required",
+    "defaultMessage": "Please select your state",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.Zip.invalid",
+    "defaultMessage": "Please enter a valid ZIP code",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.Zip.required",
+    "defaultMessage": "Please enter your zip code",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.addressPlaceholder",
+    "defaultMessage": "Street, City *",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.addressRequiredError",
+    "defaultMessage": "Please enter your street address",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.countryPlaceholder",
+    "defaultMessage": "Country *",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.countryRequiredError",
+    "defaultMessage": "Please select your country",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.emailDescription",
+    "defaultMessage": "Subscription updates will be sent to this email and to your email",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.emailPlaceholder",
+    "defaultMessage": "Contact email",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.emailValidation",
+    "defaultMessage": "Please check the email format",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.nameDescription",
+    "defaultMessage": "This will be shown on the invoice",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.namePlaceholder",
+    "defaultMessage": "Contact name",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.next",
+    "defaultMessage": "Next",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.payerDescription",
+    "defaultMessage": "This is who the invoice will be made out to",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.payerPlaceholder",
+    "defaultMessage": "Payer *",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.payerRequired",
+    "defaultMessage": "Please enter the name of a person or company",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.save",
+    "defaultMessage": "Save",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.statePlaceholder",
+    "defaultMessage": "State",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.taxPlaceholder",
+    "defaultMessage": "Tax number",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.title",
+    "defaultMessage": "Billing Info",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.usStatePlaceholder",
+    "defaultMessage": "State *",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.vatAddedDescription",
+    "defaultMessage": "{vatPercentage}% VAT will be added to your invoice",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.vatDescription",
+    "defaultMessage": "<eg>e.g.</eg> EU123456789",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.vatPlaceholder",
+    "defaultMessage": "VAT number",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.vatValidationError",
+    "defaultMessage": "Please check that:<br></br>\n      1) You’ve added the country code with your VAT number<br></br>\n      2) The VAT number is correct<br></br>\n      3) There are no spaces between the characters",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.zipPlaceholder",
+    "defaultMessage": "Zip/Postal code",
+    "message": ""
+  },
+  {
+    "id": "BillingInfo.zipRequiredPlaceholder",
+    "defaultMessage": "Zip code *",
     "message": ""
   },
   {
@@ -1995,6 +2170,21 @@
     "message": ""
   },
   {
+    "id": "DescriptionFilter.label",
+    "defaultMessage": "Description",
+    "message": ""
+  },
+  {
+    "id": "DescriptionPopdown.filterPlaceholder",
+    "defaultMessage": "Description...",
+    "message": ""
+  },
+  {
+    "id": "DescriptionPopdown.withoutDescriptionItem",
+    "defaultMessage": "Without description",
+    "message": ""
+  },
+  {
     "id": "DetailedReport.amount",
     "defaultMessage": "Amount",
     "message": ""
@@ -2075,6 +2265,76 @@
     "message": ""
   },
   {
+    "id": "DetailedReportV3.DetailedReportDataTable.BulkEditTools.tooltipContent",
+    "defaultMessage": "Turn off rounding to use bulk edit",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.RoundingEnabledTooltip.text",
+    "defaultMessage": "Editing is not allowed while rounding is turned on",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.Toolbar.upsell",
+    "defaultMessage": "Rounding time in Reports is a Starter feature.",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.UserPopdown.deletedUser",
+    "defaultMessage": "Deleted user",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.UserPopdown.filterPlaceholder",
+    "defaultMessage": "Find user...",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.amount",
+    "defaultMessage": "Amount",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.date",
+    "defaultMessage": "Date",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.dateTime",
+    "defaultMessage": "Time",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.duration",
+    "defaultMessage": "Duration",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.timeEntry",
+    "defaultMessage": "Time Entry",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportDataTable.user",
+    "defaultMessage": "User",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportHeader.amount",
+    "defaultMessage": "Amount",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportHeader.billableHours",
+    "defaultMessage": "Billable hours",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportV3.DetailedReportHeader.totalHours",
+    "defaultMessage": "Total hours",
+    "message": ""
+  },
+  {
     "id": "DetailedReports.AddTime.buttonText",
     "defaultMessage": "Add entries",
     "message": ""
@@ -2102,6 +2362,26 @@
   {
     "id": "DetailedReports.tooltip.editingDisabled",
     "defaultMessage": "Editing is not allowed while rounding is turned on",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportsV3.DetailedReportDataTable.BulkEditTools.delete",
+    "defaultMessage": "Delete",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportsV3.DetailedReportDataTable.BulkEditTools.editSelected",
+    "defaultMessage": "Edit selected",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportsV3.DetailedReportDataTable.TimeDisplayModeSelector.date",
+    "defaultMessage": "Show dates only",
+    "message": ""
+  },
+  {
+    "id": "DetailedReportsV3.DetailedReportDataTable.TimeDisplayModeSelector.dateTime",
+    "defaultMessage": "Show dates and times",
     "message": ""
   },
   {
@@ -6535,6 +6815,16 @@
     "message": ""
   },
   {
+    "id": "PopdownList.clear",
+    "defaultMessage": "Clear",
+    "message": ""
+  },
+  {
+    "id": "PopdownList.filteredBy",
+    "defaultMessage": "Filtered by:",
+    "message": ""
+  },
+  {
     "id": "PopdownList.noMatch",
     "defaultMessage": "No matching items",
     "message": ""
@@ -6542,6 +6832,11 @@
   {
     "id": "PopdownList.none",
     "defaultMessage": "None",
+    "message": ""
+  },
+  {
+    "id": "PopdownList.selectedInSummart",
+    "defaultMessage": "The selection in Summary Reports",
     "message": ""
   },
   {
@@ -8050,6 +8345,16 @@
     "message": ""
   },
   {
+    "id": "ReportsFilter.button",
+    "defaultMessage": "Submit",
+    "message": ""
+  },
+  {
+    "id": "ReportsFilter.label",
+    "defaultMessage": "Filter by:",
+    "message": ""
+  },
+  {
     "id": "ReportsHeader.detailed",
     "defaultMessage": "Detailed",
     "message": ""
@@ -8217,6 +8522,51 @@
   {
     "id": "SalesforceIntegration.ConfigurationPreview.syncLocation",
     "defaultMessage": "The data will be synced from {workspace}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.betweenMappingGroupEntities",
+    "defaultMessage": "We have paused this integration because your connection {name} is trying to import two or more {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} named {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.betweenMappingGroups",
+    "defaultMessage": "We have paused this integration because two of your connections {mappingNameA} and {mappingNameB} are both trying to create a {entityType} named {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.betweenWorkspaceLevelEntities",
+    "defaultMessage": "We have paused this integration because the {workspace} workspace level connection is trying to import two or more {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} named {entityName} named {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.conflictTitle",
+    "defaultMessage": "Name conflict ({date} {time})",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.editConnection",
+    "defaultMessage": " {entityType, select, project {Project} task {Task} client {Client} tag {Tag}} names must be unique in Toggl Track, and these {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} have not been synced yet. To re-enable syncing, <link>edit the connection</link> to make sure each {entityType} has a unique name or change the name of the record in Salesforce.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.mappingGroupAndExistingEntity",
+    "defaultMessage": "We have paused this integration because the {mappingName} connection is trying to create a private {entityType} with the same name as an existing public {entityType} {entityName}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.showLessControl",
+    "defaultMessage": "Show less",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.showMoreControl",
+    "defaultMessage": "Show more",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.ConflictMessages.workspaceLevelAndExistingEntity",
+    "defaultMessage": "We have paused this integration because the {workspace} workspace level connection is trying to create a public {entityType} with the same name as an existing private {entityType} {entityName}.",
     "message": ""
   },
   {
@@ -8480,6 +8830,16 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.NoFilteringWarningBanner.body",
+    "defaultMessage": "Every record will be synced for each Salesforce object that is linked to Toggl Track in the Connecting data step. If this is a concern, please wait for the official release of this integration where you will be able to apply a filter to limit the number of records synced.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.NoFilteringWarningBanner.title",
+    "defaultMessage": "Salesforce Sync Beta does not currently support limiting or filtering synced data",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.ObjectPick.client",
     "defaultMessage": "Clients",
     "message": ""
@@ -8655,8 +9015,8 @@
     "message": ""
   },
   {
-    "id": "SalesforceMappingDialog.MappingList.addConnectionButton",
-    "defaultMessage": "Add connection",
+    "id": "SalesforceMappingDialog.MappingList.addLinkButton",
+    "defaultMessage": "Add link",
     "message": ""
   },
   {
@@ -13125,6 +13485,61 @@
     "message": ""
   },
   {
+    "id": "WeeklyReport.deletedUser",
+    "defaultMessage": "Deleted user",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReport.noProject",
+    "defaultMessage": "Without project",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReport.roundingButton.Upsell",
+    "defaultMessage": "Rounding time in Reports is a Starter feature.",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.DataTable.TotalRow.total",
+    "defaultMessage": "Total",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.DataTable.header.groupedReportTooltipTitle",
+    "defaultMessage": "report",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.DataTable.header.name",
+    "defaultMessage": "Name",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.DataTable.header.title",
+    "defaultMessage": "Title",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.DataTable.header.total",
+    "defaultMessage": "Total",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.totals.amount",
+    "defaultMessage": "amount",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.totals.billable",
+    "defaultMessage": "billable hours",
+    "message": ""
+  },
+  {
+    "id": "WeeklyReports.totals.total",
+    "defaultMessage": "total hours",
+    "message": ""
+  },
+  {
     "id": "Workspace.CreateSuccess.body",
     "defaultMessage": "You can adjust your workspace set-up on {link}{lineBreak}or, you can just start tracking time now",
     "message": ""
@@ -14300,6 +14715,18 @@
     "id": "reports.list.controls.rounding.value.postMinutes",
     "description": "Rounding value select post text for minutes.",
     "defaultMessage": "{value, plural, one {# minute} other {# minutes}}",
+    "message": ""
+  },
+  {
+    "id": "reports.list.controls.weekly.dataType.amounts",
+    "description": "Billable option title for hide.",
+    "defaultMessage": "Show amounts",
+    "message": ""
+  },
+  {
+    "id": "reports.list.controls.weekly.dataType.time",
+    "description": "Billable option title for amounts only.",
+    "defaultMessage": "Show time",
     "message": ""
   },
   {
