@@ -12100,6 +12100,11 @@
     "message": ""
   },
   {
+    "id": "TagsPopdown.contentTip.allAvailableSelected",
+    "defaultMessage": "All available tags are selected",
+    "message": ""
+  },
+  {
     "id": "TagsPopdown.contentTip.createTag",
     "defaultMessage": "Try a different keyword or press {prompt} to create a new tag.",
     "message": ""
@@ -12347,6 +12352,11 @@
   {
     "id": "TeamPopdown.both.menuItemName",
     "defaultMessage": "Both",
+    "message": ""
+  },
+  {
+    "id": "TeamPopdown.currentUser.displayNameHint",
+    "defaultMessage": "You",
     "message": ""
   },
   {
