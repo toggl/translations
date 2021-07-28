@@ -3080,6 +3080,11 @@
     "message": ""
   },
   {
+    "id": "Favorites.onboarding.descriptionPopdownsContent",
+    "defaultMessage": "Click on the icon or type @ to add projects or # to add tags.",
+    "message": ""
+  },
+  {
     "id": "FeedbackDialog.addScreenshot",
     "defaultMessage": "Add screenshot",
     "message": ""
@@ -7470,8 +7475,18 @@
     "message": ""
   },
   {
+    "id": "ProfileCheckbox.timer.projectShortcutEnabled",
+    "defaultMessage": "Allow using @ shortcut to assign a Project in the Timer Description field",
+    "message": ""
+  },
+  {
     "id": "ProfileCheckbox.timer.showTimeInTitle",
     "defaultMessage": "Show running time in the title bar",
+    "message": ""
+  },
+  {
+    "id": "ProfileCheckbox.timer.tagsShortcutEnabled",
+    "defaultMessage": "Allow using # shortcut to assign a Tag in the Timer Description field",
     "message": ""
   },
   {
@@ -8620,6 +8635,76 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.FieldFilter.FilterValueInput.false",
+    "defaultMessage": "False",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.FilterValueInput.hint",
+    "defaultMessage": "For example: {hints}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.FilterValueInput.placeholder",
+    "defaultMessage": "Field value (exact match)",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.FilterValueInput.true",
+    "defaultMessage": "True",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.connectingInfo",
+    "defaultMessage": "You are connecting Toggl Track {entity, select, project {Projects} task {Tasks} client {Clients} tag {Tags}} to Salesforce {objectLabel}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.fieldFilterInputLabel",
+    "defaultMessage": "Only import data with the following value",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.fieldFilterTooltip",
+    "defaultMessage": "The value you provide here has to be an exact match (written the same way) to what is configured on Salesforce side to successfully filter the data.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.fieldInputLabel",
+    "defaultMessage": "Select the Salesforce field to use for filtering",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.fieldInputPlaceholder",
+    "defaultMessage": "Select Field",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.fieldInputTooltip",
+    "defaultMessage": "These fields belong to the Salesforce object [{objectLabel}]. You can only use one field per connection for filtering.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.fieldSearchPlaceholder",
+    "defaultMessage": "Search for field",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.skipStep",
+    "defaultMessage": "Skip this step",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.subtitle",
+    "defaultMessage": "If you don't want to sync all {objectLabel} from Salesforce to Toggl Track, add a filter below. Select a field from {objectLabel}, and enter a value. Only Salesforce records that match the filter exactly will be synced as {entity, select, project {Projects} task {Tasks} client {Clients} tag {Tags}}.",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.FieldFilter.title",
+    "defaultMessage": "Limit the amount of {objectLabel} you want to sync as {entity, select, project {Project} task {Task} client {Client} tag {Tag}} (optional)",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.FieldsSelection.FieldsList.filterPlaceholder",
     "defaultMessage": "Find fields",
     "message": ""
@@ -8775,6 +8860,11 @@
     "message": ""
   },
   {
+    "id": "SalesforceIntegration.MappingPreview.filter",
+    "defaultMessage": "Filter: <b>{fieldLabel}</b> is <b>{fieldValue}</b>",
+    "message": ""
+  },
+  {
     "id": "SalesforceIntegration.MappingPreview.group",
     "defaultMessage": "{amount, plural, one {# group} other {# groups}}",
     "message": ""
@@ -8782,6 +8872,11 @@
   {
     "id": "SalesforceIntegration.MappingPreview.member",
     "defaultMessage": "{amount, plural, one {# team member} other {# team members}}",
+    "message": ""
+  },
+  {
+    "id": "SalesforceIntegration.MappingPreview.parent",
+    "defaultMessage": "Parent: <b>{field}</b> (from: <b>{parent}</b>)",
     "message": ""
   },
   {
@@ -9767,46 +9862,6 @@
   {
     "id": "Settings.General.Footer.link",
     "defaultMessage": "Get a free demo",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.roundDown",
-    "defaultMessage": "Round down to",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.roundToNearest",
-    "defaultMessage": "Round to nearest",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.roundUp",
-    "defaultMessage": "Round up to",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.roundingHorsItems",
-    "defaultMessage": "{hours} {hours, plural, one {hour} other {hours}}",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.roundingMinutesItem",
-    "defaultMessage": "{minutes} {minutes, plural, one {minute} other {minutes}}",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.subtitle",
-    "defaultMessage": "Reports will have these settings by default. {link}",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.title",
-    "defaultMessage": "Time rounding in reports",
-    "message": ""
-  },
-  {
-    "id": "Settings.General.ReportsRounding.tooltipContent",
-    "defaultMessage": "Time rounding is a Starter feature. {link}",
     "message": ""
   },
   {
@@ -12100,6 +12155,11 @@
     "message": ""
   },
   {
+    "id": "TagsPopdown.contentTip.allAvailableSelected",
+    "defaultMessage": "All available tags are selected",
+    "message": ""
+  },
+  {
     "id": "TagsPopdown.contentTip.createTag",
     "defaultMessage": "Try a different keyword or press {prompt} to create a new tag.",
     "message": ""
@@ -12347,6 +12407,11 @@
   {
     "id": "TeamPopdown.both.menuItemName",
     "defaultMessage": "Both",
+    "message": ""
+  },
+  {
+    "id": "TeamPopdown.currentUser.displayNameHint",
+    "defaultMessage": "You",
     "message": ""
   },
   {
@@ -13107,6 +13172,11 @@
   {
     "id": "TimerForm.leaveWarning",
     "defaultMessage": "Leave without saving your new Time Entry?",
+    "message": ""
+  },
+  {
+    "id": "TimerForm.onboarding.descriptionPopdownsTitle",
+    "defaultMessage": "We've made it even simpler to add Projects and Tags!",
     "message": ""
   },
   {
