@@ -8546,7 +8546,7 @@
   },
   {
     "id": "SalesforceIntegration.ConflictMessages.betweenWorkspaceLevelEntities",
-    "defaultMessage": "We have paused this integration because the {workspace} workspace level connection is trying to import two or more {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} named {entityName} named {entityName}.",
+    "defaultMessage": "We have paused this integration because the <b>{workspace} workspace level</b> connection is trying to import two or more {entityType, select, project {projects} task {tasks} client {clients} tag {tags}} named {entityName}.",
     "message": ""
   },
   {
@@ -8576,7 +8576,7 @@
   },
   {
     "id": "SalesforceIntegration.ConflictMessages.workspaceLevelAndExistingEntity",
-    "defaultMessage": "We have paused this integration because the {workspace} workspace level connection is trying to create a public {entityType} with the same name as an existing private {entityType} {entityName}.",
+    "defaultMessage": "We have paused this integration because the <b>{workspace} workspace level</b> connection is trying to create a public {entityType} with the same name as an existing private {entityType} {entityName}.",
     "message": ""
   },
   {
