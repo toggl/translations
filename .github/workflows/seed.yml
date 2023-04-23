@@ -9,3 +9,7 @@ on:
         type: choice
         options:
           - track/fe/app
+      locale:
+        description: Locale to seed
+        required: true
+        type: string
