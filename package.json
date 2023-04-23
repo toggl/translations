@@ -8,5 +8,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/toggl/translations"
-  }
+  },
+  "workspaces": [
+    ".github/actions/*"
+  ]
 }
