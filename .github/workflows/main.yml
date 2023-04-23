@@ -8,16 +8,14 @@ on:
 jobs:
   manage-prs-for-pushed-locales:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: .github/actions
     steps:
       - name: Checkout repository and build actions
         uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: yarn && yarn build
+      - name: Build actions
+        run: yarn && yarn workspace run build
       - name: Manage pushed locales
         uses: ./.github/actions/packages/manage-pushed-locales
         with:

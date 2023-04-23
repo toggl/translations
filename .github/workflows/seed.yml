@@ -22,10 +22,6 @@ jobs:
     name: Seed
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: .github/actions
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -36,7 +32,7 @@ jobs:
           node-version: 16
 
       - name: Build actions
-        run: yarn && yarn build
+        run: yarn && yarn workspace run build
 
       - name: Seed locale
         uses: ./.github/actions/packages/seed
