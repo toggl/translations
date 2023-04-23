@@ -2,3 +2,10 @@ name: Seed Translations
 
 on:
   workflow_dispatch:
+    inputs:
+      app:
+        description: App translations to seed
+        required: true
+        type: choice
+        options:
+          - track/fe/app
