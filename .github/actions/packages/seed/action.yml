@@ -1,0 +1,12 @@
+name: Seed
+description: Seeds translations from the base locale to other locales
+inputs:
+  app:
+    description: Path to app translations
+    required: true
+  locale:
+    description: Target locale to seed
+    required: true
+runs:
+  using: node16
+  main: dist/index.js
