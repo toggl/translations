@@ -37,3 +37,9 @@ jobs:
 
       - name: Build actions
         run: yarn && yarn build
+
+      - name: Seed locale
+        uses: ./.github/actions/packages/seed
+        with:
+          app: github.event.inputs.app
+          locale: github.event.inputs.locale
