@@ -20,5 +20,5 @@ outputs:
   opened-pr:
     description: 'PR number of the opened PR'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
