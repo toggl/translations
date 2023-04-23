@@ -2,6 +2,5 @@
 !.editorconfig
 !.github
 !.gitignore
-!.nvmrc
 
 node_modules/
