@@ -20,7 +20,9 @@ jobs:
           scope: '@toggl'
 
       - name: Build actions
-        run: yarn && yarn workspace run build
+        run: yarn && yarn workspaces run build
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_NPM_TOKEN }}
 
       - name: Manage pushed locales
         uses: ./.github/actions/packages/manage-pushed-locales
