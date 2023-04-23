@@ -6,6 +6,6 @@
     "esModuleInterop": true
   },
   "include": [
-    "packages/*/src/**/*.ts"
+    "actions/packages/*/src/**/*.ts"
   ]
 }
