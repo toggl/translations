@@ -13,3 +13,6 @@ on:
         description: Locale to seed
         required: true
         type: string
+
+permissions:
+  pull-requests: write
