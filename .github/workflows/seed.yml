@@ -1,1 +1,4 @@
 name: Seed Translations
+
+on:
+  workflow_dispatch:
