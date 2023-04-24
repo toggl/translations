@@ -5505,6 +5505,31 @@
     "message": ""
   },
   {
+    "id": "Integrations.jira.connectData.addConnectionButton",
+    "defaultMessage": "Add a connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewButton",
+    "defaultMessage": "Add new connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewGroupButton",
+    "defaultMessage": "Add new connection for a group",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.submitButton",
+    "defaultMessage": "Continue to handle duplicates",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.subtitle",
+    "defaultMessage": "Set up how Toggl Track should import your {integrationName} data",
+    "message": ""
+  },
+  {
     "id": "Integrations.jira.setup.connectDataDescription",
     "defaultMessage": "First, set up how Toggl Track should import your Jira data.",
     "message": ""
