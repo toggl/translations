@@ -5505,6 +5505,31 @@
     "message": ""
   },
   {
+    "id": "Integrations.jira.connectData.addConnectionButton",
+    "defaultMessage": "Add a connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewButton",
+    "defaultMessage": "Add new connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewGroupButton",
+    "defaultMessage": "Add new connection for a group",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.submitButton",
+    "defaultMessage": "Continue to handle duplicates",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.subtitle",
+    "defaultMessage": "Set up how Toggl Track should import your {integrationName} data",
+    "message": ""
+  },
+  {
     "id": "Integrations.jira.setup.connectDataDescription",
     "defaultMessage": "First, set up how Toggl Track should import your Jira data.",
     "message": ""
@@ -12636,7 +12661,7 @@
   },
   {
     "id": "Settings.Alerts.upsell.subtitle",
-    "defaultMessage": "Get an alert when your projects reach a certain percentage of their<br></br> estimated time.",
+    "defaultMessage": "Get an alert when your projects reach a certain percentage of their<br></br> estimated time",
     "message": ""
   },
   {
@@ -17449,12 +17474,12 @@
   },
   {
     "id": "reports.saved.upsell.subtitle",
-    "defaultMessage": "Generate a unique, shareable URL for your reports to quickly access them later or share with others.",
+    "defaultMessage": "Generate a unique, shareable URL to quickly access a report or share it with others",
     "message": ""
   },
   {
     "id": "reports.saved.upsell.title",
-    "defaultMessage": "Upgrade to save reports for later",
+    "defaultMessage": "Upgrade to access Saved Reports",
     "message": ""
   },
   {
@@ -17964,7 +17989,7 @@
   },
   {
     "id": "tags.empty.subtitle",
-    "defaultMessage": "Tags allow you to add even more context to time entries, beyond clients <br></br> and projects.",
+    "defaultMessage": "Tags allow you to add even more context to time entries, beyond clients <br></br> and projects",
     "message": ""
   },
   {
