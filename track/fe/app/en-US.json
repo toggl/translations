@@ -15,6 +15,11 @@
     "message": ""
   },
   {
+    "id": "ActivityEventContextPopup.noTitle",
+    "defaultMessage": "No title",
+    "message": ""
+  },
+  {
     "id": "ActivityEventContextPopup.timeframe",
     "defaultMessage": "Timeframe",
     "message": ""
@@ -286,7 +291,7 @@
   },
   {
     "id": "Alerts.NoTimeEstimateError",
-    "defaultMessage": "<p>The project of this alert does not have time estimate set up for it anymore therefore no emails can be sent out.</p><p><b>To get alerts about this project, please set up a time estimate.</b></p><p>More about <te-link>time estimates</te-link></p>",
+    "defaultMessage": "<p><b>To get alerts about this project, please set up a time estimate.</b></p><p>The project of this alert does not have time estimate set up for it anymore therefore no emails can be sent out.</p><p>More about <te-link>time estimates</te-link></p>",
     "message": ""
   },
   {
@@ -1721,12 +1726,12 @@
   },
   {
     "id": "ClientFilter.withoutTitleEntries",
-    "defaultMessage": "Entries without Client",
+    "defaultMessage": "Entries without client",
     "message": ""
   },
   {
     "id": "ClientFilter.withoutTitleProjects",
-    "defaultMessage": "Projects without Client",
+    "defaultMessage": "Projects without client",
     "message": ""
   },
   {
@@ -2381,7 +2386,7 @@
   },
   {
     "id": "DataExport.compileFile",
-    "defaultMessage": "Compile file and send to email",
+    "defaultMessage": "Export to email",
     "message": ""
   },
   {
@@ -4246,7 +4251,7 @@
   },
   {
     "id": "Integrations.CalendarSection.getStartedButton",
-    "defaultMessage": "Get Started",
+    "defaultMessage": "Get started",
     "message": ""
   },
   {
@@ -4301,7 +4306,7 @@
   },
   {
     "id": "Integrations.CalendarSection.title",
-    "defaultMessage": "External Calendars",
+    "defaultMessage": "External calendars",
     "message": ""
   },
   {
@@ -4896,7 +4901,7 @@
   },
   {
     "id": "Integrations.NativeSection.getStartedButton",
-    "defaultMessage": "Get Started",
+    "defaultMessage": "Get started",
     "message": ""
   },
   {
@@ -5502,6 +5507,31 @@
   {
     "id": "Integrations.jira.MappingRow.task",
     "defaultMessage": "Task",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addConnectionButton",
+    "defaultMessage": "Add a connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewButton",
+    "defaultMessage": "Add new connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewGroupButton",
+    "defaultMessage": "Add new connection for a group",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.submitButton",
+    "defaultMessage": "Continue to handle duplicates",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.subtitle",
+    "defaultMessage": "Set up how Toggl Track should import your {integrationName} data",
     "message": ""
   },
   {
@@ -6245,6 +6275,21 @@
     "message": ""
   },
   {
+    "id": "Navigation.ReportsPromptTooltip.Content",
+    "defaultMessage": "See how you spent your time  this week – or day, or month – with reports.",
+    "message": ""
+  },
+  {
+    "id": "Navigation.ReportsPromptTooltip.DismissButton",
+    "defaultMessage": "Dismiss",
+    "message": ""
+  },
+  {
+    "id": "Navigation.ReportsPromptTooltip.Title",
+    "defaultMessage": "A record of your week",
+    "message": ""
+  },
+  {
     "id": "Navigation.Settings",
     "defaultMessage": "Settings",
     "message": ""
@@ -6601,7 +6646,7 @@
   },
   {
     "id": "Onboarding.SegmentationSurvey.HeardFromStep.heardFromOption3",
-    "defaultMessage": "Colleague",
+    "defaultMessage": "Coworker",
     "message": ""
   },
   {
@@ -7506,7 +7551,7 @@
   },
   {
     "id": "Organization.Subscription.AllPlans.title",
-    "defaultMessage": "Something for Everyone",
+    "defaultMessage": "Upgrade now",
     "message": ""
   },
   {
@@ -7841,7 +7886,7 @@
   },
   {
     "id": "Organization.Subscription.Faqs.unified.answer5",
-    "defaultMessage": "We accept payment via credit card for monthly subscriptions. For annual subscriptions, however, you may also pay via wire transfer. For any questions, please contact support",
+    "defaultMessage": "You can pay via wire transfer only for annual subscriptions. If you have any questions, please <kbContactUsLink>contact us</kbContactUsLink>",
     "message": ""
   },
   {
@@ -7986,7 +8031,7 @@
   },
   {
     "id": "Organization.Subscription.InfoBox.freeHeader",
-    "defaultMessage": "You are using Free!",
+    "defaultMessage": "You are using our Free Plan",
     "message": ""
   },
   {
@@ -8036,7 +8081,7 @@
   },
   {
     "id": "Organization.Subscription.InfoBox.premiumHeader",
-    "defaultMessage": "You are using Premium!",
+    "defaultMessage": "You are using Premium",
     "message": ""
   },
   {
@@ -8046,7 +8091,7 @@
   },
   {
     "id": "Organization.Subscription.InfoBox.starter",
-    "defaultMessage": "You are using Starter!",
+    "defaultMessage": "You are using Starter",
     "message": ""
   },
   {
@@ -8421,7 +8466,7 @@
   },
   {
     "id": "Organization.Subscription.freeContent.cta",
-    "defaultMessage": "Check out our paid plans",
+    "defaultMessage": "Upgrade now",
     "message": ""
   },
   {
@@ -10466,7 +10511,7 @@
   },
   {
     "id": "ProjectFilter.AutoSelectItem.displayName",
-    "defaultMessage": "Auto-select top Projects",
+    "defaultMessage": "Auto-select top projects",
     "message": ""
   },
   {
@@ -10491,7 +10536,7 @@
   },
   {
     "id": "ProjectFilter.withoutTitle",
-    "defaultMessage": "Entries without Project",
+    "defaultMessage": "Entries without project",
     "message": ""
   },
   {
@@ -11536,7 +11581,7 @@
   },
   {
     "id": "ResourceColumnHeader.label",
-    "defaultMessage": "External Calendars",
+    "defaultMessage": "External calendars",
     "message": ""
   },
   {
@@ -12636,7 +12681,7 @@
   },
   {
     "id": "Settings.Alerts.upsell.subtitle",
-    "defaultMessage": "Get an alert when your projects reach a certain percentage of their<br></br> estimated time.",
+    "defaultMessage": "Get an alert when your projects reach a certain percentage of their<br></br> estimated time",
     "message": ""
   },
   {
@@ -13136,7 +13181,7 @@
   },
   {
     "id": "Settings.Import.Instructions.extraInfo",
-    "defaultMessage": "{link} on how the CSV file should be formatted and how uploading works.",
+    "defaultMessage": "{link} on how the CSV file should be formatted and how uploading works",
     "message": ""
   },
   {
@@ -13181,7 +13226,7 @@
   },
   {
     "id": "Settings.Import.subtitle",
-    "defaultMessage": "You can import users, time entries, projects, clients, tasks or other data to your workspace with just one go.",
+    "defaultMessage": "You can import users, time entries, projects, clients, tasks or other data to your workspace with just one go",
     "message": ""
   },
   {
@@ -14511,7 +14556,7 @@
   },
   {
     "id": "TagsPopdownById.createTagActiveTitle",
-    "defaultMessage": "Create a tag \"{name}\"",
+    "defaultMessage": "Create \"{name}\" tag",
     "message": ""
   },
   {
@@ -14531,7 +14576,12 @@
   },
   {
     "id": "TagsPopdownById.labelNewTag",
-    "defaultMessage": "Create a tag \"{name}\"",
+    "defaultMessage": "Create \"{name}\" tag",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.labelNewTagEmpty",
+    "defaultMessage": "Create tag",
     "message": ""
   },
   {
@@ -15221,7 +15271,7 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.calendarWeekViewDescription",
-    "defaultMessage": "Graph of projects tracked this week.",
+    "defaultMessage": "Graph of projects tracked this week",
     "message": ""
   },
   {
@@ -15241,7 +15291,7 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.goalsVisualizationDescription",
-    "defaultMessage": "Graph of recorded work from desktop app.",
+    "defaultMessage": "Graph of recorded work from desktop app",
     "message": ""
   },
   {
@@ -15276,7 +15326,7 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.timelineViewDescription",
-    "defaultMessage": "Graph of recorded work from desktop app.",
+    "defaultMessage": "Graph of recorded work from desktop app",
     "message": ""
   },
   {
@@ -15291,7 +15341,7 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.todayVisualizationDescription",
-    "defaultMessage": "Graph of projects tracked today.",
+    "defaultMessage": "Graph of projects tracked today",
     "message": ""
   },
   {
@@ -17449,12 +17499,12 @@
   },
   {
     "id": "reports.saved.upsell.subtitle",
-    "defaultMessage": "Generate a unique, shareable URL for your reports to quickly access them later or share with others.",
+    "defaultMessage": "Generate a unique, shareable URL to quickly access a report or share it with others",
     "message": ""
   },
   {
     "id": "reports.saved.upsell.title",
-    "defaultMessage": "Upgrade to save reports for later",
+    "defaultMessage": "Upgrade to access Saved Reports",
     "message": ""
   },
   {
@@ -17964,7 +18014,7 @@
   },
   {
     "id": "tags.empty.subtitle",
-    "defaultMessage": "Tags allow you to add even more context to time entries, beyond clients <br></br> and projects.",
+    "defaultMessage": "Tags allow you to add even more context to time entries, beyond clients <br></br> and projects",
     "message": ""
   },
   {
