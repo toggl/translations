@@ -15,6 +15,11 @@
     "message": ""
   },
   {
+    "id": "ActivityEventContextPopup.noTitle",
+    "defaultMessage": "No title",
+    "message": ""
+  },
+  {
     "id": "ActivityEventContextPopup.timeframe",
     "defaultMessage": "Timeframe",
     "message": ""
@@ -286,7 +291,7 @@
   },
   {
     "id": "Alerts.NoTimeEstimateError",
-    "defaultMessage": "<p>The project of this alert does not have time estimate set up for it anymore therefore no emails can be sent out.</p><p><b>To get alerts about this project, please set up a time estimate.</b></p><p>More about <te-link>time estimates</te-link></p>",
+    "defaultMessage": "<p><b>To get alerts about this project, please set up a time estimate.</b></p><p>The project of this alert does not have time estimate set up for it anymore therefore no emails can be sent out.</p><p>More about <te-link>time estimates</te-link></p>",
     "message": ""
   },
   {
@@ -345,33 +350,58 @@
     "message": ""
   },
   {
-    "id": "Analytics.ChartEditorHeader.applyButton",
-    "defaultMessage": "Apply Changes",
-    "message": ""
-  },
-  {
-    "id": "Analytics.ChartEditorHeader.cancelButton",
-    "defaultMessage": "Cancel",
-    "message": ""
-  },
-  {
     "id": "Analytics.ChartEditorHeader.editLabel",
     "defaultMessage": "Edit Chart",
     "message": ""
   },
   {
-    "id": "Analytics.ChartEditorHeader.placeholderDescription",
+    "id": "Analytics.ChartEditorHeader.saveLabel",
+    "defaultMessage": "Save changes",
+    "message": ""
+  },
+  {
+    "id": "Analytics.ChartEditorSettings.cancelButton",
+    "defaultMessage": "Cancel",
+    "message": ""
+  },
+  {
+    "id": "Analytics.ChartEditorSettings.chartType",
+    "defaultMessage": "Chart Type",
+    "message": ""
+  },
+  {
+    "id": "Analytics.ChartEditorSettings.dateRange",
+    "defaultMessage": "Date Range",
+    "message": ""
+  },
+  {
+    "id": "Analytics.ChartEditorSettings.groupBy",
+    "defaultMessage": "Group By",
+    "message": ""
+  },
+  {
+    "id": "Analytics.ChartEditorSettings.placeholderDescription",
     "defaultMessage": "Enter a description",
     "message": ""
   },
   {
-    "id": "Analytics.ChartEditorHeader.placeholderName",
+    "id": "Analytics.ChartEditorSettings.placeholderName",
     "defaultMessage": "Name of chart",
     "message": ""
   },
   {
-    "id": "Analytics.ChartEditorHeader.saveLabel",
-    "defaultMessage": "Save",
+    "id": "Analytics.ChartEditorSettings.submitApplyButton",
+    "defaultMessage": "Apply Changes",
+    "message": ""
+  },
+  {
+    "id": "Analytics.ChartEditorSettings.submitCreateButton",
+    "defaultMessage": "Create chart",
+    "message": ""
+  },
+  {
+    "id": "Analytics.ChartEditorSettings.workspace",
+    "defaultMessage": "Workspace",
     "message": ""
   },
   {
@@ -1721,12 +1751,12 @@
   },
   {
     "id": "ClientFilter.withoutTitleEntries",
-    "defaultMessage": "Entries without Client",
+    "defaultMessage": "Entries without client",
     "message": ""
   },
   {
     "id": "ClientFilter.withoutTitleProjects",
-    "defaultMessage": "Projects without Client",
+    "defaultMessage": "Projects without client",
     "message": ""
   },
   {
@@ -2381,7 +2411,7 @@
   },
   {
     "id": "DataExport.compileFile",
-    "defaultMessage": "Compile file and send to email",
+    "defaultMessage": "Export to email",
     "message": ""
   },
   {
@@ -4246,7 +4276,7 @@
   },
   {
     "id": "Integrations.CalendarSection.getStartedButton",
-    "defaultMessage": "Get Started",
+    "defaultMessage": "Get started",
     "message": ""
   },
   {
@@ -4301,7 +4331,7 @@
   },
   {
     "id": "Integrations.CalendarSection.title",
-    "defaultMessage": "External Calendars",
+    "defaultMessage": "External calendars",
     "message": ""
   },
   {
@@ -4896,7 +4926,7 @@
   },
   {
     "id": "Integrations.NativeSection.getStartedButton",
-    "defaultMessage": "Get Started",
+    "defaultMessage": "Get started",
     "message": ""
   },
   {
@@ -5502,6 +5532,31 @@
   {
     "id": "Integrations.jira.MappingRow.task",
     "defaultMessage": "Task",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addConnectionButton",
+    "defaultMessage": "Add a connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewButton",
+    "defaultMessage": "Add new connection",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.addNewGroupButton",
+    "defaultMessage": "Add new connection for a group",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.submitButton",
+    "defaultMessage": "Continue to handle duplicates",
+    "message": ""
+  },
+  {
+    "id": "Integrations.jira.connectData.subtitle",
+    "defaultMessage": "Set up how Toggl Track should import your {integrationName} data",
     "message": ""
   },
   {
@@ -6150,6 +6205,11 @@
     "message": ""
   },
   {
+    "id": "Navigation.BillableRates",
+    "defaultMessage": "Billable rates",
+    "message": ""
+  },
+  {
     "id": "Navigation.Blog",
     "defaultMessage": "Blog",
     "message": ""
@@ -6242,6 +6302,21 @@
   {
     "id": "Navigation.Reports",
     "defaultMessage": "Reports",
+    "message": ""
+  },
+  {
+    "id": "Navigation.ReportsPromptTooltip.Content",
+    "defaultMessage": "See how you spent your time  this week – or day, or month – with reports.",
+    "message": ""
+  },
+  {
+    "id": "Navigation.ReportsPromptTooltip.DismissButton",
+    "defaultMessage": "Dismiss",
+    "message": ""
+  },
+  {
+    "id": "Navigation.ReportsPromptTooltip.Title",
+    "defaultMessage": "A record of your week",
     "message": ""
   },
   {
@@ -6601,7 +6676,7 @@
   },
   {
     "id": "Onboarding.SegmentationSurvey.HeardFromStep.heardFromOption3",
-    "defaultMessage": "Colleague",
+    "defaultMessage": "Coworker",
     "message": ""
   },
   {
@@ -7506,7 +7581,7 @@
   },
   {
     "id": "Organization.Subscription.AllPlans.title",
-    "defaultMessage": "Something for Everyone",
+    "defaultMessage": "Upgrade now",
     "message": ""
   },
   {
@@ -7841,7 +7916,7 @@
   },
   {
     "id": "Organization.Subscription.Faqs.unified.answer5",
-    "defaultMessage": "We accept payment via credit card for monthly subscriptions. For annual subscriptions, however, you may also pay via wire transfer. For any questions, please contact support",
+    "defaultMessage": "You can pay via wire transfer only for annual subscriptions. If you have any questions, please <kbContactUsLink>contact us</kbContactUsLink>",
     "message": ""
   },
   {
@@ -7986,7 +8061,7 @@
   },
   {
     "id": "Organization.Subscription.InfoBox.freeHeader",
-    "defaultMessage": "You are using Free!",
+    "defaultMessage": "You are using our Free Plan",
     "message": ""
   },
   {
@@ -8036,7 +8111,7 @@
   },
   {
     "id": "Organization.Subscription.InfoBox.premiumHeader",
-    "defaultMessage": "You are using Premium!",
+    "defaultMessage": "You are using Premium",
     "message": ""
   },
   {
@@ -8046,7 +8121,7 @@
   },
   {
     "id": "Organization.Subscription.InfoBox.starter",
-    "defaultMessage": "You are using Starter!",
+    "defaultMessage": "You are using Starter",
     "message": ""
   },
   {
@@ -8421,7 +8496,7 @@
   },
   {
     "id": "Organization.Subscription.freeContent.cta",
-    "defaultMessage": "Check out our paid plans",
+    "defaultMessage": "Upgrade now",
     "message": ""
   },
   {
@@ -9860,6 +9935,21 @@
     "message": ""
   },
   {
+    "id": "Profile.ThemePicker.dark",
+    "defaultMessage": "Dark",
+    "message": ""
+  },
+  {
+    "id": "Profile.ThemePicker.light",
+    "defaultMessage": "Light",
+    "message": ""
+  },
+  {
+    "id": "Profile.ThemePicker.system",
+    "defaultMessage": "System setting",
+    "message": ""
+  },
+  {
     "id": "Profile.TimeAndDate.beginningOfWeekLabel",
     "defaultMessage": "First day of the week",
     "message": ""
@@ -10180,6 +10270,16 @@
     "message": ""
   },
   {
+    "id": "ProfileContainer.theme.subtitle",
+    "defaultMessage": "Specify how Toggl Track will look on your device",
+    "message": ""
+  },
+  {
+    "id": "ProfileContainer.theme.title",
+    "defaultMessage": "Theme",
+    "message": ""
+  },
+  {
     "id": "ProfileContainer.timer.groupTimeEntries",
     "defaultMessage": "Group similar time entries",
     "message": ""
@@ -10466,7 +10566,7 @@
   },
   {
     "id": "ProjectFilter.AutoSelectItem.displayName",
-    "defaultMessage": "Auto-select top Projects",
+    "defaultMessage": "Auto-select top projects",
     "message": ""
   },
   {
@@ -10491,7 +10591,7 @@
   },
   {
     "id": "ProjectFilter.withoutTitle",
-    "defaultMessage": "Entries without Project",
+    "defaultMessage": "Entries without project",
     "message": ""
   },
   {
@@ -11536,7 +11636,7 @@
   },
   {
     "id": "ResourceColumnHeader.label",
-    "defaultMessage": "External Calendars",
+    "defaultMessage": "External calendars",
     "message": ""
   },
   {
@@ -12636,7 +12736,7 @@
   },
   {
     "id": "Settings.Alerts.upsell.subtitle",
-    "defaultMessage": "Get an alert when your projects reach a certain percentage of their<br></br> estimated time.",
+    "defaultMessage": "Get an alert when your projects reach a certain percentage of their<br></br> estimated time",
     "message": ""
   },
   {
@@ -12695,6 +12795,16 @@
     "message": ""
   },
   {
+    "id": "Settings.BillableRates.About.upsell",
+    "defaultMessage": "Billable rates are a paid feature. Upgrade to Starter to set billable rates, or upgrade to Premium to additionally set labor costs and gain access to profitability insights.",
+    "message": ""
+  },
+  {
+    "id": "Settings.BillableRates.About.upsellCTA",
+    "defaultMessage": "Upgrade now",
+    "message": ""
+  },
+  {
     "id": "Settings.BillableRates.ProjectRate.edit",
     "defaultMessage": "Edit Rates",
     "message": ""
@@ -12717,6 +12827,11 @@
   {
     "id": "Settings.BillableRates.ProjectRate.title",
     "defaultMessage": "Project rate",
+    "message": ""
+  },
+  {
+    "id": "Settings.BillableRates.ProjectRate.upsellContent",
+    "defaultMessage": "<kb>Set billable rates</kb> on workspace or project levels and track how much income you are making.",
     "message": ""
   },
   {
@@ -12745,6 +12860,11 @@
     "message": ""
   },
   {
+    "id": "Settings.BillableRates.WorkspaceMembersRate.upsellContent",
+    "defaultMessage": "Set labor costs and compare them with billable rates to easily see which projects are generating money",
+    "message": ""
+  },
+  {
     "id": "Settings.BillableRates.WorkspaceRate.subtitle",
     "defaultMessage": "Set an hourly billable rate for the entire workspace, which applies to every member within the workspace.",
     "message": ""
@@ -12752,6 +12872,11 @@
   {
     "id": "Settings.BillableRates.WorkspaceRate.title",
     "defaultMessage": "Workspace Rate",
+    "message": ""
+  },
+  {
+    "id": "Settings.BillableRates.WorkspaceRate.upsellContent",
+    "defaultMessage": "<kb>Set billable rates</kb> on workspace or project levels and track how much income you are making",
     "message": ""
   },
   {
@@ -13041,7 +13166,7 @@
   },
   {
     "id": "Settings.Header.billableRates",
-    "defaultMessage": "Rates and costs",
+    "defaultMessage": "Billable rates",
     "message": ""
   },
   {
@@ -13136,7 +13261,7 @@
   },
   {
     "id": "Settings.Import.Instructions.extraInfo",
-    "defaultMessage": "{link} on how the CSV file should be formatted and how uploading works.",
+    "defaultMessage": "{link} on how the CSV file should be formatted and how uploading works",
     "message": ""
   },
   {
@@ -13181,7 +13306,7 @@
   },
   {
     "id": "Settings.Import.subtitle",
-    "defaultMessage": "You can import users, time entries, projects, clients, tasks or other data to your workspace with just one go.",
+    "defaultMessage": "You can import users, time entries, projects, clients, tasks or other data to your workspace with just one go",
     "message": ""
   },
   {
@@ -14511,7 +14636,7 @@
   },
   {
     "id": "TagsPopdownById.createTagActiveTitle",
-    "defaultMessage": "Create a tag \"{name}\"",
+    "defaultMessage": "Create \"{name}\" tag",
     "message": ""
   },
   {
@@ -14531,7 +14656,12 @@
   },
   {
     "id": "TagsPopdownById.labelNewTag",
-    "defaultMessage": "Create a tag \"{name}\"",
+    "defaultMessage": "Create \"{name}\" tag",
+    "message": ""
+  },
+  {
+    "id": "TagsPopdownById.labelNewTagEmpty",
+    "defaultMessage": "Create tag",
     "message": ""
   },
   {
@@ -14950,11 +15080,6 @@
     "message": ""
   },
   {
-    "id": "TimeEntriesListItem.offlineTooltip",
-    "defaultMessage": "You need to be online to create a project.",
-    "message": ""
-  },
-  {
     "id": "TimeEntriesListItem.project.add",
     "defaultMessage": "Add project/task",
     "message": ""
@@ -15221,7 +15346,7 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.calendarWeekViewDescription",
-    "defaultMessage": "Graph of projects tracked this week.",
+    "defaultMessage": "Graph of projects tracked this week",
     "message": ""
   },
   {
@@ -15241,7 +15366,7 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.goalsVisualizationDescription",
-    "defaultMessage": "Graph of recorded work from desktop app.",
+    "defaultMessage": "Graph of recorded work from desktop app",
     "message": ""
   },
   {
@@ -15276,7 +15401,7 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.timelineViewDescription",
-    "defaultMessage": "Graph of recorded work from desktop app.",
+    "defaultMessage": "Graph of recorded work from desktop app",
     "message": ""
   },
   {
@@ -15291,22 +15416,12 @@
   },
   {
     "id": "Timer.TimerOptionsMenu.todayVisualizationDescription",
-    "defaultMessage": "Graph of projects tracked today.",
+    "defaultMessage": "Graph of projects tracked today",
     "message": ""
   },
   {
     "id": "Timer.TimerOptionsMenu.view",
     "defaultMessage": "views",
-    "message": ""
-  },
-  {
-    "id": "Timer.TimerOptionsMenu.viewCoachMarkContent",
-    "defaultMessage": "You can change the view of your Timer between a calendar and a list. Pick whichever works best for you!",
-    "message": ""
-  },
-  {
-    "id": "Timer.TimerOptionsMenu.viewCoachMarkTitle",
-    "defaultMessage": "Change your Timer view here",
     "message": ""
   },
   {
@@ -16180,31 +16295,6 @@
     "message": ""
   },
   {
-    "id": "analytics.ChartEditorSettings.Title",
-    "defaultMessage": "Detailed Table Of All Time Entries",
-    "message": ""
-  },
-  {
-    "id": "analytics.ChartEditorSettings.chartType",
-    "defaultMessage": "Chart Type",
-    "message": ""
-  },
-  {
-    "id": "analytics.ChartEditorSettings.dateRange",
-    "defaultMessage": "Date Range",
-    "message": ""
-  },
-  {
-    "id": "analytics.ChartEditorSettings.groupBy",
-    "defaultMessage": "Group By",
-    "message": ""
-  },
-  {
-    "id": "analytics.ChartEditorSettings.workspace",
-    "defaultMessage": "Workspace",
-    "message": ""
-  },
-  {
     "id": "analytics.ChartType.barChart",
     "defaultMessage": "Bar Chart",
     "message": ""
@@ -16332,6 +16422,366 @@
   {
     "id": "clients.empty.title",
     "defaultMessage": "Track work by client",
+    "message": ""
+  },
+  {
+    "id": "commands.actions.open",
+    "defaultMessage": "Open",
+    "message": ""
+  },
+  {
+    "id": "commands.actions.select",
+    "defaultMessage": "Select",
+    "message": ""
+  },
+  {
+    "id": "commands.alerts.create",
+    "defaultMessage": "Create alert",
+    "message": ""
+  },
+  {
+    "id": "commands.alerts.goToAlertsPage",
+    "defaultMessage": "Go to Alerts page",
+    "message": ""
+  },
+  {
+    "id": "commands.alerts.title",
+    "defaultMessage": "Alerts",
+    "message": ""
+  },
+  {
+    "id": "commands.alerts.upsell.description",
+    "defaultMessage": "Get an alert when your projects reach a certain percentage of their estimated time.",
+    "message": ""
+  },
+  {
+    "id": "commands.clients.create",
+    "defaultMessage": "Create client",
+    "message": ""
+  },
+  {
+    "id": "commands.clients.goToClientsPage",
+    "defaultMessage": "Go to Clients page",
+    "message": ""
+  },
+  {
+    "id": "commands.clients.title",
+    "defaultMessage": "Clients",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.enableDarkMode",
+    "defaultMessage": "Change theme to dark mode",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.enableLightMode",
+    "defaultMessage": "Change theme to light mode",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.simulateOfflineMode",
+    "defaultMessage": "Simulate offline mode",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.simulateTrial",
+    "defaultMessage": "Simulate trial",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.simulateTrialEnded",
+    "defaultMessage": "Simulate trial ended",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.startOnboarding",
+    "defaultMessage": "Start onboarding",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.title",
+    "defaultMessage": "🛠️ DEV MODE (won't show up in production)",
+    "message": ""
+  },
+  {
+    "id": "commands.dev.toggleABTestingWidget",
+    "defaultMessage": "Toggle AB Testing Experiments Widget 🧪",
+    "message": ""
+  },
+  {
+    "id": "commands.emptyState.noResults",
+    "defaultMessage": "No results",
+    "message": ""
+  },
+  {
+    "id": "commands.emptyState.trySearching",
+    "defaultMessage": "Try searching for a different keyword or clear your search to see all commands",
+    "message": ""
+  },
+  {
+    "id": "commands.feedback",
+    "defaultMessage": "How do you like the Quick Search?",
+    "message": ""
+  },
+  {
+    "id": "commands.help.getHelp",
+    "defaultMessage": "Get help from support",
+    "message": ""
+  },
+  {
+    "id": "commands.help.goToKnowledgeBase",
+    "defaultMessage": "Go to the help pages",
+    "message": ""
+  },
+  {
+    "id": "commands.help.showKeyboardShortcuts",
+    "defaultMessage": "Show keyboard shortcuts",
+    "message": ""
+  },
+  {
+    "id": "commands.help.title",
+    "defaultMessage": "Help",
+    "message": ""
+  },
+  {
+    "id": "commands.insights.goToInsightsPage",
+    "defaultMessage": "Go to Insights page",
+    "message": ""
+  },
+  {
+    "id": "commands.insights.title",
+    "defaultMessage": "Insights",
+    "message": ""
+  },
+  {
+    "id": "commands.insights.upsell.description",
+    "defaultMessage": "Get a report of your team’s time usage and productivity.",
+    "message": ""
+  },
+  {
+    "id": "commands.integrations.downloadDesktopApp",
+    "defaultMessage": "Download desktop app",
+    "message": ""
+  },
+  {
+    "id": "commands.integrations.downloadMobileApp",
+    "defaultMessage": "Download mobile app",
+    "message": ""
+  },
+  {
+    "id": "commands.integrations.goToIntegrationsPage",
+    "defaultMessage": "Go to Integrations page",
+    "message": ""
+  },
+  {
+    "id": "commands.integrations.installExtension",
+    "defaultMessage": "Install browser extension",
+    "message": ""
+  },
+  {
+    "id": "commands.integrations.title",
+    "defaultMessage": "Apps and Integrations",
+    "message": ""
+  },
+  {
+    "id": "commands.orgsAndWorkspaces.createNewOrganization",
+    "defaultMessage": "Create new organization",
+    "message": ""
+  },
+  {
+    "id": "commands.orgsAndWorkspaces.goToActivityPage",
+    "defaultMessage": "Go to Activity page",
+    "message": ""
+  },
+  {
+    "id": "commands.orgsAndWorkspaces.goToOrganizationPage",
+    "defaultMessage": "Go to organization page",
+    "message": ""
+  },
+  {
+    "id": "commands.orgsAndWorkspaces.goToTeamPage",
+    "defaultMessage": "Go to Team page",
+    "message": ""
+  },
+  {
+    "id": "commands.orgsAndWorkspaces.inviteNewMember",
+    "defaultMessage": "Invite new member",
+    "message": ""
+  },
+  {
+    "id": "commands.orgsAndWorkspaces.title",
+    "defaultMessage": "Organizations and Workspaces",
+    "message": ""
+  },
+  {
+    "id": "commands.placeholder",
+    "defaultMessage": "Search or type a command...",
+    "message": ""
+  },
+  {
+    "id": "commands.projects.createProject",
+    "defaultMessage": "Create project",
+    "message": ""
+  },
+  {
+    "id": "commands.projects.goToProjectsPage",
+    "defaultMessage": "Go to Projects page",
+    "message": ""
+  },
+  {
+    "id": "commands.projects.title",
+    "defaultMessage": "Projects",
+    "message": ""
+  },
+  {
+    "id": "commands.quickSearch.title",
+    "defaultMessage": "Quick search",
+    "message": ""
+  },
+  {
+    "id": "commands.reminders.create",
+    "defaultMessage": "Create reminder to track time",
+    "message": ""
+  },
+  {
+    "id": "commands.reminders.goToRemindersPage",
+    "defaultMessage": "Go to Reminders page",
+    "message": ""
+  },
+  {
+    "id": "commands.reminders.title",
+    "defaultMessage": "Reminders",
+    "message": ""
+  },
+  {
+    "id": "commands.reports.createSavedReport",
+    "defaultMessage": "Create a saved report",
+    "message": ""
+  },
+  {
+    "id": "commands.reports.goToDetailedReport",
+    "defaultMessage": "Go to Detailed report",
+    "message": ""
+  },
+  {
+    "id": "commands.reports.goToReportsPage",
+    "defaultMessage": "Go to Reports page/Summary report",
+    "message": ""
+  },
+  {
+    "id": "commands.reports.goToSavedReports",
+    "defaultMessage": "Go to Saved reports",
+    "message": ""
+  },
+  {
+    "id": "commands.reports.goToWeeklyReport",
+    "defaultMessage": "Go to Weekly report",
+    "message": ""
+  },
+  {
+    "id": "commands.reports.title",
+    "defaultMessage": "Reports",
+    "message": ""
+  },
+  {
+    "id": "commands.settings.changePassword",
+    "defaultMessage": "Change password",
+    "message": ""
+  },
+  {
+    "id": "commands.settings.goToGeneralSettingsPage",
+    "defaultMessage": "Go to Workspace settings page",
+    "message": ""
+  },
+  {
+    "id": "commands.settings.goToProfileSettingsPage",
+    "defaultMessage": "Go to Profile settings page",
+    "message": ""
+  },
+  {
+    "id": "commands.settings.goToSubscriptionsPage",
+    "defaultMessage": "Manage subscription and billing",
+    "message": ""
+  },
+  {
+    "id": "commands.settings.logOut",
+    "defaultMessage": "Log out",
+    "message": ""
+  },
+  {
+    "id": "commands.settings.title",
+    "defaultMessage": "Settings",
+    "message": ""
+  },
+  {
+    "id": "commands.tags.create",
+    "defaultMessage": "Create tag",
+    "message": ""
+  },
+  {
+    "id": "commands.tags.goToTagsPage",
+    "defaultMessage": "Go to Tags page",
+    "message": ""
+  },
+  {
+    "id": "commands.tags.title",
+    "defaultMessage": "Tags",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.createManualTimeEntry",
+    "defaultMessage": "Create a manual time entry",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.goToTimerPage",
+    "defaultMessage": "Go to Timer page",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.noDescription",
+    "defaultMessage": "No description",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.startNewTimer",
+    "defaultMessage": "Start a new timer",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.startTimer",
+    "defaultMessage": "Start a timer",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.stopRunningTimer",
+    "defaultMessage": "Stop the timer",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.switchToCalendarView",
+    "defaultMessage": "Switch to Weekly Calendar view",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.switchToDailyCalendarView",
+    "defaultMessage": "Switch to Daily Calendar view",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.switchToListView",
+    "defaultMessage": "Switch to List view",
+    "message": ""
+  },
+  {
+    "id": "commands.timer.title",
+    "defaultMessage": "Timer",
+    "message": ""
+  },
+  {
+    "id": "commands.upsell.viewPlans",
+    "defaultMessage": "View plans",
     "message": ""
   },
   {
@@ -17449,12 +17899,12 @@
   },
   {
     "id": "reports.saved.upsell.subtitle",
-    "defaultMessage": "Generate a unique, shareable URL for your reports to quickly access them later or share with others.",
+    "defaultMessage": "Generate a unique, shareable URL to quickly access a report or share it with others",
     "message": ""
   },
   {
     "id": "reports.saved.upsell.title",
-    "defaultMessage": "Upgrade to save reports for later",
+    "defaultMessage": "Upgrade to access Saved Reports",
     "message": ""
   },
   {
@@ -17545,11 +17995,6 @@
   {
     "id": "sagas.TimeEntriesBulkEditDialog.success",
     "defaultMessage": "{count, plural, one {# time entry was edited.} other {# time entries were edited.}}",
-    "message": ""
-  },
-  {
-    "id": "sagas.common.notTranslated",
-    "defaultMessage": "{message}",
     "message": ""
   },
   {
@@ -17964,7 +18409,7 @@
   },
   {
     "id": "tags.empty.subtitle",
-    "defaultMessage": "Tags allow you to add even more context to time entries, beyond clients <br></br> and projects.",
+    "defaultMessage": "Tags allow you to add even more context to time entries, beyond clients <br></br> and projects",
     "message": ""
   },
   {
